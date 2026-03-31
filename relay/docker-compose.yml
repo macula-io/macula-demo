@@ -1,0 +1,93 @@
+# Macula Relay deployment (VPS — Hetzner, Linode, etc.)
+#
+# Usage:
+#   cd /root/macula-demo/relay
+#   cp .env.example .env        # edit with your values
+#   docker compose up -d --build
+#
+# Caddy obtains a hostname-specific TLS cert via Linode DNS-01 challenge.
+# The relay reads this cert from Caddy's data volume for QUIC TLS.
+#
+# See: scripts/deploy-relay.sh for automated deployment.
+
+services:
+  relay:
+    image: ghcr.io/macula-io/macula-relay:${RELAY_VERSION:-main}
+    container_name: macula-relay
+    user: "0"
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    environment:
+      MACULA_REALM: ${MACULA_REALM:-io.macula}
+      MACULA_QUIC_PORT: "4433"
+      MACULA_HEALTH_PORT: "8080"
+      MACULA_TLS_MODE: production
+      MACULA_TLS_CERTFILE: /certs/caddy/certificates/acme-v02.api.letsencrypt.org-directory/${RELAY_HOSTNAME}.macula.io/${RELAY_HOSTNAME}.macula.io.crt
+      MACULA_TLS_KEYFILE: /certs/caddy/certificates/acme-v02.api.letsencrypt.org-directory/${RELAY_HOSTNAME}.macula.io/${RELAY_HOSTNAME}.macula.io.key
+      RELAY_ENABLED: "true"
+      MACULA_HOSTNAME: ${RELAY_HOSTNAME:?RELAY_HOSTNAME is required}.macula.io
+      MACULA_MODE: relay
+      MACULA_RELAYS: ${MACULA_RELAYS:-}
+      NODE_NAME: macula-${RELAY_HOSTNAME}
+    ports:
+      - "4433:4433/udp"
+    volumes:
+      - caddy_data:/certs:ro
+    networks:
+      - relay-internal
+    depends_on:
+      - caddy
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  caddy:
+    build: ./caddy
+    container_name: macula-caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443/tcp"
+    environment:
+      LINODE_DNS_API_TOKEN: ${LINODE_DNS_API_TOKEN:?LINODE_DNS_API_TOKEN is required}
+      RELAY_FQDN: ${RELAY_HOSTNAME:?RELAY_HOSTNAME is required}.macula.io
+    volumes:
+      - ./caddy/Caddyfile.relay:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - relay-internal
+    healthcheck:
+      test: ["CMD", "caddy", "validate", "--config", "/etc/caddy/Caddyfile"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  watchtower:
+    image: containrrr/watchtower:1.7.1
+    container_name: macula-watchtower
+    restart: unless-stopped
+    environment:
+      WATCHTOWER_CLEANUP: "true"
+      WATCHTOWER_LABEL_ENABLE: "true"
+      WATCHTOWER_POLL_INTERVAL: "60"
+      WATCHTOWER_ROLLING_RESTART: "true"
+      WATCHTOWER_INCLUDE_RESTARTING: "true"
+      DOCKER_API_VERSION: "1.43"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./docker-config.json:/config.json:ro
+    networks:
+      - relay-internal
+
+networks:
+  relay-internal:
+    driver: bridge
+
+volumes:
+  caddy_data:
+  caddy_config:

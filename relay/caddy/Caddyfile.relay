@@ -1,0 +1,25 @@
+# Relay-only Caddyfile
+#
+# Obtains a hostname-specific cert (not wildcard) to avoid DNS-01 conflicts
+# with the main Caddy on relay02/Linode which owns the *.macula.io wildcard.
+# The relay reads this cert from Caddy's data volume for QUIC TLS.
+
+{$RELAY_FQDN} {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+
+	handle /health {
+		reverse_proxy relay:8080
+	}
+
+	handle /status {
+		reverse_proxy relay:8080
+	}
+
+	handle {
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay","protocol":"quic","endpoint":"quic://{$RELAY_FQDN}:4433","status":"operational"}` 200
+	}
+}

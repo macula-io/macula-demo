@@ -1,0 +1,49 @@
+# Hecate Daemon deployment (headless nodes — beam cluster / nanodes)
+#
+# Usage:
+#   cd ~/.hecate/compose   (or wherever deployed)
+#   cp .env.example .env   # edit with node-specific values
+#   docker compose up -d
+#
+# See: scripts/deploy-daemon.sh for automated deployment.
+
+services:
+  hecate-daemon:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-daemon
+    restart: always
+    network_mode: host
+    env_file:
+      - hecate-daemon.env
+      - llm-providers.env
+    environment:
+      - HOME=${HOST_HOME}
+      - HECATE_HOSTNAME=${HECATE_HOSTNAME}
+      - HECATE_USER=${HECATE_USER}
+      - MACULA_HOSTNAME=${HECATE_HOSTNAME}
+      - MACULA_MODE=client
+    volumes:
+      - ${HECATE_HOME}:${HECATE_HOME}:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:4444/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  watchtower:
+    image: containrrr/watchtower:1.7.1
+    container_name: watchtower
+    restart: always
+    environment:
+      WATCHTOWER_CLEANUP: "true"
+      WATCHTOWER_POLL_INTERVAL: "60"
+      WATCHTOWER_LABEL_ENABLE: "true"
+      WATCHTOWER_ROLLING_RESTART: "true"
+      WATCHTOWER_INCLUDE_STOPPED: "false"
+      DOCKER_API_VERSION: "1.43"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./docker-config.json:/config.json:ro

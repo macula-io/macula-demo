@@ -1,0 +1,35 @@
+# Local attended node — hecate-daemon in a container
+#
+# Usage:
+#   cd local/
+#   cp .env.example .env   # edit with your values
+#   docker compose up -d   (or: podman compose up -d)
+#
+# hecate-web (Tauri desktop app) runs natively and connects via Unix socket.
+# See: scripts/start-local.sh for the full workflow.
+
+services:
+  hecate-daemon:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-daemon
+    restart: unless-stopped
+    network_mode: host
+    env_file:
+      - hecate-daemon.env
+      - llm-providers.env
+    environment:
+      - HOME=${HOST_HOME}
+      - HECATE_HOSTNAME=${HECATE_HOSTNAME}
+      - HECATE_USER=${HECATE_USER}
+      - MACULA_HOSTNAME=${HECATE_HOSTNAME}
+      - MACULA_MODE=client
+    volumes:
+      - ${HECATE_HOME}:${HECATE_HOME}:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:4444/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s

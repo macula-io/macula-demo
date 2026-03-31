@@ -1,0 +1,7 @@
+{
+  "auths": {
+    "ghcr.io": {
+      "auth": "base64-of-username:personal-access-token"
+    }
+  }
+}

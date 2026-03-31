@@ -1,0 +1,50 @@
+{
+	on_demand_tls {
+		ask http://central:4001/api/v1/internal/check-domain
+	}
+}
+
+# Auctions subdomain
+auctions.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+	reverse_proxy central:4001
+}
+
+# Wildcard subdomain — franchise storefronts, etc.
+*.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+	reverse_proxy central:4001
+}
+
+# Bare domain — macula.io
+macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+
+	# Hecate installer proxy
+	handle_path /hecate/* {
+		rewrite * /hecate-social/hecate-node/main{uri}
+		reverse_proxy https://raw.githubusercontent.com {
+			header_up Host raw.githubusercontent.com
+		}
+	}
+
+	reverse_proxy realm:4000
+}
+
+# On-demand TLS — custom franchise domains (e.g. beluxcloud.io)
+# Caddy calls the `ask` endpoint above before provisioning a cert.
+:443 {
+	tls {
+		on_demand
+	}
+	reverse_proxy central:4001
+}

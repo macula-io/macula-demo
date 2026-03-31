@@ -1,0 +1,214 @@
+# Macula Production Platform (macula.io)
+#
+# Services:
+#   - realm: Phoenix web app (macula.io) - user auth, dashboard, API
+#   - central: Phoenix web app (*.macula.io) - franchise lifecycle, storefronts, licensing
+#   - auctions: Phoenix web app (auctions.macula.io) - territory auctions, candidate portal
+#   - postgres: Database (TimescaleDB)
+#   - caddy: Reverse proxy + TLS (wildcard DNS-01 + on-demand HTTP-01)
+#   - watchtower: Automatic Docker image updates
+#
+# Relay is NOT included here — deploy relays separately using relay/.
+#
+# Erlang Clustering:
+#   - auctions and central form an Erlang cluster via standard distribution
+#   - Shared RELEASE_COOKIE for authentication
+#   - Integration via OTP pg process groups (auctions -> central)
+#
+# Usage:
+#   ./scripts/deploy-realm.sh init   # First time setup
+#   ./scripts/deploy-realm.sh up     # Start services
+#   ./scripts/deploy-realm.sh update # Pull and restart
+
+services:
+  postgres:
+    image: timescale/timescaledb:latest-pg16
+    container_name: macula-postgres
+    restart: unless-stopped
+    command: postgres -c shared_preload_libraries=timescaledb
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-macula_realm}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}
+      POSTGRES_DB: ${POSTGRES_DB:-macula_realm_prod}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init-databases.sql:/docker-entrypoint-initdb.d/02-create-central-db.sql:ro
+    networks:
+      - macula-internal
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${POSTGRES_USER:-macula_realm} -d ${POSTGRES_DB:-macula_realm_prod}",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  realm:
+    image: maculacid/macula-realm:${REALM_VERSION:-latest}
+    container_name: macula-realm
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    environment:
+      PORT: "4000"
+      PHX_HOST: ${PHX_HOST:-macula.io}
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE:?SECRET_KEY_BASE is required}
+      DATABASE_URL: ecto://${POSTGRES_USER:-macula_realm}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-macula_realm_prod}
+      POOL_SIZE: "10"
+      GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID:-}
+      GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET:-}
+      MACULA_GITOPS_GITHUB_APP_ID: ${MACULA_GITOPS_GITHUB_APP_ID:-}
+      MACULA_GITOPS_GITHUB_APP_CLIENT_ID: ${MACULA_GITOPS_GITHUB_APP_CLIENT_ID:-}
+      MACULA_GITOPS_GITHUB_APP_CLIENT_SECRET: ${MACULA_GITOPS_GITHUB_APP_CLIENT_SECRET:-}
+      MACULA_GITOPS_GITHUB_APP_WEBHOOK_SECRET: ${MACULA_GITOPS_GITHUB_APP_WEBHOOK_SECRET:-}
+      MACULA_GITOPS_GITHUB_APP_PRIVATE_KEY_PEM: ${MACULA_GITOPS_GITHUB_APP_PRIVATE_KEY_PEM:-}
+      MACULA_GITOPS_GITHUB_APP_PRIVATE_KEY_PATH: ${MACULA_GITOPS_GITHUB_APP_PRIVATE_KEY_PATH:-}
+      MACULA_GITOPS_GITHUB_APP_INSTALLATION_URL: ${MACULA_GITOPS_GITHUB_APP_INSTALLATION_URL:-}
+      MACULA_MAILGUN_API_KEY: ${MACULA_MAILGUN_API_KEY:-}
+      MACULA_MAILGUN_DOMAIN: ${MACULA_MAILGUN_DOMAIN:-}
+      MACULA_MAILGUN_BASE_URL: ${MACULA_MAILGUN_BASE_URL:-}
+      MACULA_CONTACT_EMAIL: ${MACULA_CONTACT_EMAIL:-contact@macula.io}
+      MACULA_ADMIN_GITHUB_USERNAMES: ${MACULA_ADMIN_GITHUB_USERNAMES:-}
+      RECKON_DB_DATA_DIR: /var/lib/macula/reckon-db
+      MIX_ENV: prod
+    volumes:
+      - /root/secrets:/secrets:ro
+      - reckon_db_data:/var/lib/macula/reckon-db
+    networks:
+      - macula-internal
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  central:
+    image: maculacid/macula-central:${CENTRAL_VERSION:-latest}
+    container_name: macula-central
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    environment:
+      PORT: "4001"
+      PHX_HOST: central.macula.io
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE:?SECRET_KEY_BASE is required}
+      DATABASE_URL: ecto://${POSTGRES_USER:-macula_realm}:${POSTGRES_PASSWORD}@postgres:5432/macula_central_prod
+      POOL_SIZE: "10"
+      REALM_HOST: ${PHX_HOST:-macula.io}
+      LINODE_API_TOKEN: ${LINODE_MACULA_IO_TOKEN:-}
+      LINODE_DNS_API_TOKEN: ${LINODE_MACULA_IO_DNS_ONLY_TOKEN:-}
+      MACULA_ADMIN_GITHUB_USERNAMES: ${MACULA_ADMIN_GITHUB_USERNAMES:-}
+      RECKON_DB_DATA_DIR: /var/lib/macula-central/reckon-db
+      RELEASE_DISTRIBUTION: name
+      RELEASE_NODE: central@macula-central
+      RELEASE_COOKIE: ${RELEASE_COOKIE:-changeme}
+      AUCTIONS_PEER_NODE: auctions@macula-auctions
+      MIX_ENV: prod
+    volumes:
+      - central_reckon_db_data:/var/lib/macula-central/reckon-db
+    networks:
+      - macula-internal
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4001/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  auctions:
+    image: maculacid/macula-auctions:${AUCTIONS_VERSION:-latest}
+    container_name: macula-auctions
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    environment:
+      PORT: "4002"
+      PHX_HOST: auctions.macula.io
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE:?SECRET_KEY_BASE is required}
+      REALM_HOST: ${PHX_HOST:-macula.io}
+      MACULA_MAILGUN_API_KEY: ${MACULA_MAILGUN_API_KEY:-}
+      MACULA_MAILGUN_DOMAIN: ${MACULA_MAILGUN_DOMAIN:-}
+      MACULA_MAILGUN_BASE_URL: ${MACULA_MAILGUN_BASE_URL:-}
+      MACULA_ADMIN_GITHUB_USERNAMES: ${MACULA_ADMIN_GITHUB_USERNAMES:-}
+      RECKON_DB_DATA_DIR: /var/lib/macula-auctions/reckon-db
+      SQLITE_DATA_DIR: /var/lib/macula-auctions/sqlite
+      RELEASE_DISTRIBUTION: name
+      RELEASE_NODE: auctions@macula-auctions
+      RELEASE_COOKIE: ${RELEASE_COOKIE:-changeme}
+      MIX_ENV: prod
+    volumes:
+      - auctions_reckon_db_data:/var/lib/macula-auctions/reckon-db
+      - auctions_sqlite_data:/var/lib/macula-auctions/sqlite
+    networks:
+      - macula-internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4002/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  caddy:
+    build: ./caddy
+    container_name: macula-caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443/tcp"
+    environment:
+      LINODE_DNS_API_TOKEN: ${LINODE_DNS_API_TOKEN:?LINODE_DNS_API_TOKEN is required}
+    volumes:
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - macula-internal
+    depends_on:
+      - realm
+      - central
+      - auctions
+    healthcheck:
+      test: ["CMD", "caddy", "validate", "--config", "/etc/caddy/Caddyfile"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  watchtower:
+    image: containrrr/watchtower:1.7.1
+    container_name: macula-watchtower
+    restart: unless-stopped
+    environment:
+      WATCHTOWER_CLEANUP: "true"
+      WATCHTOWER_LABEL_ENABLE: "true"
+      WATCHTOWER_POLL_INTERVAL: "60"
+      WATCHTOWER_ROLLING_RESTART: "true"
+      WATCHTOWER_INCLUDE_RESTARTING: "true"
+      DOCKER_API_VERSION: "1.44"
+      TZ: ${TZ:-UTC}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./docker-config.json:/config.json:ro
+    networks:
+      - macula-internal
+
+networks:
+  macula-internal:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  reckon_db_data:
+  central_reckon_db_data:
+  auctions_reckon_db_data:
+  auctions_sqlite_data:
+  caddy_data:
+  caddy_config:

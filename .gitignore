@@ -1,0 +1,12 @@
+# Secrets — NEVER commit these
+.env
+docker-config.json
+hecate-daemon.env
+llm-providers.env
+
+# Backups
+backups/
+
+# OS
+.DS_Store
+Thumbs.db

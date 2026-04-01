@@ -13,6 +13,59 @@ auctions.macula.io {
 	reverse_proxy central:4001
 }
 
+# Relay status endpoints (must be before *.macula.io wildcard)
+relay02.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+	handle /health { reverse_proxy relay02:9090 }
+	handle /status { reverse_proxy relay02:9090 }
+	handle {
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay","endpoint":"quic://relay02.macula.io:4433"}` 200
+	}
+}
+
+relay04.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+	handle /health { reverse_proxy relay04:9094 }
+	handle /status { reverse_proxy relay04:9094 }
+	handle {
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay","endpoint":"quic://relay04.macula.io:4434"}` 200
+	}
+}
+
+relay05.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+	handle /health { reverse_proxy relay05:9095 }
+	handle /status { reverse_proxy relay05:9095 }
+	handle {
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay","endpoint":"quic://relay05.macula.io:4435"}` 200
+	}
+}
+
+relay06.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+	handle /health { reverse_proxy relay06:9096 }
+	handle /status { reverse_proxy relay06:9096 }
+	handle {
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay","endpoint":"quic://relay06.macula.io:4436"}` 200
+	}
+}
+
 # Wildcard subdomain — franchise storefronts, etc.
 *.macula.io {
 	tls {

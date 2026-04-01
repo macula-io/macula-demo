@@ -1,0 +1,91 @@
+# beam01.lab (32GB) — 3 stub daemons + 1 primary (deployed separately)
+#
+# Primary: Stockholm SE → relay01 (Helsinki)
+# Stub 1:  Oslo NO → relay01 (Helsinki)
+# Stub 2:  Tallinn EE → relay01 (Helsinki)
+# Stub 3:  Riga LV → relay05 (Warsaw)
+
+services:
+  hecate-oslo:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-oslo
+    restart: always
+    network_mode: host
+    environment:
+      - HOME=/home/rl
+      - HECATE_HOME=/fast/.hecate-oslo
+      - HECATE_SOCKET_PATH=/fast/.hecate-oslo/sockets/api.sock
+      - HECATE_HOSTNAME=oslo.demo
+      - HECATE_USER=rl
+      - MACULA_HOSTNAME=oslo.demo
+      - MACULA_MODE=client
+      - MACULA_RELAYS=https://relay01.macula.io:4433
+      - HECATE_MESH_REALM=io.macula
+      - HECATE_NODE_NAME=hecate-oslo@beam01.lab
+      - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
+      - HECATE_GEO_CITY=Oslo
+      - HECATE_GEO_COUNTRY=NO
+      - HECATE_GEO_LAT=59.91
+      - HECATE_GEO_LNG=10.75
+      - HECATE_OWNER_NAME=Macula Demo
+      - HECATE_SITE_NAME=beam01.lab
+    volumes:
+      - /fast/.hecate-oslo:/fast/.hecate-oslo:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  hecate-tallinn:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-tallinn
+    restart: always
+    network_mode: host
+    environment:
+      - HOME=/home/rl
+      - HECATE_HOME=/fast/.hecate-tallinn
+      - HECATE_SOCKET_PATH=/fast/.hecate-tallinn/sockets/api.sock
+      - HECATE_HOSTNAME=tallinn.demo
+      - HECATE_USER=rl
+      - MACULA_HOSTNAME=tallinn.demo
+      - MACULA_MODE=client
+      - MACULA_RELAYS=https://relay01.macula.io:4433
+      - HECATE_MESH_REALM=io.macula
+      - HECATE_NODE_NAME=hecate-tallinn@beam01.lab
+      - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
+      - HECATE_GEO_CITY=Tallinn
+      - HECATE_GEO_COUNTRY=EE
+      - HECATE_GEO_LAT=59.44
+      - HECATE_GEO_LNG=24.75
+      - HECATE_OWNER_NAME=Macula Demo
+      - HECATE_SITE_NAME=beam01.lab
+    volumes:
+      - /fast/.hecate-tallinn:/fast/.hecate-tallinn:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  hecate-riga:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-riga
+    restart: always
+    network_mode: host
+    environment:
+      - HOME=/home/rl
+      - HECATE_HOME=/fast/.hecate-riga
+      - HECATE_SOCKET_PATH=/fast/.hecate-riga/sockets/api.sock
+      - HECATE_HOSTNAME=riga.demo
+      - HECATE_USER=rl
+      - MACULA_HOSTNAME=riga.demo
+      - MACULA_MODE=client
+      - MACULA_RELAYS=https://relay05.macula.io:4435
+      - HECATE_MESH_REALM=io.macula
+      - HECATE_NODE_NAME=hecate-riga@beam01.lab
+      - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
+      - HECATE_GEO_CITY=Riga
+      - HECATE_GEO_COUNTRY=LV
+      - HECATE_GEO_LAT=56.95
+      - HECATE_GEO_LNG=24.11
+      - HECATE_OWNER_NAME=Macula Demo
+      - HECATE_SITE_NAME=beam01.lab
+    volumes:
+      - /fast/.hecate-riga:/fast/.hecate-riga:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"

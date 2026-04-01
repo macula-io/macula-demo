@@ -1,0 +1,91 @@
+# beam02.lab (32GB) — 3 stub daemons + 1 primary (deployed separately)
+#
+# Primary: Lyon FR → relay02 (Paris)
+# Stub 1:  Barcelona ES → relay04 (Madrid)
+# Stub 2:  Zurich CH → relay00 (Nuremberg)
+# Stub 3:  Milan IT → relay06 (Rome)
+
+services:
+  hecate-barcelona:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-barcelona
+    restart: always
+    network_mode: host
+    environment:
+      - HOME=/home/rl
+      - HECATE_HOME=/fast/.hecate-barcelona
+      - HECATE_SOCKET_PATH=/fast/.hecate-barcelona/sockets/api.sock
+      - HECATE_HOSTNAME=barcelona.demo
+      - HECATE_USER=rl
+      - MACULA_HOSTNAME=barcelona.demo
+      - MACULA_MODE=client
+      - MACULA_RELAYS=https://relay04.macula.io:4434
+      - HECATE_MESH_REALM=io.macula
+      - HECATE_NODE_NAME=hecate-barcelona@beam02.lab
+      - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
+      - HECATE_GEO_CITY=Barcelona
+      - HECATE_GEO_COUNTRY=ES
+      - HECATE_GEO_LAT=41.39
+      - HECATE_GEO_LNG=2.17
+      - HECATE_OWNER_NAME=Macula Demo
+      - HECATE_SITE_NAME=beam02.lab
+    volumes:
+      - /fast/.hecate-barcelona:/fast/.hecate-barcelona:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  hecate-zurich:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-zurich
+    restart: always
+    network_mode: host
+    environment:
+      - HOME=/home/rl
+      - HECATE_HOME=/fast/.hecate-zurich
+      - HECATE_SOCKET_PATH=/fast/.hecate-zurich/sockets/api.sock
+      - HECATE_HOSTNAME=zurich.demo
+      - HECATE_USER=rl
+      - MACULA_HOSTNAME=zurich.demo
+      - MACULA_MODE=client
+      - MACULA_RELAYS=https://relay00.macula.io:4433
+      - HECATE_MESH_REALM=io.macula
+      - HECATE_NODE_NAME=hecate-zurich@beam02.lab
+      - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
+      - HECATE_GEO_CITY=Zurich
+      - HECATE_GEO_COUNTRY=CH
+      - HECATE_GEO_LAT=47.37
+      - HECATE_GEO_LNG=8.54
+      - HECATE_OWNER_NAME=Macula Demo
+      - HECATE_SITE_NAME=beam02.lab
+    volumes:
+      - /fast/.hecate-zurich:/fast/.hecate-zurich:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  hecate-milan:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-milan
+    restart: always
+    network_mode: host
+    environment:
+      - HOME=/home/rl
+      - HECATE_HOME=/fast/.hecate-milan
+      - HECATE_SOCKET_PATH=/fast/.hecate-milan/sockets/api.sock
+      - HECATE_HOSTNAME=milan.demo
+      - HECATE_USER=rl
+      - MACULA_HOSTNAME=milan.demo
+      - MACULA_MODE=client
+      - MACULA_RELAYS=https://relay06.macula.io:4436
+      - HECATE_MESH_REALM=io.macula
+      - HECATE_NODE_NAME=hecate-milan@beam02.lab
+      - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
+      - HECATE_GEO_CITY=Milan
+      - HECATE_GEO_COUNTRY=IT
+      - HECATE_GEO_LAT=45.46
+      - HECATE_GEO_LNG=9.19
+      - HECATE_OWNER_NAME=Macula Demo
+      - HECATE_SITE_NAME=beam02.lab
+    volumes:
+      - /fast/.hecate-milan:/fast/.hecate-milan:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"

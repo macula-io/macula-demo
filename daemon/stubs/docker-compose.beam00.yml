@@ -1,0 +1,64 @@
+# beam00.lab (16GB) — 2 stub daemons + 1 primary (deployed separately)
+#
+# Primary: Munich DE → relay00 (Nuremberg)
+# Stub 1:  Hamburg DE → relay03 (Antwerp)
+# Stub 2:  Copenhagen DK → relay01 (Helsinki)
+#
+# Deploy: scp to beam00, docker compose -f docker-compose.beam00.yml up -d
+
+services:
+  hecate-hamburg:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-hamburg
+    restart: always
+    network_mode: host
+    environment:
+      - HOME=/home/rl
+      - HECATE_HOME=/fast/.hecate-hamburg
+      - HECATE_SOCKET_PATH=/fast/.hecate-hamburg/sockets/api.sock
+      - HECATE_HOSTNAME=hamburg.demo
+      - HECATE_USER=rl
+      - MACULA_HOSTNAME=hamburg.demo
+      - MACULA_MODE=client
+      - MACULA_RELAYS=https://relay03.macula.io:4433
+      - HECATE_MESH_REALM=io.macula
+      - HECATE_NODE_NAME=hecate-hamburg@beam00.lab
+      - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
+      - HECATE_GEO_CITY=Hamburg
+      - HECATE_GEO_COUNTRY=DE
+      - HECATE_GEO_LAT=53.55
+      - HECATE_GEO_LNG=9.99
+      - HECATE_OWNER_NAME=Macula Demo
+      - HECATE_SITE_NAME=beam00.lab
+    volumes:
+      - /fast/.hecate-hamburg:/fast/.hecate-hamburg:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  hecate-copenhagen:
+    image: ghcr.io/hecate-social/hecate-daemon:${HECATE_VERSION:-main}
+    container_name: hecate-copenhagen
+    restart: always
+    network_mode: host
+    environment:
+      - HOME=/home/rl
+      - HECATE_HOME=/fast/.hecate-copenhagen
+      - HECATE_SOCKET_PATH=/fast/.hecate-copenhagen/sockets/api.sock
+      - HECATE_HOSTNAME=copenhagen.demo
+      - HECATE_USER=rl
+      - MACULA_HOSTNAME=copenhagen.demo
+      - MACULA_MODE=client
+      - MACULA_RELAYS=https://relay01.macula.io:4433
+      - HECATE_MESH_REALM=io.macula
+      - HECATE_NODE_NAME=hecate-copenhagen@beam00.lab
+      - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
+      - HECATE_GEO_CITY=Copenhagen
+      - HECATE_GEO_COUNTRY=DK
+      - HECATE_GEO_LAT=55.68
+      - HECATE_GEO_LNG=12.57
+      - HECATE_OWNER_NAME=Macula Demo
+      - HECATE_SITE_NAME=beam00.lab
+    volumes:
+      - /fast/.hecate-copenhagen:/fast/.hecate-copenhagen:Z
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"

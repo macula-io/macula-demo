@@ -30,6 +30,11 @@ services:
       MACULA_MODE: relay
       MACULA_RELAYS: ${MACULA_RELAYS:-}
       NODE_NAME: macula-${RELAY_HOSTNAME}
+      MACULA_GEO_CITY: ${MACULA_GEO_CITY:-}
+      MACULA_GEO_COUNTRY: ${MACULA_GEO_COUNTRY:-}
+      MACULA_GEO_LAT: ${MACULA_GEO_LAT:-}
+      MACULA_GEO_LNG: ${MACULA_GEO_LNG:-}
+      MACULA_PROVIDER: ${MACULA_PROVIDER:-}
     ports:
       - "4433:4433/udp"
     volumes:

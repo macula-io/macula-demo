@@ -75,7 +75,7 @@ services:
       - HECATE_USER=rl
       - MACULA_HOSTNAME=riga.demo
       - MACULA_MODE=client
-      - MACULA_RELAYS=https://relay05.macula.io:4435
+      - MACULA_RELAYS=https://relay01.macula.io:4433
       - HECATE_MESH_REALM=io.macula
       - HECATE_NODE_NAME=hecate-riga@beam01.lab
       - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ

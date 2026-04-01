@@ -1,0 +1,64 @@
+# Multi-relay Caddyfile for Hetzner box (relay00 + co-located relays)
+#
+# Each relay gets its own hostname-specific cert via DNS-01.
+# /health and /status proxied to each relay's health port.
+
+relay00.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+
+	handle /health {
+		reverse_proxy relay00:8080
+	}
+
+	handle /status {
+		reverse_proxy relay00:8080
+	}
+
+	handle {
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay","hostname":"relay00.macula.io","quic_port":4433}` 200
+	}
+}
+
+relay-nl-amsterdam.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+
+	handle /health {
+		reverse_proxy relay-nl-amsterdam:8080
+	}
+
+	handle /status {
+		reverse_proxy relay-nl-amsterdam:8080
+	}
+
+	handle {
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay","hostname":"relay-nl-amsterdam.macula.io","quic_port":4434}` 200
+	}
+}
+
+relay-pl-lodz.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+
+	handle /health {
+		reverse_proxy relay-pl-lodz:8080
+	}
+
+	handle /status {
+		reverse_proxy relay-pl-lodz:8080
+	}
+
+	handle {
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay","hostname":"relay-pl-lodz.macula.io","quic_port":4435}` 200
+	}
+}

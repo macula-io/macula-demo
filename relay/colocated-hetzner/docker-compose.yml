@@ -1,0 +1,155 @@
+# Co-located relays on Hetzner relay00 box (91.98.238.177)
+#
+# relay00           — Nuremberg, DE (port 4433, existing primary)
+# relay-nl-amsterdam — Amsterdam, NL (port 4434, fake location)
+# relay-pl-lodz      — Lodz, PL (port 4435, fake location)
+#
+# Usage:
+#   docker compose up -d
+#
+# Prerequisites:
+#   - DNS A records for relay-nl-amsterdam.macula.io and relay-pl-lodz.macula.io
+#     pointing to this host's IP
+#   - .env with LINODE_DNS_API_TOKEN
+
+x-relay-common: &relay-common
+  image: ghcr.io/macula-io/macula-relay:${RELAY_VERSION:-main}
+  user: "0"
+  restart: unless-stopped
+  labels:
+    - "com.centurylinklabs.watchtower.enable=true"
+  volumes:
+    - caddy_data:/certs:ro
+  networks:
+    - relay-internal
+  depends_on:
+    - caddy
+
+x-relay-env: &relay-env
+  MACULA_REALM: io.macula
+  MACULA_TLS_MODE: production
+  RELAY_ENABLED: "true"
+  MACULA_MODE: relay
+  MACULA_RELAYS: >-
+    https://relay00.macula.io:4433,
+    https://relay01.macula.io:4433,
+    https://relay02.macula.io:4433,
+    https://relay03.macula.io:4433,
+    https://relay04.macula.io:4434,
+    https://relay05.macula.io:4435,
+    https://relay06.macula.io:4436,
+    https://relay-nl-amsterdam.macula.io:4434,
+    https://relay-pl-lodz.macula.io:4435
+
+services:
+  relay00:
+    <<: *relay-common
+    container_name: macula-relay
+    environment:
+      <<: *relay-env
+      MACULA_HOSTNAME: relay00.macula.io
+      MACULA_QUIC_PORT: "4433"
+      MACULA_HEALTH_PORT: "8080"
+      NODE_NAME: macula-relay00
+      MACULA_TLS_CERTFILE: /certs/caddy/certificates/acme-v02.api.letsencrypt.org-directory/relay00.macula.io/relay00.macula.io.crt
+      MACULA_TLS_KEYFILE: /certs/caddy/certificates/acme-v02.api.letsencrypt.org-directory/relay00.macula.io/relay00.macula.io.key
+    ports:
+      - "4433:4433/udp"
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  relay-nl-amsterdam:
+    <<: *relay-common
+    container_name: macula-relay-nl-amsterdam
+    environment:
+      <<: *relay-env
+      MACULA_HOSTNAME: relay-nl-amsterdam.macula.io
+      MACULA_QUIC_PORT: "4434"
+      MACULA_HEALTH_PORT: "8080"
+      NODE_NAME: macula-relay-nl-amsterdam
+      MACULA_TLS_CERTFILE: /certs/caddy/certificates/acme-v02.api.letsencrypt.org-directory/relay-nl-amsterdam.macula.io/relay-nl-amsterdam.macula.io.crt
+      MACULA_TLS_KEYFILE: /certs/caddy/certificates/acme-v02.api.letsencrypt.org-directory/relay-nl-amsterdam.macula.io/relay-nl-amsterdam.macula.io.key
+      # Fake location
+      MACULA_GEO_CITY: Amsterdam
+      MACULA_GEO_COUNTRY: NL
+      MACULA_GEO_LAT: "52.3676"
+      MACULA_GEO_LNG: "4.9041"
+      MACULA_PROVIDER: Hetzner
+    ports:
+      - "4434:4434/udp"
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  relay-pl-lodz:
+    <<: *relay-common
+    container_name: macula-relay-pl-lodz
+    environment:
+      <<: *relay-env
+      MACULA_HOSTNAME: relay-pl-lodz.macula.io
+      MACULA_QUIC_PORT: "4435"
+      MACULA_HEALTH_PORT: "8080"
+      NODE_NAME: macula-relay-pl-lodz
+      MACULA_TLS_CERTFILE: /certs/caddy/certificates/acme-v02.api.letsencrypt.org-directory/relay-pl-lodz.macula.io/relay-pl-lodz.macula.io.crt
+      MACULA_TLS_KEYFILE: /certs/caddy/certificates/acme-v02.api.letsencrypt.org-directory/relay-pl-lodz.macula.io/relay-pl-lodz.macula.io.key
+      # Fake location
+      MACULA_GEO_CITY: Lodz
+      MACULA_GEO_COUNTRY: PL
+      MACULA_GEO_LAT: "51.7592"
+      MACULA_GEO_LNG: "19.4560"
+      MACULA_PROVIDER: Hetzner
+    ports:
+      - "4435:4435/udp"
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  caddy:
+    build: ../caddy
+    container_name: macula-caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443/tcp"
+    environment:
+      LINODE_DNS_API_TOKEN: ${LINODE_DNS_API_TOKEN:?LINODE_DNS_API_TOKEN is required}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - relay-internal
+
+  watchtower:
+    image: containrrr/watchtower:1.7.1
+    container_name: macula-watchtower
+    restart: unless-stopped
+    environment:
+      WATCHTOWER_CLEANUP: "true"
+      WATCHTOWER_LABEL_ENABLE: "true"
+      WATCHTOWER_POLL_INTERVAL: "60"
+      WATCHTOWER_ROLLING_RESTART: "true"
+      DOCKER_API_VERSION: "1.43"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ../docker-config.json.example:/config.json:ro
+    networks:
+      - relay-internal
+
+networks:
+  relay-internal:
+    driver: bridge
+
+volumes:
+  caddy_data:
+  caddy_config:

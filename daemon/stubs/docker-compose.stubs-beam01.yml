@@ -1,0 +1,102 @@
+# beam01.lab — lightweight hecate-stub instances (alongside existing daemons)
+
+services:
+  stub-vilnius:
+    image: ghcr.io/hecate-social/hecate-stub:main
+    container_name: stub-vilnius
+    restart: always
+    network_mode: host
+    environment:
+      MACULA_RELAYS: https://relay01.macula.io:4433
+      HECATE_MESH_REALM: io.macula
+      HECATE_NODE_NAME: stub-vilnius@beam01.lab
+      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
+      HECATE_GEO_CITY: Vilnius
+      HECATE_GEO_COUNTRY: LT
+      HECATE_GEO_LAT: "54.69"
+      HECATE_GEO_LNG: "25.28"
+      HECATE_OWNER_NAME: Macula Demo
+      HECATE_SITE_NAME: beam01.lab
+      HEALTH_PORT: "9001"
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  stub-gdansk:
+    image: ghcr.io/hecate-social/hecate-stub:main
+    container_name: stub-gdansk
+    restart: always
+    network_mode: host
+    environment:
+      MACULA_RELAYS: https://relay01.macula.io:4433
+      HECATE_MESH_REALM: io.macula
+      HECATE_NODE_NAME: stub-gdansk@beam01.lab
+      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
+      HECATE_GEO_CITY: Gdansk
+      HECATE_GEO_COUNTRY: PL
+      HECATE_GEO_LAT: "54.35"
+      HECATE_GEO_LNG: "18.65"
+      HECATE_OWNER_NAME: Macula Demo
+      HECATE_SITE_NAME: beam01.lab
+      HEALTH_PORT: "9002"
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  stub-krakow:
+    image: ghcr.io/hecate-social/hecate-stub:main
+    container_name: stub-krakow
+    restart: always
+    network_mode: host
+    environment:
+      MACULA_RELAYS: https://relay00.macula.io:4433
+      HECATE_MESH_REALM: io.macula
+      HECATE_NODE_NAME: stub-krakow@beam01.lab
+      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
+      HECATE_GEO_CITY: Krakow
+      HECATE_GEO_COUNTRY: PL
+      HECATE_GEO_LAT: "50.06"
+      HECATE_GEO_LNG: "19.94"
+      HECATE_OWNER_NAME: Macula Demo
+      HECATE_SITE_NAME: beam01.lab
+      HEALTH_PORT: "9003"
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  stub-budapest:
+    image: ghcr.io/hecate-social/hecate-stub:main
+    container_name: stub-budapest
+    restart: always
+    network_mode: host
+    environment:
+      MACULA_RELAYS: https://relay00.macula.io:4433
+      HECATE_MESH_REALM: io.macula
+      HECATE_NODE_NAME: stub-budapest@beam01.lab
+      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
+      HECATE_GEO_CITY: Budapest
+      HECATE_GEO_COUNTRY: HU
+      HECATE_GEO_LAT: "47.50"
+      HECATE_GEO_LNG: "19.04"
+      HECATE_OWNER_NAME: Macula Demo
+      HECATE_SITE_NAME: beam01.lab
+      HEALTH_PORT: "9004"
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+
+  stub-bratislava:
+    image: ghcr.io/hecate-social/hecate-stub:main
+    container_name: stub-bratislava
+    restart: always
+    network_mode: host
+    environment:
+      MACULA_RELAYS: https://relay00.macula.io:4433
+      HECATE_MESH_REALM: io.macula
+      HECATE_NODE_NAME: stub-bratislava@beam01.lab
+      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
+      HECATE_GEO_CITY: Bratislava
+      HECATE_GEO_COUNTRY: SK
+      HECATE_GEO_LAT: "48.15"
+      HECATE_GEO_LNG: "17.11"
+      HECATE_OWNER_NAME: Macula Demo
+      HECATE_SITE_NAME: beam01.lab
+      HEALTH_PORT: "9005"
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"

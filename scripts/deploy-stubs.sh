@@ -1,60 +1,60 @@
 #!/bin/bash
-# Deploy stub daemon instances to beam cluster nodes.
+# Deploy stub instances to beam cluster nodes.
+#
+# Manages two sets of compose files per node:
+#   - daemon stubs (docker-compose.beamXX.yml) — full hecate-daemon instances
+#   - lightweight stubs (docker-compose.stubs-beamXX.yml) — hecate-stub instances
 #
 # Usage:
-#   ./scripts/deploy-stubs.sh           # Deploy to all nodes
+#   ./scripts/deploy-stubs.sh           # Deploy all (daemon + lightweight)
 #   ./scripts/deploy-stubs.sh beam01    # Deploy to one node
 #   ./scripts/deploy-stubs.sh --stop    # Stop all stubs
 #   ./scripts/deploy-stubs.sh --status  # Check stub status
-#
-# Prerequisites:
-#   - SSH access to beam0{0..3}.lab (ssh rl@beamXX.lab)
-#   - Docker/Podman on each beam node
-#   - Primary daemon already deployed via daemon/docker-compose.yml
 
 set -eu
 
 SCRIPT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 STUBS_DIR="${SCRIPT_DIR}/daemon/stubs"
 NODES=("beam00" "beam01" "beam02" "beam03")
-REMOTE_DIR="/home/rl/.hecate/compose-stubs"
+DAEMON_STUBS_DIR="/home/rl/.hecate/compose-stubs"
+LIGHT_STUBS_DIR="/home/rl/.hecate/compose-light-stubs"
 
 deploy_node() {
     local node="$1"
     local host="${node}.lab"
-    local compose_file="docker-compose.${node}.yml"
-    local geo_env="primary-geo.env.${node}"
 
-    if [ ! -f "${STUBS_DIR}/${compose_file}" ]; then
-        echo "[${node}] No compose file found, skipping"
-        return
+    echo "[${node}] Deploying to ${host}..."
+    ssh "rl@${host}" "mkdir -p ${DAEMON_STUBS_DIR} ${LIGHT_STUBS_DIR}"
+
+    # Deploy daemon stubs (full hecate-daemon instances)
+    local daemon_compose="docker-compose.${node}.yml"
+    if [ -f "${STUBS_DIR}/${daemon_compose}" ]; then
+        scp "${STUBS_DIR}/${daemon_compose}" "rl@${host}:${DAEMON_STUBS_DIR}/docker-compose.yml"
+        ssh "rl@${host}" "cd ${DAEMON_STUBS_DIR} && docker compose pull -q && docker compose up -d"
+        echo "[${node}] Daemon stubs up"
     fi
 
-    echo "[${node}] Deploying stubs to ${host}..."
+    # Deploy lightweight stubs (hecate-stub instances)
+    local light_compose="docker-compose.stubs-${node}.yml"
+    if [ -f "${STUBS_DIR}/${light_compose}" ]; then
+        scp "${STUBS_DIR}/${light_compose}" "rl@${host}:${LIGHT_STUBS_DIR}/docker-compose.yml"
+        ssh "rl@${host}" "cd ${LIGHT_STUBS_DIR} && docker compose pull -q && docker compose up -d"
+        echo "[${node}] Lightweight stubs up"
+    fi
 
-    # Create remote directory
-    ssh "rl@${host}" "mkdir -p ${REMOTE_DIR}"
-
-    # Copy compose file
-    scp "${STUBS_DIR}/${compose_file}" "rl@${host}:${REMOTE_DIR}/docker-compose.yml"
-
-    # Copy geo env for primary daemon
+    # Ensure primary daemon has geo env
+    local geo_env="primary-geo.env.${node}"
     if [ -f "${STUBS_DIR}/${geo_env}" ]; then
-        scp "${STUBS_DIR}/${geo_env}" "rl@${host}:${REMOTE_DIR}/primary-geo.env"
-
-        # Append geo env to primary daemon's env file (if not already present)
+        scp "${STUBS_DIR}/${geo_env}" "rl@${host}:${DAEMON_STUBS_DIR}/primary-geo.env"
         ssh "rl@${host}" "
-            if ! grep -q HECATE_GEO_CITY /home/rl/.hecate/compose/hecate-daemon.env 2>/dev/null; then
-                echo '' >> /home/rl/.hecate/compose/hecate-daemon.env
-                cat ${REMOTE_DIR}/primary-geo.env >> /home/rl/.hecate/compose/hecate-daemon.env
-                echo '[${node}] Added geo identity to primary daemon'
-                cd /home/rl/.hecate/compose && docker compose restart hecate-daemon
+            GITOPS_ENV=\$HOME/.hecate/gitops/system/hecate-daemon.env
+            if [ -f \"\$GITOPS_ENV\" ] && ! grep -q HECATE_GEO_CITY \"\$GITOPS_ENV\" 2>/dev/null; then
+                cat ${DAEMON_STUBS_DIR}/primary-geo.env >> \"\$GITOPS_ENV\"
+                cd \$HOME/.hecate/compose && docker compose up -d --force-recreate hecate-daemon
+                echo '  Added geo to primary daemon'
             fi
         "
     fi
-
-    # Start stubs
-    ssh "rl@${host}" "cd ${REMOTE_DIR} && docker compose pull && docker compose up -d"
 
     echo "[${node}] Done"
 }
@@ -63,14 +63,22 @@ stop_node() {
     local node="$1"
     local host="${node}.lab"
     echo "[${node}] Stopping stubs on ${host}..."
-    ssh "rl@${host}" "cd ${REMOTE_DIR} && docker compose down 2>/dev/null || true"
+    ssh "rl@${host}" "
+        cd ${DAEMON_STUBS_DIR} && docker compose down 2>/dev/null || true
+        cd ${LIGHT_STUBS_DIR} && docker compose down 2>/dev/null || true
+    "
 }
 
 status_node() {
     local node="$1"
     local host="${node}.lab"
     echo "=== ${node} ==="
-    ssh "rl@${host}" "cd ${REMOTE_DIR} && docker compose ps 2>/dev/null || echo 'No stubs deployed'"
+    ssh "rl@${host}" "
+        echo '--- daemon stubs ---'
+        cd ${DAEMON_STUBS_DIR} && docker compose ps --format 'table {{.Name}}\t{{.Status}}' 2>/dev/null || echo '  (none)'
+        echo '--- lightweight stubs ---'
+        cd ${LIGHT_STUBS_DIR} && docker compose ps --format 'table {{.Name}}\t{{.Status}}' 2>/dev/null || echo '  (none)'
+    "
     echo ""
 }
 
@@ -84,8 +92,7 @@ case "${1:-all}" in
     all)
         for node in "${NODES[@]}"; do deploy_node "$node"; done
         echo ""
-        echo "All stubs deployed. 15 daemon nodes across 4 beam hosts."
-        echo "Check topology at https://macula.io/topology"
+        echo "All stubs deployed. Check topology at https://macula.io/topology"
         ;;
     beam0[0-3])
         deploy_node "$1"

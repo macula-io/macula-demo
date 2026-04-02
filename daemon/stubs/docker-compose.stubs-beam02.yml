@@ -1,4 +1,4 @@
-# beam02.lab — ONE multi-tenant hecate-stub container with N virtual node identities
+# beam02.lab — 100 Belgian household/business stubs via JSON config
 
 services:
   hecate-stubs:
@@ -10,20 +10,10 @@ services:
       HECATE_MESH_REALM: io.macula
       HECATE_NODE_NAME: stubs@beam02.lab
       HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam02.lab
+      HECATE_STUB_CONFIG: /config/stubs.json
       HEALTH_PORT: "9010"
-      MACULA_RELAYS: https://relay-fr-paris.macula.io:4433
-      HECATE_STUB_IDENTITIES: >-
-        stub-marseille@beam02.lab:Marseille:FR:43.30:5.37:https://relay-fr-marseille.macula.io:4433,
-        stub-toulouse@beam02.lab:Toulouse:FR:43.60:1.44:https://relay-fr-lyon.macula.io:4433,
-        stub-lisbon@beam02.lab:Lisbon:PT:38.72:-9.14:https://relay-pt-lisbon.macula.io:4433,
-        stub-porto@beam02.lab:Porto:PT:41.16:-8.63:https://relay-pt-porto.macula.io:4433,
-        stub-valencia@beam02.lab:Valencia:ES:39.47:-0.38:https://relay-es-valencia.macula.io:4433,
-        stub-seville@beam02.lab:Seville:ES:37.39:-5.98:https://relay-es-madrid.macula.io:4433,
-        stub-florence@beam02.lab:Florence:IT:43.77:11.25:https://relay-it-rome.macula.io:4433,
-        stub-turin@beam02.lab:Turin:IT:45.07:7.69:https://relay-it-milan.macula.io:4433,
-        stub-nice@beam02.lab:Nice:FR:43.71:7.26:https://relay-fr-marseille.macula.io:4433,
-        stub-bordeaux@beam02.lab:Bordeaux:FR:44.84:-0.58:https://relay-fr-paris.macula.io:4433
+      MACULA_RELAYS: https://relay-be-brussels.macula.io:4433
+    volumes:
+      - ./stubs-beam02.json:/config/stubs.json:ro
     labels:
       - "com.centurylinklabs.watchtower.enable=true"

@@ -1,4 +1,4 @@
-# beam03.lab — ONE multi-tenant hecate-stub container with N virtual node identities
+# beam03.lab — 100 Belgian household/business stubs via JSON config
 
 services:
   hecate-stubs:
@@ -10,20 +10,10 @@ services:
       HECATE_MESH_REALM: io.macula
       HECATE_NODE_NAME: stubs@beam03.lab
       HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam03.lab
+      HECATE_STUB_CONFIG: /config/stubs.json
       HEALTH_PORT: "9010"
-      MACULA_RELAYS: https://relay-de-nuremberg.macula.io:4433
-      HECATE_STUB_IDENTITIES: >-
-        stub-rotterdam@beam03.lab:Rotterdam:NL:51.92:4.48:https://relay-nl-rotterdam.macula.io:4433,
-        stub-leipzig@beam03.lab:Leipzig:DE:51.34:12.37:https://relay-de-nuremberg.macula.io:4433,
-        stub-dusseldorf@beam03.lab:Dusseldorf:DE:51.23:6.78:https://relay-de-cologne.macula.io:4433,
-        stub-strasbourg@beam03.lab:Strasbourg:FR:48.57:7.75:https://relay-fr-paris.macula.io:4433,
-        stub-luxembourg@beam03.lab:Luxembourg:LU:49.61:6.13:https://relay-lu-luxembourg.macula.io:4433,
-        stub-ljubljana@beam03.lab:Ljubljana:SI:46.06:14.51:https://relay-si-ljubljana.macula.io:4433,
-        stub-zagreb@beam03.lab:Zagreb:HR:45.81:15.98:https://relay-hr-zagreb.macula.io:4433,
-        stub-bucharest@beam03.lab:Bucharest:RO:44.43:26.10:https://relay-ro-bucharest.macula.io:4433,
-        stub-sofia@beam03.lab:Sofia:BG:42.70:23.32:https://relay-bg-sofia.macula.io:4433,
-        stub-athens@beam03.lab:Athens:GR:37.98:23.73:https://relay-gr-athens.macula.io:4433
+      MACULA_RELAYS: https://relay-be-brussels.macula.io:4433
+    volumes:
+      - ./stubs-beam03.json:/config/stubs.json:ro
     labels:
       - "com.centurylinklabs.watchtower.enable=true"

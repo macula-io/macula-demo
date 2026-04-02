@@ -1,0 +1,802 @@
+[
+  {
+    "name": "hendrickx",
+    "city": "Aalst",
+    "country": "BE",
+    "lat": 50.92761,
+    "lng": 4.02475,
+    "relay": "https://relay-be-aalst.macula.io:4433"
+  },
+  {
+    "name": "edgecompute-be",
+    "city": "Leuven",
+    "country": "BE",
+    "lat": 50.88503,
+    "lng": 4.69143,
+    "relay": "https://relay-be-leuven.macula.io:4433"
+  },
+  {
+    "name": "jacobs",
+    "city": "Leuven",
+    "country": "BE",
+    "lat": 50.88827,
+    "lng": 4.70265,
+    "relay": "https://relay-be-leuven.macula.io:4433"
+  },
+  {
+    "name": "willems",
+    "city": "Namur",
+    "country": "BE",
+    "lat": 50.45627,
+    "lng": 4.86149,
+    "relay": "https://relay-be-namur.macula.io:4433"
+  },
+  {
+    "name": "verhoeven",
+    "city": "Brussels",
+    "country": "BE",
+    "lat": 50.86301,
+    "lng": 4.3476,
+    "relay": "https://relay-be-brussels.macula.io:4433"
+  },
+  {
+    "name": "renson",
+    "city": "Charleroi",
+    "country": "BE",
+    "lat": 50.41958,
+    "lng": 4.42344,
+    "relay": "https://relay-be-charleroi.macula.io:4433"
+  },
+  {
+    "name": "lambert",
+    "city": "Charleroi",
+    "country": "BE",
+    "lat": 50.40977,
+    "lng": 4.42569,
+    "relay": "https://relay-be-charleroi.macula.io:4433"
+  },
+  {
+    "name": "dumont",
+    "city": "Charleroi",
+    "country": "BE",
+    "lat": 50.40706,
+    "lng": 4.45548,
+    "relay": "https://relay-be-charleroi.macula.io:4433"
+  },
+  {
+    "name": "fromagerie-laurent",
+    "city": "Mons",
+    "country": "BE",
+    "lat": 50.45263,
+    "lng": 3.93757,
+    "relay": "https://relay-be-mons.macula.io:4433"
+  },
+  {
+    "name": "drukkerij-claes",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.05563,
+    "lng": 3.73579,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "studio-creatief",
+    "city": "Namur",
+    "country": "BE",
+    "lat": 50.47769,
+    "lng": 4.87135,
+    "relay": "https://relay-be-namur.macula.io:4433"
+  },
+  {
+    "name": "desmet",
+    "city": "Brussels",
+    "country": "BE",
+    "lat": 50.86309,
+    "lng": 4.35636,
+    "relay": "https://relay-be-brussels.macula.io:4433"
+  },
+  {
+    "name": "thijs",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.05997,
+    "lng": 3.70926,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "buelens",
+    "city": "Brussels",
+    "country": "BE",
+    "lat": 50.85171,
+    "lng": 4.33429,
+    "relay": "https://relay-be-brussels.macula.io:4433"
+  },
+  {
+    "name": "bernaerts",
+    "city": "Dendermonde",
+    "country": "BE",
+    "lat": 51.03956,
+    "lng": 4.09874,
+    "relay": "https://relay-be-dendermonde.macula.io:4433"
+  },
+  {
+    "name": "pirard",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.22339,
+    "lng": 4.38757,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "claes",
+    "city": "Sint-Niklaas",
+    "country": "BE",
+    "lat": 51.15077,
+    "lng": 4.16615,
+    "relay": "https://relay-be-sint-niklaas.macula.io:4433"
+  },
+  {
+    "name": "de-cock",
+    "city": "Leuven",
+    "country": "BE",
+    "lat": 50.88885,
+    "lng": 4.72107,
+    "relay": "https://relay-be-leuven.macula.io:4433"
+  },
+  {
+    "name": "peeters",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.05313,
+    "lng": 3.70212,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "lejeune",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.2308,
+    "lng": 4.40286,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "de-graef",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.22924,
+    "lng": 4.39284,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "biotech-liege",
+    "city": "La Louviere",
+    "country": "BE",
+    "lat": 50.48078,
+    "lng": 4.179,
+    "relay": "https://relay-be-la-louviere.macula.io:4433"
+  },
+  {
+    "name": "webdesign-pixel",
+    "city": "La Louviere",
+    "country": "BE",
+    "lat": 50.47141,
+    "lng": 4.19941,
+    "relay": "https://relay-be-la-louviere.macula.io:4433"
+  },
+  {
+    "name": "patisserie-duchene",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.06041,
+    "lng": 3.73191,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "baert",
+    "city": "Kortrijk",
+    "country": "BE",
+    "lat": 50.84138,
+    "lng": 3.26446,
+    "relay": "https://relay-be-kortrijk.macula.io:4433"
+  },
+  {
+    "name": "vermeersch",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.21796,
+    "lng": 4.40182,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "aerts",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.6306,
+    "lng": 5.58155,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "cornet",
+    "city": "Namur",
+    "country": "BE",
+    "lat": 50.4791,
+    "lng": 4.88769,
+    "relay": "https://relay-be-namur.macula.io:4433"
+  },
+  {
+    "name": "slagerij-peeters",
+    "city": "Arlon",
+    "country": "BE",
+    "lat": 49.67634,
+    "lng": 5.81171,
+    "relay": "https://relay-be-arlon.macula.io:4433"
+  },
+  {
+    "name": "van-hoeck",
+    "city": "Turnhout",
+    "country": "BE",
+    "lat": 51.32009,
+    "lng": 4.94054,
+    "relay": "https://relay-be-turnhout.macula.io:4433"
+  },
+  {
+    "name": "lammens",
+    "city": "Namur",
+    "country": "BE",
+    "lat": 50.47295,
+    "lng": 4.88522,
+    "relay": "https://relay-be-namur.macula.io:4433"
+  },
+  {
+    "name": "de-smedt",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.6424,
+    "lng": 5.59216,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "immo-trust",
+    "city": "Aalst",
+    "country": "BE",
+    "lat": 50.9513,
+    "lng": 4.0391,
+    "relay": "https://relay-be-aalst.macula.io:4433"
+  },
+  {
+    "name": "librairie-mols",
+    "city": "Brussels",
+    "country": "BE",
+    "lat": 50.8402,
+    "lng": 4.37162,
+    "relay": "https://relay-be-brussels.macula.io:4433"
+  },
+  {
+    "name": "goossens",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.63919,
+    "lng": 5.59564,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "bloemen-maes",
+    "city": "Namur",
+    "country": "BE",
+    "lat": 50.45658,
+    "lng": 4.88943,
+    "relay": "https://relay-be-namur.macula.io:4433"
+  },
+  {
+    "name": "menuiserie-leclercq",
+    "city": "Brussels",
+    "country": "BE",
+    "lat": 50.85631,
+    "lng": 4.34785,
+    "relay": "https://relay-be-brussels.macula.io:4433"
+  },
+  {
+    "name": "wuyts",
+    "city": "Aalst",
+    "country": "BE",
+    "lat": 50.951,
+    "lng": 4.02106,
+    "relay": "https://relay-be-aalst.macula.io:4433"
+  },
+  {
+    "name": "de-wolf",
+    "city": "La Louviere",
+    "country": "BE",
+    "lat": 50.48388,
+    "lng": 4.17894,
+    "relay": "https://relay-be-la-louviere.macula.io:4433"
+  },
+  {
+    "name": "de-bruyne",
+    "city": "Arlon",
+    "country": "BE",
+    "lat": 49.68063,
+    "lng": 5.79907,
+    "relay": "https://relay-be-arlon.macula.io:4433"
+  },
+  {
+    "name": "vaes",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.63872,
+    "lng": 5.59501,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "govaerts",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.64147,
+    "lng": 5.5851,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "cabinet-lejeune",
+    "city": "Genk",
+    "country": "BE",
+    "lat": 50.96467,
+    "lng": 5.50426,
+    "relay": "https://relay-be-genk.macula.io:4433"
+  },
+  {
+    "name": "boekhandel-hermans",
+    "city": "Ostend",
+    "country": "BE",
+    "lat": 51.21374,
+    "lng": 2.92556,
+    "relay": "https://relay-be-ostend.macula.io:4433"
+  },
+  {
+    "name": "claessens",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.06774,
+    "lng": 3.72801,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "lenaerts",
+    "city": "Leuven",
+    "country": "BE",
+    "lat": 50.89273,
+    "lng": 4.71165,
+    "relay": "https://relay-be-leuven.macula.io:4433"
+  },
+  {
+    "name": "leclercq",
+    "city": "Sint-Niklaas",
+    "country": "BE",
+    "lat": 51.16647,
+    "lng": 4.15487,
+    "relay": "https://relay-be-sint-niklaas.macula.io:4433"
+  },
+  {
+    "name": "chocolade-praline",
+    "city": "Arlon",
+    "country": "BE",
+    "lat": 49.67798,
+    "lng": 5.79692,
+    "relay": "https://relay-be-arlon.macula.io:4433"
+  },
+  {
+    "name": "quantum-bru",
+    "city": "Bruges",
+    "country": "BE",
+    "lat": 51.2173,
+    "lng": 3.21579,
+    "relay": "https://relay-be-bruges.macula.io:4433"
+  },
+  {
+    "name": "van-acker",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.62733,
+    "lng": 5.5688,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "traiteur-renard",
+    "city": "Leuven",
+    "country": "BE",
+    "lat": 50.88158,
+    "lng": 4.71303,
+    "relay": "https://relay-be-leuven.macula.io:4433"
+  },
+  {
+    "name": "georges",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.21062,
+    "lng": 4.40722,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "maes",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.63244,
+    "lng": 5.56866,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "smart-grid-antwerp",
+    "city": "Kortrijk",
+    "country": "BE",
+    "lat": 50.81825,
+    "lng": 3.26324,
+    "relay": "https://relay-be-kortrijk.macula.io:4433"
+  },
+  {
+    "name": "plomberie-thomas",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.05321,
+    "lng": 3.72457,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "kapsalon-elegance",
+    "city": "Wavre",
+    "country": "BE",
+    "lat": 50.71476,
+    "lng": 4.60223,
+    "relay": "https://relay-be-wavre.macula.io:4433"
+  },
+  {
+    "name": "simon",
+    "city": "Charleroi",
+    "country": "BE",
+    "lat": 50.40156,
+    "lng": 4.44213,
+    "relay": "https://relay-be-charleroi.macula.io:4433"
+  },
+  {
+    "name": "verbeke",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.64238,
+    "lng": 5.57114,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "heylen",
+    "city": "Leuven",
+    "country": "BE",
+    "lat": 50.88494,
+    "lng": 4.69865,
+    "relay": "https://relay-be-leuven.macula.io:4433"
+  },
+  {
+    "name": "leonard",
+    "city": "Bruges",
+    "country": "BE",
+    "lat": 51.20117,
+    "lng": 3.21973,
+    "relay": "https://relay-be-bruges.macula.io:4433"
+  },
+  {
+    "name": "maritiem-antwerpen",
+    "city": "Mechelen",
+    "country": "BE",
+    "lat": 51.01527,
+    "lng": 4.4725,
+    "relay": "https://relay-be-mechelen.macula.io:4433"
+  },
+  {
+    "name": "delcourt",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.63122,
+    "lng": 5.60069,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "adam",
+    "city": "Bruges",
+    "country": "BE",
+    "lat": 51.19638,
+    "lng": 3.23894,
+    "relay": "https://relay-be-bruges.macula.io:4433"
+  },
+  {
+    "name": "smeets",
+    "city": "Leuven",
+    "country": "BE",
+    "lat": 50.8737,
+    "lng": 4.70332,
+    "relay": "https://relay-be-leuven.macula.io:4433"
+  },
+  {
+    "name": "henrotte",
+    "city": "Tournai",
+    "country": "BE",
+    "lat": 50.61332,
+    "lng": 3.40827,
+    "relay": "https://relay-be-tournai.macula.io:4433"
+  },
+  {
+    "name": "van-dyck",
+    "city": "Ostend",
+    "country": "BE",
+    "lat": 51.23203,
+    "lng": 2.93426,
+    "relay": "https://relay-be-ostend.macula.io:4433"
+  },
+  {
+    "name": "vos",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.06175,
+    "lng": 3.7058,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "dataworks-bv",
+    "city": "Wavre",
+    "country": "BE",
+    "lat": 50.71171,
+    "lng": 4.61713,
+    "relay": "https://relay-be-wavre.macula.io:4433"
+  },
+  {
+    "name": "devos",
+    "city": "Ostend",
+    "country": "BE",
+    "lat": 51.21866,
+    "lng": 2.93093,
+    "relay": "https://relay-be-ostend.macula.io:4433"
+  },
+  {
+    "name": "epicerie-fine",
+    "city": "Turnhout",
+    "country": "BE",
+    "lat": 51.3268,
+    "lng": 4.96303,
+    "relay": "https://relay-be-turnhout.macula.io:4433"
+  },
+  {
+    "name": "tech-flanders",
+    "city": "Mons",
+    "country": "BE",
+    "lat": 50.44331,
+    "lng": 3.96201,
+    "relay": "https://relay-be-mons.macula.io:4433"
+  },
+  {
+    "name": "renard",
+    "city": "Brussels",
+    "country": "BE",
+    "lat": 50.84514,
+    "lng": 4.34917,
+    "relay": "https://relay-be-brussels.macula.io:4433"
+  },
+  {
+    "name": "leemans",
+    "city": "Kortrijk",
+    "country": "BE",
+    "lat": 50.82425,
+    "lng": 3.24913,
+    "relay": "https://relay-be-kortrijk.macula.io:4433"
+  },
+  {
+    "name": "advocaat-stevens",
+    "city": "Bruges",
+    "country": "BE",
+    "lat": 51.20462,
+    "lng": 3.22105,
+    "relay": "https://relay-be-bruges.macula.io:4433"
+  },
+  {
+    "name": "stevens",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.20946,
+    "lng": 4.4042,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "beckers",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.63003,
+    "lng": 5.59732,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "wauters",
+    "city": "Dendermonde",
+    "country": "BE",
+    "lat": 51.01933,
+    "lng": 4.11819,
+    "relay": "https://relay-be-dendermonde.macula.io:4433"
+  },
+  {
+    "name": "michiels",
+    "city": "Mechelen",
+    "country": "BE",
+    "lat": 51.03853,
+    "lng": 4.4688,
+    "relay": "https://relay-be-mechelen.macula.io:4433"
+  },
+  {
+    "name": "boucherie-dubois",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.63742,
+    "lng": 5.57835,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "pieters",
+    "city": "Brussels",
+    "country": "BE",
+    "lat": 50.84059,
+    "lng": 4.37167,
+    "relay": "https://relay-be-brussels.macula.io:4433"
+  },
+  {
+    "name": "geerts",
+    "city": "Tournai",
+    "country": "BE",
+    "lat": 50.61186,
+    "lng": 3.40854,
+    "relay": "https://relay-be-tournai.macula.io:4433"
+  },
+  {
+    "name": "neural-labs-leuven",
+    "city": "Seraing",
+    "country": "BE",
+    "lat": 50.59153,
+    "lng": 5.49429,
+    "relay": "https://relay-be-seraing.macula.io:4433"
+  },
+  {
+    "name": "collignon",
+    "city": "La Louviere",
+    "country": "BE",
+    "lat": 50.46835,
+    "lng": 4.1758,
+    "relay": "https://relay-be-la-louviere.macula.io:4433"
+  },
+  {
+    "name": "garage-vdb",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.21818,
+    "lng": 4.40996,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "garage-martin",
+    "city": "Tournai",
+    "country": "BE",
+    "lat": 50.59937,
+    "lng": 3.38303,
+    "relay": "https://relay-be-tournai.macula.io:4433"
+  },
+  {
+    "name": "cafe-de-markt",
+    "city": "Mons",
+    "country": "BE",
+    "lat": 50.4661,
+    "lng": 3.93997,
+    "relay": "https://relay-be-mons.macula.io:4433"
+  },
+  {
+    "name": "brasserie-leopold",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.05353,
+    "lng": 3.72254,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "chocolaterie-artisan",
+    "city": "Hasselt",
+    "country": "BE",
+    "lat": 50.92605,
+    "lng": 5.34222,
+    "relay": "https://relay-be-hasselt.macula.io:4433"
+  },
+  {
+    "name": "servais",
+    "city": "Mons",
+    "country": "BE",
+    "lat": 50.4424,
+    "lng": 3.97035,
+    "relay": "https://relay-be-mons.macula.io:4433"
+  },
+  {
+    "name": "wouters",
+    "city": "Arlon",
+    "country": "BE",
+    "lat": 49.67805,
+    "lng": 5.81277,
+    "relay": "https://relay-be-arlon.macula.io:4433"
+  },
+  {
+    "name": "cools",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.20711,
+    "lng": 4.38253,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "marchal",
+    "city": "Mechelen",
+    "country": "BE",
+    "lat": 51.01552,
+    "lng": 4.4662,
+    "relay": "https://relay-be-mechelen.macula.io:4433"
+  },
+  {
+    "name": "sels",
+    "city": "Charleroi",
+    "country": "BE",
+    "lat": 50.40095,
+    "lng": 4.44263,
+    "relay": "https://relay-be-charleroi.macula.io:4433"
+  },
+  {
+    "name": "van-damme",
+    "city": "Aalst",
+    "country": "BE",
+    "lat": 50.95045,
+    "lng": 4.04773,
+    "relay": "https://relay-be-aalst.macula.io:4433"
+  },
+  {
+    "name": "diamant-exchange",
+    "city": "Charleroi",
+    "country": "BE",
+    "lat": 50.40861,
+    "lng": 4.45487,
+    "relay": "https://relay-be-charleroi.macula.io:4433"
+  },
+  {
+    "name": "hermans",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.22982,
+    "lng": 4.40918,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "apotheek-centraal",
+    "city": "Dendermonde",
+    "country": "BE",
+    "lat": 51.02811,
+    "lng": 4.09645,
+    "relay": "https://relay-be-dendermonde.macula.io:4433"
+  },
+  {
+    "name": "laurent",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.04167,
+    "lng": 3.71183,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "lemaire",
+    "city": "Namur",
+    "country": "BE",
+    "lat": 50.46591,
+    "lng": 4.8608,
+    "relay": "https://relay-be-namur.macula.io:4433"
+  },
+  {
+    "name": "dams",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.61837,
+    "lng": 5.58761,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  }
+]

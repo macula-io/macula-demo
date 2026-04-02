@@ -1,102 +1,29 @@
-# beam01.lab — lightweight hecate-stub instances (alongside existing daemons)
+# beam01.lab — ONE multi-tenant hecate-stub container with N virtual node identities
 
 services:
-  stub-vilnius:
+  hecate-stubs:
     image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-vilnius
+    container_name: hecate-stubs
     restart: always
     network_mode: host
     environment:
-      MACULA_RELAYS: https://relay01.macula.io:4433
       HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-vilnius@beam01.lab
+      HECATE_NODE_NAME: stubs@beam01.lab
       HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Vilnius
-      HECATE_GEO_COUNTRY: LT
-      HECATE_GEO_LAT: "54.69"
-      HECATE_GEO_LNG: "25.28"
       HECATE_OWNER_NAME: Macula Demo
       HECATE_SITE_NAME: beam01.lab
-      HEALTH_PORT: "9001"
-    labels:
-      - "com.centurylinklabs.watchtower.enable=true"
-
-  stub-gdansk:
-    image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-gdansk
-    restart: always
-    network_mode: host
-    environment:
-      MACULA_RELAYS: https://relay01.macula.io:4433
-      HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-gdansk@beam01.lab
-      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Gdansk
-      HECATE_GEO_COUNTRY: PL
-      HECATE_GEO_LAT: "54.35"
-      HECATE_GEO_LNG: "18.65"
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam01.lab
-      HEALTH_PORT: "9002"
-    labels:
-      - "com.centurylinklabs.watchtower.enable=true"
-
-  stub-krakow:
-    image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-krakow
-    restart: always
-    network_mode: host
-    environment:
-      MACULA_RELAYS: https://relay00.macula.io:4433
-      HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-krakow@beam01.lab
-      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Krakow
-      HECATE_GEO_COUNTRY: PL
-      HECATE_GEO_LAT: "50.06"
-      HECATE_GEO_LNG: "19.94"
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam01.lab
-      HEALTH_PORT: "9003"
-    labels:
-      - "com.centurylinklabs.watchtower.enable=true"
-
-  stub-budapest:
-    image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-budapest
-    restart: always
-    network_mode: host
-    environment:
-      MACULA_RELAYS: https://relay00.macula.io:4433
-      HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-budapest@beam01.lab
-      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Budapest
-      HECATE_GEO_COUNTRY: HU
-      HECATE_GEO_LAT: "47.50"
-      HECATE_GEO_LNG: "19.04"
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam01.lab
-      HEALTH_PORT: "9004"
-    labels:
-      - "com.centurylinklabs.watchtower.enable=true"
-
-  stub-bratislava:
-    image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-bratislava
-    restart: always
-    network_mode: host
-    environment:
-      MACULA_RELAYS: https://relay00.macula.io:4433
-      HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-bratislava@beam01.lab
-      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Bratislava
-      HECATE_GEO_COUNTRY: SK
-      HECATE_GEO_LAT: "48.15"
-      HECATE_GEO_LNG: "17.11"
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam01.lab
-      HEALTH_PORT: "9005"
+      HEALTH_PORT: "9010"
+      MACULA_RELAYS: https://relay-fi-helsinki.macula.io:4433
+      HECATE_STUB_IDENTITIES: >-
+        stub-vilnius@beam01.lab:Vilnius:LT:54.69:25.28:https://relay-lt-vilnius.macula.io:4433,
+        stub-gdansk@beam01.lab:Gdansk:PL:54.35:18.65:https://relay-pl-gdansk.macula.io:4433,
+        stub-krakow@beam01.lab:Krakow:PL:50.06:19.94:https://relay-pl-krakow.macula.io:4433,
+        stub-budapest@beam01.lab:Budapest:HU:47.50:19.04:https://relay-hu-budapest.macula.io:4433,
+        stub-bratislava@beam01.lab:Bratislava:SK:48.15:17.11:https://relay-sk-bratislava.macula.io:4433,
+        stub-tampere@beam01.lab:Tampere:FI:61.50:23.79:https://relay-fi-helsinki.macula.io:4433,
+        stub-turku@beam01.lab:Turku:FI:60.45:22.27:https://relay-fi-helsinki.macula.io:4433,
+        stub-malmo@beam01.lab:Malmo:SE:55.60:13.00:https://relay-se-stockholm.macula.io:4433,
+        stub-linkoping@beam01.lab:Linkoping:SE:58.41:15.62:https://relay-se-stockholm.macula.io:4433,
+        stub-tartu@beam01.lab:Tartu:EE:58.38:26.72:https://relay-ee-tallinn.macula.io:4433
     labels:
       - "com.centurylinklabs.watchtower.enable=true"

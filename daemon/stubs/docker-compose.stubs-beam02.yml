@@ -1,102 +1,29 @@
-# beam02.lab — lightweight hecate-stub instances (alongside existing daemons)
+# beam02.lab — ONE multi-tenant hecate-stub container with N virtual node identities
 
 services:
-  stub-marseille:
+  hecate-stubs:
     image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-marseille
+    container_name: hecate-stubs
     restart: always
     network_mode: host
     environment:
-      MACULA_RELAYS: https://relay02.macula.io:4433
       HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-marseille@beam02.lab
+      HECATE_NODE_NAME: stubs@beam02.lab
       HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Marseille
-      HECATE_GEO_COUNTRY: FR
-      HECATE_GEO_LAT: "43.30"
-      HECATE_GEO_LNG: "5.37"
       HECATE_OWNER_NAME: Macula Demo
       HECATE_SITE_NAME: beam02.lab
-      HEALTH_PORT: "9001"
-    labels:
-      - "com.centurylinklabs.watchtower.enable=true"
-
-  stub-toulouse:
-    image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-toulouse
-    restart: always
-    network_mode: host
-    environment:
-      MACULA_RELAYS: https://relay02.macula.io:4433
-      HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-toulouse@beam02.lab
-      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Toulouse
-      HECATE_GEO_COUNTRY: FR
-      HECATE_GEO_LAT: "43.60"
-      HECATE_GEO_LNG: "1.44"
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam02.lab
-      HEALTH_PORT: "9002"
-    labels:
-      - "com.centurylinklabs.watchtower.enable=true"
-
-  stub-lisbon:
-    image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-lisbon
-    restart: always
-    network_mode: host
-    environment:
-      MACULA_RELAYS: https://relay02.macula.io:4433
-      HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-lisbon@beam02.lab
-      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Lisbon
-      HECATE_GEO_COUNTRY: PT
-      HECATE_GEO_LAT: "38.72"
-      HECATE_GEO_LNG: "-9.14"
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam02.lab
-      HEALTH_PORT: "9003"
-    labels:
-      - "com.centurylinklabs.watchtower.enable=true"
-
-  stub-porto:
-    image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-porto
-    restart: always
-    network_mode: host
-    environment:
-      MACULA_RELAYS: https://relay02.macula.io:4433
-      HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-porto@beam02.lab
-      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Porto
-      HECATE_GEO_COUNTRY: PT
-      HECATE_GEO_LAT: "41.15"
-      HECATE_GEO_LNG: "-8.61"
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam02.lab
-      HEALTH_PORT: "9004"
-    labels:
-      - "com.centurylinklabs.watchtower.enable=true"
-
-  stub-valencia:
-    image: ghcr.io/hecate-social/hecate-stub:main
-    container_name: stub-valencia
-    restart: always
-    network_mode: host
-    environment:
-      MACULA_RELAYS: https://relay02.macula.io:4433
-      HECATE_MESH_REALM: io.macula
-      HECATE_NODE_NAME: stub-valencia@beam02.lab
-      HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
-      HECATE_GEO_CITY: Valencia
-      HECATE_GEO_COUNTRY: ES
-      HECATE_GEO_LAT: "39.47"
-      HECATE_GEO_LNG: "-0.38"
-      HECATE_OWNER_NAME: Macula Demo
-      HECATE_SITE_NAME: beam02.lab
-      HEALTH_PORT: "9005"
+      HEALTH_PORT: "9010"
+      MACULA_RELAYS: https://relay-fr-paris.macula.io:4433
+      HECATE_STUB_IDENTITIES: >-
+        stub-marseille@beam02.lab:Marseille:FR:43.30:5.37:https://relay-fr-marseille.macula.io:4433,
+        stub-toulouse@beam02.lab:Toulouse:FR:43.60:1.44:https://relay-fr-lyon.macula.io:4433,
+        stub-lisbon@beam02.lab:Lisbon:PT:38.72:-9.14:https://relay-pt-lisbon.macula.io:4433,
+        stub-porto@beam02.lab:Porto:PT:41.16:-8.63:https://relay-pt-porto.macula.io:4433,
+        stub-valencia@beam02.lab:Valencia:ES:39.47:-0.38:https://relay-es-valencia.macula.io:4433,
+        stub-seville@beam02.lab:Seville:ES:37.39:-5.98:https://relay-es-madrid.macula.io:4433,
+        stub-florence@beam02.lab:Florence:IT:43.77:11.25:https://relay-it-rome.macula.io:4433,
+        stub-turin@beam02.lab:Turin:IT:45.07:7.69:https://relay-it-milan.macula.io:4433,
+        stub-nice@beam02.lab:Nice:FR:43.71:7.26:https://relay-fr-marseille.macula.io:4433,
+        stub-bordeaux@beam02.lab:Bordeaux:FR:44.84:-0.58:https://relay-fr-paris.macula.io:4433
     labels:
       - "com.centurylinklabs.watchtower.enable=true"

@@ -20,7 +20,7 @@ services:
       - HECATE_USER=rl
       - MACULA_HOSTNAME=hamburg.demo
       - MACULA_MODE=client
-      - MACULA_RELAYS=https://relay03.macula.io:4433
+      - MACULA_RELAYS=https://relay-de-nuremberg.macula.io:4433
       - HECATE_MESH_REALM=io.macula
       - HECATE_NODE_NAME=hecate-hamburg@beam00.lab
       - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
@@ -48,7 +48,7 @@ services:
       - HECATE_USER=rl
       - MACULA_HOSTNAME=copenhagen.demo
       - MACULA_MODE=client
-      - MACULA_RELAYS=https://relay01.macula.io:4433
+      - MACULA_RELAYS=https://relay-fi-helsinki.macula.io:4433
       - HECATE_MESH_REALM=io.macula
       - HECATE_NODE_NAME=hecate-copenhagen@beam00.lab
       - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ

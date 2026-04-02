@@ -19,7 +19,7 @@ services:
       - HECATE_USER=rl
       - MACULA_HOSTNAME=barcelona.demo
       - MACULA_MODE=client
-      - MACULA_RELAYS=https://relay02.macula.io:4433
+      - MACULA_RELAYS=https://relay-fr-paris.macula.io:4433
       - HECATE_MESH_REALM=io.macula
       - HECATE_NODE_NAME=hecate-barcelona@beam02.lab
       - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
@@ -47,7 +47,7 @@ services:
       - HECATE_USER=rl
       - MACULA_HOSTNAME=zurich.demo
       - MACULA_MODE=client
-      - MACULA_RELAYS=https://relay00.macula.io:4433
+      - MACULA_RELAYS=https://relay-de-nuremberg.macula.io:4433
       - HECATE_MESH_REALM=io.macula
       - HECATE_NODE_NAME=hecate-zurich@beam02.lab
       - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ
@@ -75,7 +75,7 @@ services:
       - HECATE_USER=rl
       - MACULA_HOSTNAME=milan.demo
       - MACULA_MODE=client
-      - MACULA_RELAYS=https://relay00.macula.io:4433
+      - MACULA_RELAYS=https://relay-de-nuremberg.macula.io:4433
       - HECATE_MESH_REALM=io.macula
       - HECATE_NODE_NAME=hecate-milan@beam02.lab
       - HECATE_ERLANG_COOKIE=ZMFTAHTHAYKXRVMPPQIZ

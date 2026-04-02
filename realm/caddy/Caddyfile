@@ -13,34 +13,35 @@ auctions.macula.io {
 	reverse_proxy central:4001
 }
 
-# Relay hostnames — route /health and /status to relay container
-relay02.macula.io, relay-*.macula.io {
-	tls {
-		dns linode {env.LINODE_DNS_API_TOKEN}
-		key_type rsa2048
-	}
-
-	handle /health {
-		reverse_proxy relay:8080
-	}
-
-	handle /status {
-		reverse_proxy relay:8080
-	}
-
-	handle {
-		header Content-Type "application/json"
-		respond `{"service":"macula-relay"}` 200
-	}
-}
-
-# Wildcard subdomain — franchise storefronts, etc.
+# Wildcard subdomain — relay health + franchise storefronts
+# relay-*.macula.io /health and /status → relay container
+# Everything else → central (franchise storefronts)
 *.macula.io {
 	tls {
 		dns linode {env.LINODE_DNS_API_TOKEN}
 		key_type rsa2048
 	}
-	reverse_proxy central:4001
+
+	@relay_status {
+		header_regexp Host relay
+		path /health /status
+	}
+	handle @relay_status {
+		reverse_proxy relay:8080
+	}
+
+	@relay_root {
+		header_regexp Host relay
+		not path /health /status
+	}
+	handle @relay_root {
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay"}` 200
+	}
+
+	handle {
+		reverse_proxy central:4001
+	}
 }
 
 # Bare domain — macula.io
@@ -62,7 +63,6 @@ macula.io {
 }
 
 # On-demand TLS — custom franchise domains (e.g. beluxcloud.io)
-# Caddy calls the `ask` endpoint above before provisioning a cert.
 :443 {
 	tls {
 		on_demand

@@ -13,27 +13,34 @@ auctions.macula.io {
 	reverse_proxy central:4001
 }
 
-# Wildcard subdomain — handles relay-*.macula.io + franchise storefronts
-# Relay /health and /status are routed to the relay container.
-# Everything else goes to central (franchise storefronts, etc).
-*.macula.io {
+# Relay hostnames — route /health and /status to relay container
+relay02.macula.io, relay-*.macula.io {
 	tls {
 		dns linode {env.LINODE_DNS_API_TOKEN}
 		key_type rsa2048
 	}
 
-	@relay_health host *.macula.io
-	@relay_path {
-		host relay*.macula.io
-		path /health /status
+	handle /health {
+		reverse_proxy relay:8080
 	}
-	handle @relay_path {
+
+	handle /status {
 		reverse_proxy relay:8080
 	}
 
 	handle {
-		reverse_proxy central:4001
+		header Content-Type "application/json"
+		respond `{"service":"macula-relay"}` 200
 	}
+}
+
+# Wildcard subdomain — franchise storefronts, etc.
+*.macula.io {
+	tls {
+		dns linode {env.LINODE_DNS_API_TOKEN}
+		key_type rsa2048
+	}
+	reverse_proxy central:4001
 }
 
 # Bare domain — macula.io

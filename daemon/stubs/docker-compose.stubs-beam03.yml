@@ -12,6 +12,7 @@ services:
       HECATE_ERLANG_COOKIE: ZMFTAHTHAYKXRVMPPQIZ
       HECATE_STUB_CONFIG: /config/stubs.json
       HEALTH_PORT: "9010"
+      MACULA_ADMIN_TOKEN: ${MACULA_ADMIN_TOKEN:-}
       MACULA_RELAYS: https://relay-be-brussels.macula.io:4433
     volumes:
       - ./stubs-beam03.json:/config/stubs.json:ro

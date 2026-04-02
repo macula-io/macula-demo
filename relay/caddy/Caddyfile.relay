@@ -18,6 +18,10 @@
 		reverse_proxy relay:8080
 	}
 
+	handle /admin/* {
+		reverse_proxy relay:8080
+	}
+
 	handle {
 		header Content-Type "application/json"
 		respond `{"service":"macula-relay","protocol":"quic","endpoint":"quic://{$RELAY_FQDN}:4433","status":"operational"}` 200

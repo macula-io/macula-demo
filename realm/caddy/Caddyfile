@@ -30,9 +30,17 @@ auctions.macula.io {
 		reverse_proxy relay:8080
 	}
 
+	@relay_admin {
+		header_regexp Host relay
+		path /admin/*
+	}
+	handle @relay_admin {
+		reverse_proxy relay:8080
+	}
+
 	@relay_root {
 		header_regexp Host relay
-		not path /health /status
+		not path /health /status /admin/*
 	}
 	handle @relay_root {
 		header Content-Type "application/json"

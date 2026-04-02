@@ -73,6 +73,7 @@ services:
       MACULA_CONTACT_EMAIL: ${MACULA_CONTACT_EMAIL:-contact@macula.io}
       MACULA_ADMIN_GITHUB_USERNAMES: ${MACULA_ADMIN_GITHUB_USERNAMES:-}
       RECKON_DB_DATA_DIR: /var/lib/macula/reckon-db
+      MACULA_RELAYS: ${MACULA_RELAYS:-}
       MIX_ENV: prod
     volumes:
       - /root/secrets:/secrets:ro

@@ -126,13 +126,30 @@ def generate_identities(count, name_pool, start_idx=0):
         city, clat, clng, relay = random.choice(weighted_cities)
         lat, lng = jitter(clat, clng, radius_km=15.0)
 
+        # Site = the location where this node lives.
+        # Households: site = family home (1-2 nodes share a site).
+        # Businesses: site = business location (1-3 nodes share a site).
+        import hashlib
+        site_id = hashlib.sha256(f"site-{name}".encode()).hexdigest()[:16]
+        is_business = name in BUSINESSES
+        site_type = "business" if is_business else "household"
+
         identities.append({
             "name": name,
             "city": city,
             "country": "BE",
             "lat": lat,
             "lng": lng,
-            "relay": f"https://{relay}.macula.io:4433"
+            "relay": f"https://{relay}.macula.io:4433",
+            "site": {
+                "site_id": site_id,
+                "name": name.replace("-", " ").title(),
+                "city": city,
+                "country": "BE",
+                "lat": lat,
+                "lng": lng,
+                "site_type": site_type
+            }
         })
 
     return identities

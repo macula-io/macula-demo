@@ -5,7 +5,16 @@
     "country": "BE",
     "lat": 50.48099,
     "lng": 4.48898,
-    "relay": "https://relay-be-charleroi.macula.io:4433"
+    "relay": "https://relay-be-charleroi.macula.io:4433",
+    "site": {
+      "site_id": "19d5e6fe9a2eba7c",
+      "name": "Devos",
+      "city": "Charleroi",
+      "country": "BE",
+      "lat": 50.48099,
+      "lng": 4.48898,
+      "site_type": "household"
+    }
   },
   {
     "name": "epicerie-fine",
@@ -13,7 +22,16 @@
     "country": "BE",
     "lat": 50.76757,
     "lng": 4.27511,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "b3d5a150b504a1d6",
+      "name": "Epicerie Fine",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.76757,
+      "lng": 4.27511,
+      "site_type": "business"
+    }
   },
   {
     "name": "tech-flanders",
@@ -21,7 +39,16 @@
     "country": "BE",
     "lat": 50.48357,
     "lng": 4.61827,
-    "relay": "https://relay-be-charleroi.macula.io:4433"
+    "relay": "https://relay-be-charleroi.macula.io:4433",
+    "site": {
+      "site_id": "410766d5801ad49c",
+      "name": "Tech Flanders",
+      "city": "Charleroi",
+      "country": "BE",
+      "lat": 50.48357,
+      "lng": 4.61827,
+      "site_type": "business"
+    }
   },
   {
     "name": "renard",
@@ -29,7 +56,16 @@
     "country": "BE",
     "lat": 50.87133,
     "lng": 4.30665,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "52f0af4e18866225",
+      "name": "Renard",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.87133,
+      "lng": 4.30665,
+      "site_type": "household"
+    }
   },
   {
     "name": "leemans",
@@ -37,7 +73,16 @@
     "country": "BE",
     "lat": 50.82062,
     "lng": 4.25915,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "80c14cca6932806d",
+      "name": "Leemans",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.82062,
+      "lng": 4.25915,
+      "site_type": "household"
+    }
   },
   {
     "name": "advocaat-stevens",
@@ -45,7 +90,16 @@
     "country": "BE",
     "lat": 51.31461,
     "lng": 4.34407,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "7e82061fec5a84e9",
+      "name": "Advocaat Stevens",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.31461,
+      "lng": 4.34407,
+      "site_type": "business"
+    }
   },
   {
     "name": "stevens",
@@ -53,7 +107,16 @@
     "country": "BE",
     "lat": 50.73976,
     "lng": 3.17068,
-    "relay": "https://relay-be-kortrijk.macula.io:4433"
+    "relay": "https://relay-be-kortrijk.macula.io:4433",
+    "site": {
+      "site_id": "c292c8978ccd6c23",
+      "name": "Stevens",
+      "city": "Kortrijk",
+      "country": "BE",
+      "lat": 50.73976,
+      "lng": 3.17068,
+      "site_type": "household"
+    }
   },
   {
     "name": "beckers",
@@ -61,7 +124,16 @@
     "country": "BE",
     "lat": 50.82395,
     "lng": 4.56599,
-    "relay": "https://relay-be-leuven.macula.io:4433"
+    "relay": "https://relay-be-leuven.macula.io:4433",
+    "site": {
+      "site_id": "b54e02dd1caa577f",
+      "name": "Beckers",
+      "city": "Leuven",
+      "country": "BE",
+      "lat": 50.82395,
+      "lng": 4.56599,
+      "site_type": "household"
+    }
   },
   {
     "name": "wauters",
@@ -69,7 +141,16 @@
     "country": "BE",
     "lat": 51.26531,
     "lng": 3.18582,
-    "relay": "https://relay-be-bruges.macula.io:4433"
+    "relay": "https://relay-be-bruges.macula.io:4433",
+    "site": {
+      "site_id": "d64d2d95669f281f",
+      "name": "Wauters",
+      "city": "Bruges",
+      "country": "BE",
+      "lat": 51.26531,
+      "lng": 3.18582,
+      "site_type": "household"
+    }
   },
   {
     "name": "michiels",
@@ -77,7 +158,16 @@
     "country": "BE",
     "lat": 51.12907,
     "lng": 4.25943,
-    "relay": "https://relay-be-sint-niklaas.macula.io:4433"
+    "relay": "https://relay-be-sint-niklaas.macula.io:4433",
+    "site": {
+      "site_id": "0b8cadb733118030",
+      "name": "Michiels",
+      "city": "Sint-Niklaas",
+      "country": "BE",
+      "lat": 51.12907,
+      "lng": 4.25943,
+      "site_type": "household"
+    }
   },
   {
     "name": "boucherie-dubois",
@@ -85,7 +175,16 @@
     "country": "BE",
     "lat": 51.18443,
     "lng": 4.29835,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "d1480d8be3a505c5",
+      "name": "Boucherie Dubois",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.18443,
+      "lng": 4.29835,
+      "site_type": "business"
+    }
   },
   {
     "name": "pieters",
@@ -93,7 +192,16 @@
     "country": "BE",
     "lat": 51.32723,
     "lng": 3.13469,
-    "relay": "https://relay-be-bruges.macula.io:4433"
+    "relay": "https://relay-be-bruges.macula.io:4433",
+    "site": {
+      "site_id": "1f6abe20a5038adf",
+      "name": "Pieters",
+      "city": "Bruges",
+      "country": "BE",
+      "lat": 51.32723,
+      "lng": 3.13469,
+      "site_type": "household"
+    }
   },
   {
     "name": "geerts",
@@ -101,7 +209,16 @@
     "country": "BE",
     "lat": 50.71988,
     "lng": 4.40712,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "4fc303789df08949",
+      "name": "Geerts",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.71988,
+      "lng": 4.40712,
+      "site_type": "household"
+    }
   },
   {
     "name": "neural-labs-leuven",
@@ -109,7 +226,16 @@
     "country": "BE",
     "lat": 50.9062,
     "lng": 4.3956,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "c05b3a407068ca78",
+      "name": "Neural Labs Leuven",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.9062,
+      "lng": 4.3956,
+      "site_type": "business"
+    }
   },
   {
     "name": "collignon",
@@ -117,7 +243,16 @@
     "country": "BE",
     "lat": 51.10805,
     "lng": 3.81131,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "88d8f7e1930fcd1c",
+      "name": "Collignon",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 51.10805,
+      "lng": 3.81131,
+      "site_type": "household"
+    }
   },
   {
     "name": "garage-vdb",
@@ -125,7 +260,16 @@
     "country": "BE",
     "lat": 50.90992,
     "lng": 4.2622,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "dfd471f5e4ba410d",
+      "name": "Garage Vdb",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.90992,
+      "lng": 4.2622,
+      "site_type": "business"
+    }
   },
   {
     "name": "garage-martin",
@@ -133,7 +277,16 @@
     "country": "BE",
     "lat": 51.12722,
     "lng": 4.46272,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "2edaf1eb605ddae3",
+      "name": "Garage Martin",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.12722,
+      "lng": 4.46272,
+      "site_type": "business"
+    }
   },
   {
     "name": "cafe-de-markt",
@@ -141,7 +294,16 @@
     "country": "BE",
     "lat": 51.10675,
     "lng": 3.08635,
-    "relay": "https://relay-be-bruges.macula.io:4433"
+    "relay": "https://relay-be-bruges.macula.io:4433",
+    "site": {
+      "site_id": "db041210fafc3605",
+      "name": "Cafe De Markt",
+      "city": "Bruges",
+      "country": "BE",
+      "lat": 51.10675,
+      "lng": 3.08635,
+      "site_type": "business"
+    }
   },
   {
     "name": "brasserie-leopold",
@@ -149,7 +311,16 @@
     "country": "BE",
     "lat": 50.82968,
     "lng": 4.00761,
-    "relay": "https://relay-be-aalst.macula.io:4433"
+    "relay": "https://relay-be-aalst.macula.io:4433",
+    "site": {
+      "site_id": "bfd8aa9cb236ee2d",
+      "name": "Brasserie Leopold",
+      "city": "Aalst",
+      "country": "BE",
+      "lat": 50.82968,
+      "lng": 4.00761,
+      "site_type": "business"
+    }
   },
   {
     "name": "chocolaterie-artisan",
@@ -157,7 +328,16 @@
     "country": "BE",
     "lat": 50.8971,
     "lng": 5.5038,
-    "relay": "https://relay-be-hasselt.macula.io:4433"
+    "relay": "https://relay-be-hasselt.macula.io:4433",
+    "site": {
+      "site_id": "bff8a787f95e4e08",
+      "name": "Chocolaterie Artisan",
+      "city": "Hasselt",
+      "country": "BE",
+      "lat": 50.8971,
+      "lng": 5.5038,
+      "site_type": "business"
+    }
   },
   {
     "name": "servais",
@@ -165,7 +345,16 @@
     "country": "BE",
     "lat": 51.20783,
     "lng": 4.60517,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "ad0fd42d6f973ea8",
+      "name": "Servais",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.20783,
+      "lng": 4.60517,
+      "site_type": "household"
+    }
   },
   {
     "name": "wouters",
@@ -173,7 +362,16 @@
     "country": "BE",
     "lat": 50.52168,
     "lng": 5.82664,
-    "relay": "https://relay-be-verviers.macula.io:4433"
+    "relay": "https://relay-be-verviers.macula.io:4433",
+    "site": {
+      "site_id": "63ecbbfb3d49fa7c",
+      "name": "Wouters",
+      "city": "Verviers",
+      "country": "BE",
+      "lat": 50.52168,
+      "lng": 5.82664,
+      "site_type": "household"
+    }
   },
   {
     "name": "cools",
@@ -181,7 +379,16 @@
     "country": "BE",
     "lat": 51.24478,
     "lng": 3.04241,
-    "relay": "https://relay-be-ostend.macula.io:4433"
+    "relay": "https://relay-be-ostend.macula.io:4433",
+    "site": {
+      "site_id": "6ace7c10952f0943",
+      "name": "Cools",
+      "city": "Ostend",
+      "country": "BE",
+      "lat": 51.24478,
+      "lng": 3.04241,
+      "site_type": "household"
+    }
   },
   {
     "name": "marchal",
@@ -189,7 +396,16 @@
     "country": "BE",
     "lat": 50.55964,
     "lng": 3.30638,
-    "relay": "https://relay-be-tournai.macula.io:4433"
+    "relay": "https://relay-be-tournai.macula.io:4433",
+    "site": {
+      "site_id": "3a531db8ba107d0a",
+      "name": "Marchal",
+      "city": "Tournai",
+      "country": "BE",
+      "lat": 50.55964,
+      "lng": 3.30638,
+      "site_type": "household"
+    }
   },
   {
     "name": "sels",
@@ -197,7 +413,16 @@
     "country": "BE",
     "lat": 51.02499,
     "lng": 4.68234,
-    "relay": "https://relay-be-mechelen.macula.io:4433"
+    "relay": "https://relay-be-mechelen.macula.io:4433",
+    "site": {
+      "site_id": "5f60ae48bba88484",
+      "name": "Sels",
+      "city": "Mechelen",
+      "country": "BE",
+      "lat": 51.02499,
+      "lng": 4.68234,
+      "site_type": "household"
+    }
   },
   {
     "name": "van-damme",
@@ -205,7 +430,16 @@
     "country": "BE",
     "lat": 50.92387,
     "lng": 4.42803,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "09a91c0b755133fd",
+      "name": "Van Damme",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.92387,
+      "lng": 4.42803,
+      "site_type": "household"
+    }
   },
   {
     "name": "diamant-exchange",
@@ -213,7 +447,16 @@
     "country": "BE",
     "lat": 51.12937,
     "lng": 3.75136,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "fec515a1572c999c",
+      "name": "Diamant Exchange",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 51.12937,
+      "lng": 3.75136,
+      "site_type": "business"
+    }
   },
   {
     "name": "hermans",
@@ -221,7 +464,16 @@
     "country": "BE",
     "lat": 51.17435,
     "lng": 4.31871,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "4d35834a82a8c8ab",
+      "name": "Hermans",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.17435,
+      "lng": 4.31871,
+      "site_type": "household"
+    }
   },
   {
     "name": "apotheek-centraal",
@@ -229,7 +481,16 @@
     "country": "BE",
     "lat": 50.48228,
     "lng": 5.927,
-    "relay": "https://relay-be-verviers.macula.io:4433"
+    "relay": "https://relay-be-verviers.macula.io:4433",
+    "site": {
+      "site_id": "cc13d1d6c9fcd590",
+      "name": "Apotheek Centraal",
+      "city": "Verviers",
+      "country": "BE",
+      "lat": 50.48228,
+      "lng": 5.927,
+      "site_type": "business"
+    }
   },
   {
     "name": "laurent",
@@ -237,7 +498,16 @@
     "country": "BE",
     "lat": 50.9677,
     "lng": 5.34107,
-    "relay": "https://relay-be-hasselt.macula.io:4433"
+    "relay": "https://relay-be-hasselt.macula.io:4433",
+    "site": {
+      "site_id": "aa147b0d156293a0",
+      "name": "Laurent",
+      "city": "Hasselt",
+      "country": "BE",
+      "lat": 50.9677,
+      "lng": 5.34107,
+      "site_type": "household"
+    }
   },
   {
     "name": "lemaire",
@@ -245,7 +515,16 @@
     "country": "BE",
     "lat": 49.76558,
     "lng": 5.72903,
-    "relay": "https://relay-be-arlon.macula.io:4433"
+    "relay": "https://relay-be-arlon.macula.io:4433",
+    "site": {
+      "site_id": "f2b1e6e400e81f48",
+      "name": "Lemaire",
+      "city": "Arlon",
+      "country": "BE",
+      "lat": 49.76558,
+      "lng": 5.72903,
+      "site_type": "household"
+    }
   },
   {
     "name": "dams",
@@ -253,7 +532,16 @@
     "country": "BE",
     "lat": 50.96,
     "lng": 4.21736,
-    "relay": "https://relay-be-dendermonde.macula.io:4433"
+    "relay": "https://relay-be-dendermonde.macula.io:4433",
+    "site": {
+      "site_id": "bcff590afca860e8",
+      "name": "Dams",
+      "city": "Dendermonde",
+      "country": "BE",
+      "lat": 50.96,
+      "lng": 4.21736,
+      "site_type": "household"
+    }
   },
   {
     "name": "mertens",
@@ -261,7 +549,16 @@
     "country": "BE",
     "lat": 50.93203,
     "lng": 4.78587,
-    "relay": "https://relay-be-leuven.macula.io:4433"
+    "relay": "https://relay-be-leuven.macula.io:4433",
+    "site": {
+      "site_id": "5f5c2d7895ef1f75",
+      "name": "Mertens",
+      "city": "Leuven",
+      "country": "BE",
+      "lat": 50.93203,
+      "lng": 4.78587,
+      "site_type": "household"
+    }
   },
   {
     "name": "nijs",
@@ -269,7 +566,16 @@
     "country": "BE",
     "lat": 50.49778,
     "lng": 4.17843,
-    "relay": "https://relay-be-la-louviere.macula.io:4433"
+    "relay": "https://relay-be-la-louviere.macula.io:4433",
+    "site": {
+      "site_id": "363a0c1d79db10de",
+      "name": "Nijs",
+      "city": "La Louviere",
+      "country": "BE",
+      "lat": 50.49778,
+      "lng": 4.17843,
+      "site_type": "household"
+    }
   },
   {
     "name": "atelier-simon",
@@ -277,7 +583,16 @@
     "country": "BE",
     "lat": 50.64596,
     "lng": 5.68279,
-    "relay": "https://relay-be-liege.macula.io:4433"
+    "relay": "https://relay-be-liege.macula.io:4433",
+    "site": {
+      "site_id": "c607222ae136edb9",
+      "name": "Atelier Simon",
+      "city": "Liege",
+      "country": "BE",
+      "lat": 50.64596,
+      "lng": 5.68279,
+      "site_type": "business"
+    }
   },
   {
     "name": "brouwers",
@@ -285,7 +600,16 @@
     "country": "BE",
     "lat": 50.78899,
     "lng": 4.47906,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "194c1722ddde774b",
+      "name": "Brouwers",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.78899,
+      "lng": 4.47906,
+      "site_type": "household"
+    }
   },
   {
     "name": "vandenbulcke",
@@ -293,7 +617,16 @@
     "country": "BE",
     "lat": 50.99521,
     "lng": 4.67016,
-    "relay": "https://relay-be-leuven.macula.io:4433"
+    "relay": "https://relay-be-leuven.macula.io:4433",
+    "site": {
+      "site_id": "758f17236a9f1d9c",
+      "name": "Vandenbulcke",
+      "city": "Leuven",
+      "country": "BE",
+      "lat": 50.99521,
+      "lng": 4.67016,
+      "site_type": "household"
+    }
   },
   {
     "name": "dubois",
@@ -301,7 +634,16 @@
     "country": "BE",
     "lat": 51.14235,
     "lng": 3.55772,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "d9536a03a8e63d72",
+      "name": "Dubois",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 51.14235,
+      "lng": 3.55772,
+      "site_type": "household"
+    }
   },
   {
     "name": "vanhees",
@@ -309,7 +651,16 @@
     "country": "BE",
     "lat": 50.75409,
     "lng": 4.7342,
-    "relay": "https://relay-be-wavre.macula.io:4433"
+    "relay": "https://relay-be-wavre.macula.io:4433",
+    "site": {
+      "site_id": "b37ce6e52c2259a5",
+      "name": "Vanhees",
+      "city": "Wavre",
+      "country": "BE",
+      "lat": 50.75409,
+      "lng": 4.7342,
+      "site_type": "household"
+    }
   },
   {
     "name": "vinothek-somelier",
@@ -317,7 +668,16 @@
     "country": "BE",
     "lat": 51.21283,
     "lng": 4.27859,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "5ba5a4d58de0845e",
+      "name": "Vinothek Somelier",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.21283,
+      "lng": 4.27859,
+      "site_type": "business"
+    }
   },
   {
     "name": "martin",
@@ -325,7 +685,16 @@
     "country": "BE",
     "lat": 50.92029,
     "lng": 4.51204,
-    "relay": "https://relay-be-leuven.macula.io:4433"
+    "relay": "https://relay-be-leuven.macula.io:4433",
+    "site": {
+      "site_id": "853f3725da1b4847",
+      "name": "Martin",
+      "city": "Leuven",
+      "country": "BE",
+      "lat": 50.92029,
+      "lng": 4.51204,
+      "site_type": "household"
+    }
   },
   {
     "name": "fietsen-willems",
@@ -333,7 +702,16 @@
     "country": "BE",
     "lat": 50.71632,
     "lng": 4.69645,
-    "relay": "https://relay-be-wavre.macula.io:4433"
+    "relay": "https://relay-be-wavre.macula.io:4433",
+    "site": {
+      "site_id": "598788f03f4c602d",
+      "name": "Fietsen Willems",
+      "city": "Wavre",
+      "country": "BE",
+      "lat": 50.71632,
+      "lng": 4.69645,
+      "site_type": "business"
+    }
   },
   {
     "name": "brasserie-oud-brugge",
@@ -341,7 +719,16 @@
     "country": "BE",
     "lat": 49.7816,
     "lng": 5.93913,
-    "relay": "https://relay-be-arlon.macula.io:4433"
+    "relay": "https://relay-be-arlon.macula.io:4433",
+    "site": {
+      "site_id": "8646dcda518b0e6d",
+      "name": "Brasserie Oud Brugge",
+      "city": "Arlon",
+      "country": "BE",
+      "lat": 49.7816,
+      "lng": 5.93913,
+      "site_type": "business"
+    }
   },
   {
     "name": "thomas",
@@ -349,7 +736,16 @@
     "country": "BE",
     "lat": 50.48845,
     "lng": 5.06098,
-    "relay": "https://relay-be-namur.macula.io:4433"
+    "relay": "https://relay-be-namur.macula.io:4433",
+    "site": {
+      "site_id": "44339eb619b84efe",
+      "name": "Thomas",
+      "city": "Namur",
+      "country": "BE",
+      "lat": 50.48845,
+      "lng": 5.06098,
+      "site_type": "household"
+    }
   },
   {
     "name": "elektro-jacobs",
@@ -357,7 +753,16 @@
     "country": "BE",
     "lat": 50.39566,
     "lng": 5.02783,
-    "relay": "https://relay-be-namur.macula.io:4433"
+    "relay": "https://relay-be-namur.macula.io:4433",
+    "site": {
+      "site_id": "96616bcdcf118062",
+      "name": "Elektro Jacobs",
+      "city": "Namur",
+      "country": "BE",
+      "lat": 50.39566,
+      "lng": 5.02783,
+      "site_type": "business"
+    }
   },
   {
     "name": "martens",
@@ -365,7 +770,16 @@
     "country": "BE",
     "lat": 51.07289,
     "lng": 3.88954,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "55da8587ece36c7b",
+      "name": "Martens",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 51.07289,
+      "lng": 3.88954,
+      "site_type": "household"
+    }
   },
   {
     "name": "cloudnine-tech",
@@ -373,7 +787,16 @@
     "country": "BE",
     "lat": 50.82048,
     "lng": 4.87603,
-    "relay": "https://relay-be-leuven.macula.io:4433"
+    "relay": "https://relay-be-leuven.macula.io:4433",
+    "site": {
+      "site_id": "c0cd35bae42f0bb4",
+      "name": "Cloudnine Tech",
+      "city": "Leuven",
+      "country": "BE",
+      "lat": 50.82048,
+      "lng": 4.87603,
+      "site_type": "business"
+    }
   },
   {
     "name": "pharmacie-lambert",
@@ -381,7 +804,16 @@
     "country": "BE",
     "lat": 51.3028,
     "lng": 5.1187,
-    "relay": "https://relay-be-turnhout.macula.io:4433"
+    "relay": "https://relay-be-turnhout.macula.io:4433",
+    "site": {
+      "site_id": "f046a6421cf73098",
+      "name": "Pharmacie Lambert",
+      "city": "Turnhout",
+      "country": "BE",
+      "lat": 51.3028,
+      "lng": 5.1187,
+      "site_type": "business"
+    }
   },
   {
     "name": "vandenberghe",
@@ -389,7 +821,16 @@
     "country": "BE",
     "lat": 50.82661,
     "lng": 4.52275,
-    "relay": "https://relay-be-leuven.macula.io:4433"
+    "relay": "https://relay-be-leuven.macula.io:4433",
+    "site": {
+      "site_id": "008f47297bd5a51f",
+      "name": "Vandenberghe",
+      "city": "Leuven",
+      "country": "BE",
+      "lat": 50.82661,
+      "lng": 4.52275,
+      "site_type": "household"
+    }
   },
   {
     "name": "taverne-de-leeuw",
@@ -397,7 +838,16 @@
     "country": "BE",
     "lat": 50.67179,
     "lng": 5.55274,
-    "relay": "https://relay-be-liege.macula.io:4433"
+    "relay": "https://relay-be-liege.macula.io:4433",
+    "site": {
+      "site_id": "44d5ce78951dd5d2",
+      "name": "Taverne De Leeuw",
+      "city": "Liege",
+      "country": "BE",
+      "lat": 50.67179,
+      "lng": 5.55274,
+      "site_type": "business"
+    }
   },
   {
     "name": "janssens",
@@ -405,7 +855,16 @@
     "country": "BE",
     "lat": 51.11183,
     "lng": 3.90743,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "11e02c7c3f7a8056",
+      "name": "Janssens",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 51.11183,
+      "lng": 3.90743,
+      "site_type": "household"
+    }
   },
   {
     "name": "greenpower-namur",
@@ -413,7 +872,16 @@
     "country": "BE",
     "lat": 51.15567,
     "lng": 3.75693,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "db7ede0b14038768",
+      "name": "Greenpower Namur",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 51.15567,
+      "lng": 3.75693,
+      "site_type": "business"
+    }
   },
   {
     "name": "meshworks-bvba",
@@ -421,7 +889,16 @@
     "country": "BE",
     "lat": 50.61903,
     "lng": 5.46147,
-    "relay": "https://relay-be-liege.macula.io:4433"
+    "relay": "https://relay-be-liege.macula.io:4433",
+    "site": {
+      "site_id": "dfad5766bb460694",
+      "name": "Meshworks Bvba",
+      "city": "Liege",
+      "country": "BE",
+      "lat": 50.61903,
+      "lng": 5.46147,
+      "site_type": "business"
+    }
   },
   {
     "name": "logistiek-zeebrugge",
@@ -429,7 +906,16 @@
     "country": "BE",
     "lat": 51.27113,
     "lng": 2.91264,
-    "relay": "https://relay-be-ostend.macula.io:4433"
+    "relay": "https://relay-be-ostend.macula.io:4433",
+    "site": {
+      "site_id": "7942670f63efec29",
+      "name": "Logistiek Zeebrugge",
+      "city": "Ostend",
+      "country": "BE",
+      "lat": 51.27113,
+      "lng": 2.91264,
+      "site_type": "business"
+    }
   },
   {
     "name": "wafel-paradijs",
@@ -437,7 +923,16 @@
     "country": "BE",
     "lat": 50.94117,
     "lng": 5.37951,
-    "relay": "https://relay-be-hasselt.macula.io:4433"
+    "relay": "https://relay-be-hasselt.macula.io:4433",
+    "site": {
+      "site_id": "50f7f3a24236926f",
+      "name": "Wafel Paradijs",
+      "city": "Hasselt",
+      "country": "BE",
+      "lat": 50.94117,
+      "lng": 5.37951,
+      "site_type": "business"
+    }
   },
   {
     "name": "somers",
@@ -445,7 +940,16 @@
     "country": "BE",
     "lat": 51.0098,
     "lng": 4.70269,
-    "relay": "https://relay-be-leuven.macula.io:4433"
+    "relay": "https://relay-be-leuven.macula.io:4433",
+    "site": {
+      "site_id": "0af49dddee490ea6",
+      "name": "Somers",
+      "city": "Leuven",
+      "country": "BE",
+      "lat": 51.0098,
+      "lng": 4.70269,
+      "site_type": "household"
+    }
   },
   {
     "name": "iot-solutions-gent",
@@ -453,7 +957,16 @@
     "country": "BE",
     "lat": 50.36017,
     "lng": 4.25495,
-    "relay": "https://relay-be-charleroi.macula.io:4433"
+    "relay": "https://relay-be-charleroi.macula.io:4433",
+    "site": {
+      "site_id": "737506f5e8503115",
+      "name": "Iot Solutions Gent",
+      "city": "Charleroi",
+      "country": "BE",
+      "lat": 50.36017,
+      "lng": 4.25495,
+      "site_type": "business"
+    }
   },
   {
     "name": "frituur-de-hoek",
@@ -461,7 +974,16 @@
     "country": "BE",
     "lat": 50.54929,
     "lng": 5.75029,
-    "relay": "https://relay-be-verviers.macula.io:4433"
+    "relay": "https://relay-be-verviers.macula.io:4433",
+    "site": {
+      "site_id": "3d3e8c374e7b0528",
+      "name": "Frituur De Hoek",
+      "city": "Verviers",
+      "country": "BE",
+      "lat": 50.54929,
+      "lng": 5.75029,
+      "site_type": "business"
+    }
   },
   {
     "name": "bakkerij-artisan",
@@ -469,7 +991,16 @@
     "country": "BE",
     "lat": 50.97334,
     "lng": 4.28685,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "53054c4ff988b51e",
+      "name": "Bakkerij Artisan",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.97334,
+      "lng": 4.28685,
+      "site_type": "business"
+    }
   },
   {
     "name": "architect-bogaert",
@@ -477,7 +1008,16 @@
     "country": "BE",
     "lat": 51.17676,
     "lng": 3.1028,
-    "relay": "https://relay-be-ostend.macula.io:4433"
+    "relay": "https://relay-be-ostend.macula.io:4433",
+    "site": {
+      "site_id": "78d04976021bca77",
+      "name": "Architect Bogaert",
+      "city": "Ostend",
+      "country": "BE",
+      "lat": 51.17676,
+      "lng": 3.1028,
+      "site_type": "business"
+    }
   },
   {
     "name": "bogaert",
@@ -485,7 +1025,16 @@
     "country": "BE",
     "lat": 51.02477,
     "lng": 3.03466,
-    "relay": "https://relay-be-roeselare.macula.io:4433"
+    "relay": "https://relay-be-roeselare.macula.io:4433",
+    "site": {
+      "site_id": "d372ecb7de824142",
+      "name": "Bogaert",
+      "city": "Roeselare",
+      "country": "BE",
+      "lat": 51.02477,
+      "lng": 3.03466,
+      "site_type": "household"
+    }
   },
   {
     "name": "gilles",
@@ -493,7 +1042,16 @@
     "country": "BE",
     "lat": 50.86639,
     "lng": 4.11335,
-    "relay": "https://relay-be-aalst.macula.io:4433"
+    "relay": "https://relay-be-aalst.macula.io:4433",
+    "site": {
+      "site_id": "fe064ba41ff5ee96",
+      "name": "Gilles",
+      "city": "Aalst",
+      "country": "BE",
+      "lat": 50.86639,
+      "lng": 4.11335,
+      "site_type": "household"
+    }
   },
   {
     "name": "cybercafe-connect",
@@ -501,7 +1059,16 @@
     "country": "BE",
     "lat": 51.15354,
     "lng": 3.19302,
-    "relay": "https://relay-be-bruges.macula.io:4433"
+    "relay": "https://relay-be-bruges.macula.io:4433",
+    "site": {
+      "site_id": "ccddf346c5b855b0",
+      "name": "Cybercafe Connect",
+      "city": "Bruges",
+      "country": "BE",
+      "lat": 51.15354,
+      "lng": 3.19302,
+      "site_type": "business"
+    }
   },
   {
     "name": "bodart",
@@ -509,7 +1076,16 @@
     "country": "BE",
     "lat": 51.0418,
     "lng": 3.97471,
-    "relay": "https://relay-be-aalst.macula.io:4433"
+    "relay": "https://relay-be-aalst.macula.io:4433",
+    "site": {
+      "site_id": "8ae5dafc4e117f42",
+      "name": "Bodart",
+      "city": "Aalst",
+      "country": "BE",
+      "lat": 51.0418,
+      "lng": 3.97471,
+      "site_type": "household"
+    }
   },
   {
     "name": "de-meyer",
@@ -517,7 +1093,16 @@
     "country": "BE",
     "lat": 51.16395,
     "lng": 4.32394,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "2a1684246a6f7645",
+      "name": "De Meyer",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.16395,
+      "lng": 4.32394,
+      "site_type": "household"
+    }
   },
   {
     "name": "pauwels",
@@ -525,7 +1110,16 @@
     "country": "BE",
     "lat": 50.96811,
     "lng": 5.23529,
-    "relay": "https://relay-be-hasselt.macula.io:4433"
+    "relay": "https://relay-be-hasselt.macula.io:4433",
+    "site": {
+      "site_id": "b20dbdf7069e66b4",
+      "name": "Pauwels",
+      "city": "Hasselt",
+      "country": "BE",
+      "lat": 50.96811,
+      "lng": 5.23529,
+      "site_type": "household"
+    }
   },
   {
     "name": "hendrickx",
@@ -533,7 +1127,16 @@
     "country": "BE",
     "lat": 51.12631,
     "lng": 4.47256,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "2b025df8df10f4bc",
+      "name": "Hendrickx",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.12631,
+      "lng": 4.47256,
+      "site_type": "household"
+    }
   },
   {
     "name": "edgecompute-be",
@@ -541,7 +1144,16 @@
     "country": "BE",
     "lat": 50.89891,
     "lng": 4.1674,
-    "relay": "https://relay-be-aalst.macula.io:4433"
+    "relay": "https://relay-be-aalst.macula.io:4433",
+    "site": {
+      "site_id": "99e90de689296648",
+      "name": "Edgecompute Be",
+      "city": "Aalst",
+      "country": "BE",
+      "lat": 50.89891,
+      "lng": 4.1674,
+      "site_type": "business"
+    }
   },
   {
     "name": "jacobs",
@@ -549,7 +1161,16 @@
     "country": "BE",
     "lat": 50.62682,
     "lng": 3.53078,
-    "relay": "https://relay-be-tournai.macula.io:4433"
+    "relay": "https://relay-be-tournai.macula.io:4433",
+    "site": {
+      "site_id": "0019c777f12e626d",
+      "name": "Jacobs",
+      "city": "Tournai",
+      "country": "BE",
+      "lat": 50.62682,
+      "lng": 3.53078,
+      "site_type": "household"
+    }
   },
   {
     "name": "willems",
@@ -557,7 +1178,16 @@
     "country": "BE",
     "lat": 50.46154,
     "lng": 4.01413,
-    "relay": "https://relay-be-la-louviere.macula.io:4433"
+    "relay": "https://relay-be-la-louviere.macula.io:4433",
+    "site": {
+      "site_id": "56a5729586d5cb9e",
+      "name": "Willems",
+      "city": "La Louviere",
+      "country": "BE",
+      "lat": 50.46154,
+      "lng": 4.01413,
+      "site_type": "household"
+    }
   },
   {
     "name": "verhoeven",
@@ -565,7 +1195,16 @@
     "country": "BE",
     "lat": 50.9473,
     "lng": 3.70082,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "c78c49ab1a2b8729",
+      "name": "Verhoeven",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 50.9473,
+      "lng": 3.70082,
+      "site_type": "household"
+    }
   },
   {
     "name": "renson",
@@ -573,7 +1212,16 @@
     "country": "BE",
     "lat": 50.739,
     "lng": 5.69479,
-    "relay": "https://relay-be-liege.macula.io:4433"
+    "relay": "https://relay-be-liege.macula.io:4433",
+    "site": {
+      "site_id": "d038db33e25e3433",
+      "name": "Renson",
+      "city": "Liege",
+      "country": "BE",
+      "lat": 50.739,
+      "lng": 5.69479,
+      "site_type": "household"
+    }
   },
   {
     "name": "lambert",
@@ -581,7 +1229,16 @@
     "country": "BE",
     "lat": 51.02443,
     "lng": 3.62726,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "b4eed54ea7b8e522",
+      "name": "Lambert",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 51.02443,
+      "lng": 3.62726,
+      "site_type": "household"
+    }
   },
   {
     "name": "dumont",
@@ -589,7 +1246,16 @@
     "country": "BE",
     "lat": 51.23686,
     "lng": 4.43956,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "f5f9ea88a45e321e",
+      "name": "Dumont",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.23686,
+      "lng": 4.43956,
+      "site_type": "household"
+    }
   },
   {
     "name": "fromagerie-laurent",
@@ -597,7 +1263,16 @@
     "country": "BE",
     "lat": 50.37673,
     "lng": 4.75222,
-    "relay": "https://relay-be-namur.macula.io:4433"
+    "relay": "https://relay-be-namur.macula.io:4433",
+    "site": {
+      "site_id": "bcfe3a63010f92f9",
+      "name": "Fromagerie Laurent",
+      "city": "Namur",
+      "country": "BE",
+      "lat": 50.37673,
+      "lng": 4.75222,
+      "site_type": "business"
+    }
   },
   {
     "name": "drukkerij-claes",
@@ -605,7 +1280,16 @@
     "country": "BE",
     "lat": 50.37529,
     "lng": 4.95827,
-    "relay": "https://relay-be-namur.macula.io:4433"
+    "relay": "https://relay-be-namur.macula.io:4433",
+    "site": {
+      "site_id": "65ba9d377bc66f8b",
+      "name": "Drukkerij Claes",
+      "city": "Namur",
+      "country": "BE",
+      "lat": 50.37529,
+      "lng": 4.95827,
+      "site_type": "business"
+    }
   },
   {
     "name": "studio-creatief",
@@ -613,7 +1297,16 @@
     "country": "BE",
     "lat": 51.20286,
     "lng": 4.27144,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "b8b241376839b173",
+      "name": "Studio Creatief",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.20286,
+      "lng": 4.27144,
+      "site_type": "business"
+    }
   },
   {
     "name": "desmet",
@@ -621,7 +1314,16 @@
     "country": "BE",
     "lat": 50.88394,
     "lng": 4.87385,
-    "relay": "https://relay-be-leuven.macula.io:4433"
+    "relay": "https://relay-be-leuven.macula.io:4433",
+    "site": {
+      "site_id": "de00f06592cb7da8",
+      "name": "Desmet",
+      "city": "Leuven",
+      "country": "BE",
+      "lat": 50.88394,
+      "lng": 4.87385,
+      "site_type": "household"
+    }
   },
   {
     "name": "thijs",
@@ -629,7 +1331,16 @@
     "country": "BE",
     "lat": 50.94821,
     "lng": 4.22772,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "0963a9f8bc173434",
+      "name": "Thijs",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.94821,
+      "lng": 4.22772,
+      "site_type": "household"
+    }
   },
   {
     "name": "buelens",
@@ -637,7 +1348,16 @@
     "country": "BE",
     "lat": 50.86153,
     "lng": 4.25316,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "1c86d808ddc486ae",
+      "name": "Buelens",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.86153,
+      "lng": 4.25316,
+      "site_type": "household"
+    }
   },
   {
     "name": "bernaerts",
@@ -645,7 +1365,16 @@
     "country": "BE",
     "lat": 50.80958,
     "lng": 4.5712,
-    "relay": "https://relay-be-wavre.macula.io:4433"
+    "relay": "https://relay-be-wavre.macula.io:4433",
+    "site": {
+      "site_id": "db690832ea14f786",
+      "name": "Bernaerts",
+      "city": "Wavre",
+      "country": "BE",
+      "lat": 50.80958,
+      "lng": 4.5712,
+      "site_type": "household"
+    }
   },
   {
     "name": "pirard",
@@ -653,7 +1382,16 @@
     "country": "BE",
     "lat": 50.72919,
     "lng": 4.27934,
-    "relay": "https://relay-be-brussels.macula.io:4433"
+    "relay": "https://relay-be-brussels.macula.io:4433",
+    "site": {
+      "site_id": "61884462f09967b0",
+      "name": "Pirard",
+      "city": "Brussels",
+      "country": "BE",
+      "lat": 50.72919,
+      "lng": 4.27934,
+      "site_type": "household"
+    }
   },
   {
     "name": "claes",
@@ -661,7 +1399,16 @@
     "country": "BE",
     "lat": 51.10292,
     "lng": 4.45468,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "5d1b7b5aaff6dbad",
+      "name": "Claes",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.10292,
+      "lng": 4.45468,
+      "site_type": "household"
+    }
   },
   {
     "name": "de-cock",
@@ -669,7 +1416,16 @@
     "country": "BE",
     "lat": 50.8392,
     "lng": 4.00814,
-    "relay": "https://relay-be-aalst.macula.io:4433"
+    "relay": "https://relay-be-aalst.macula.io:4433",
+    "site": {
+      "site_id": "92d8f03aff01557c",
+      "name": "De Cock",
+      "city": "Aalst",
+      "country": "BE",
+      "lat": 50.8392,
+      "lng": 4.00814,
+      "site_type": "household"
+    }
   },
   {
     "name": "peeters",
@@ -677,7 +1433,16 @@
     "country": "BE",
     "lat": 51.33065,
     "lng": 3.16181,
-    "relay": "https://relay-be-bruges.macula.io:4433"
+    "relay": "https://relay-be-bruges.macula.io:4433",
+    "site": {
+      "site_id": "95df5bf960823857",
+      "name": "Peeters",
+      "city": "Bruges",
+      "country": "BE",
+      "lat": 51.33065,
+      "lng": 3.16181,
+      "site_type": "household"
+    }
   },
   {
     "name": "lejeune",
@@ -685,7 +1450,16 @@
     "country": "BE",
     "lat": 51.27609,
     "lng": 2.73287,
-    "relay": "https://relay-be-ostend.macula.io:4433"
+    "relay": "https://relay-be-ostend.macula.io:4433",
+    "site": {
+      "site_id": "8f5c1b51965ab1bf",
+      "name": "Lejeune",
+      "city": "Ostend",
+      "country": "BE",
+      "lat": 51.27609,
+      "lng": 2.73287,
+      "site_type": "household"
+    }
   },
   {
     "name": "de-graef",
@@ -693,7 +1467,16 @@
     "country": "BE",
     "lat": 50.9283,
     "lng": 4.56185,
-    "relay": "https://relay-be-leuven.macula.io:4433"
+    "relay": "https://relay-be-leuven.macula.io:4433",
+    "site": {
+      "site_id": "a009cce66ab99b6a",
+      "name": "De Graef",
+      "city": "Leuven",
+      "country": "BE",
+      "lat": 50.9283,
+      "lng": 4.56185,
+      "site_type": "household"
+    }
   },
   {
     "name": "biotech-liege",
@@ -701,7 +1484,16 @@
     "country": "BE",
     "lat": 51.21569,
     "lng": 4.25397,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "fe0a894dfeeeefdb",
+      "name": "Biotech Liege",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.21569,
+      "lng": 4.25397,
+      "site_type": "business"
+    }
   },
   {
     "name": "webdesign-pixel",
@@ -709,7 +1501,16 @@
     "country": "BE",
     "lat": 51.05568,
     "lng": 3.52039,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "f06bbb4752a323af",
+      "name": "Webdesign Pixel",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 51.05568,
+      "lng": 3.52039,
+      "site_type": "business"
+    }
   },
   {
     "name": "patisserie-duchene",
@@ -717,7 +1518,16 @@
     "country": "BE",
     "lat": 51.06398,
     "lng": 3.56295,
-    "relay": "https://relay-be-ghent.macula.io:4433"
+    "relay": "https://relay-be-ghent.macula.io:4433",
+    "site": {
+      "site_id": "5d1b188b01d24903",
+      "name": "Patisserie Duchene",
+      "city": "Ghent",
+      "country": "BE",
+      "lat": 51.06398,
+      "lng": 3.56295,
+      "site_type": "business"
+    }
   },
   {
     "name": "baert",
@@ -725,7 +1535,16 @@
     "country": "BE",
     "lat": 50.46025,
     "lng": 4.09705,
-    "relay": "https://relay-be-mons.macula.io:4433"
+    "relay": "https://relay-be-mons.macula.io:4433",
+    "site": {
+      "site_id": "78725db13d9699c8",
+      "name": "Baert",
+      "city": "Mons",
+      "country": "BE",
+      "lat": 50.46025,
+      "lng": 4.09705,
+      "site_type": "household"
+    }
   },
   {
     "name": "vermeersch",
@@ -733,7 +1552,16 @@
     "country": "BE",
     "lat": 51.14072,
     "lng": 4.26679,
-    "relay": "https://relay-be-sint-niklaas.macula.io:4433"
+    "relay": "https://relay-be-sint-niklaas.macula.io:4433",
+    "site": {
+      "site_id": "f102f01366c96a0b",
+      "name": "Vermeersch",
+      "city": "Sint-Niklaas",
+      "country": "BE",
+      "lat": 51.14072,
+      "lng": 4.26679,
+      "site_type": "household"
+    }
   },
   {
     "name": "aerts",
@@ -741,7 +1569,16 @@
     "country": "BE",
     "lat": 51.23932,
     "lng": 3.18657,
-    "relay": "https://relay-be-bruges.macula.io:4433"
+    "relay": "https://relay-be-bruges.macula.io:4433",
+    "site": {
+      "site_id": "eca3c26a49c10838",
+      "name": "Aerts",
+      "city": "Bruges",
+      "country": "BE",
+      "lat": 51.23932,
+      "lng": 3.18657,
+      "site_type": "household"
+    }
   },
   {
     "name": "cornet",
@@ -749,7 +1586,16 @@
     "country": "BE",
     "lat": 51.23262,
     "lng": 4.58099,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "5cb9c5461fee59fc",
+      "name": "Cornet",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.23262,
+      "lng": 4.58099,
+      "site_type": "household"
+    }
   },
   {
     "name": "slagerij-peeters",
@@ -757,7 +1603,16 @@
     "country": "BE",
     "lat": 51.17595,
     "lng": 4.29253,
-    "relay": "https://relay-be-sint-niklaas.macula.io:4433"
+    "relay": "https://relay-be-sint-niklaas.macula.io:4433",
+    "site": {
+      "site_id": "1fff3af7fc95db4f",
+      "name": "Slagerij Peeters",
+      "city": "Sint-Niklaas",
+      "country": "BE",
+      "lat": 51.17595,
+      "lng": 4.29253,
+      "site_type": "business"
+    }
   },
   {
     "name": "van-hoeck",
@@ -765,7 +1620,16 @@
     "country": "BE",
     "lat": 50.54517,
     "lng": 5.54336,
-    "relay": "https://relay-be-liege.macula.io:4433"
+    "relay": "https://relay-be-liege.macula.io:4433",
+    "site": {
+      "site_id": "921699c62ae9f228",
+      "name": "Van Hoeck",
+      "city": "Liege",
+      "country": "BE",
+      "lat": 50.54517,
+      "lng": 5.54336,
+      "site_type": "household"
+    }
   },
   {
     "name": "lammens",
@@ -773,7 +1637,16 @@
     "country": "BE",
     "lat": 51.26136,
     "lng": 4.28571,
-    "relay": "https://relay-be-antwerp.macula.io:4433"
+    "relay": "https://relay-be-antwerp.macula.io:4433",
+    "site": {
+      "site_id": "35b6de3abbedb2ef",
+      "name": "Lammens",
+      "city": "Antwerp",
+      "country": "BE",
+      "lat": 51.26136,
+      "lng": 4.28571,
+      "site_type": "household"
+    }
   },
   {
     "name": "de-smedt",
@@ -781,7 +1654,16 @@
     "country": "BE",
     "lat": 51.22516,
     "lng": 4.8575,
-    "relay": "https://relay-be-turnhout.macula.io:4433"
+    "relay": "https://relay-be-turnhout.macula.io:4433",
+    "site": {
+      "site_id": "1432ab427fd6b7a3",
+      "name": "De Smedt",
+      "city": "Turnhout",
+      "country": "BE",
+      "lat": 51.22516,
+      "lng": 4.8575,
+      "site_type": "household"
+    }
   },
   {
     "name": "immo-trust",
@@ -789,7 +1671,16 @@
     "country": "BE",
     "lat": 50.88203,
     "lng": 5.43465,
-    "relay": "https://relay-be-genk.macula.io:4433"
+    "relay": "https://relay-be-genk.macula.io:4433",
+    "site": {
+      "site_id": "223eb77ce0981046",
+      "name": "Immo Trust",
+      "city": "Genk",
+      "country": "BE",
+      "lat": 50.88203,
+      "lng": 5.43465,
+      "site_type": "business"
+    }
   },
   {
     "name": "librairie-mols",
@@ -797,6 +1688,15 @@
     "country": "BE",
     "lat": 50.60382,
     "lng": 5.70658,
-    "relay": "https://relay-be-liege.macula.io:4433"
+    "relay": "https://relay-be-liege.macula.io:4433",
+    "site": {
+      "site_id": "4abb2c131a62442a",
+      "name": "Librairie Mols",
+      "city": "Liege",
+      "country": "BE",
+      "lat": 50.60382,
+      "lng": 5.70658,
+      "site_type": "business"
+    }
   }
 ]

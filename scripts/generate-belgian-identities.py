@@ -91,10 +91,12 @@ CITIES = [
     ("Seraing", 50.5833, 5.5000, "relay-be-seraing", 1),
 ]
 
-def jitter(lat, lng, radius_km=2.0):
-    """Add random offset within radius_km."""
-    dlat = (random.random() - 0.5) * 2 * radius_km / 111.0
-    dlng = (random.random() - 0.5) * 2 * radius_km / (111.0 * math.cos(math.radians(lat)))
+def jitter(lat, lng, radius_km=15.0):
+    """Add random offset within radius_km using polar coordinates for even distribution."""
+    angle = random.uniform(0, 2 * math.pi)
+    dist = radius_km * math.sqrt(random.random())  # sqrt for uniform area distribution
+    dlat = dist * math.cos(angle) / 111.0
+    dlng = dist * math.sin(angle) / (111.0 * math.cos(math.radians(lat)))
     return round(lat + dlat, 5), round(lng + dlng, 5)
 
 def generate_identities(count, name_pool, start_idx=0):
@@ -122,7 +124,7 @@ def generate_identities(count, name_pool, start_idx=0):
 
         # Pick a city (weighted)
         city, clat, clng, relay = random.choice(weighted_cities)
-        lat, lng = jitter(clat, clng, radius_km=1.5)
+        lat, lng = jitter(clat, clng, radius_km=15.0)
 
         identities.append({
             "name": name,

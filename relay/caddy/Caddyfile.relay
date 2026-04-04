@@ -11,15 +11,15 @@
 	}
 
 	handle /health {
-		reverse_proxy relay:8080
+		reverse_proxy macula-relay:8080
 	}
 
 	handle /status {
-		reverse_proxy relay:8080
+		reverse_proxy macula-relay:8080
 	}
 
 	handle /admin/* {
-		reverse_proxy relay:8080
+		reverse_proxy macula-relay:8080
 	}
 
 	handle {

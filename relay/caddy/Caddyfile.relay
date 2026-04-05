@@ -22,6 +22,10 @@
 		reverse_proxy macula-relay:8080
 	}
 
+	handle /topology* {
+		reverse_proxy macula-relay:8080
+	}
+
 	handle {
 		header Content-Type "application/json"
 		respond `{"service":"macula-relay","protocol":"quic","endpoint":"quic://{$RELAY_FQDN}:4433","status":"operational"}` 200

@@ -1,4 +1,4 @@
-# beam01.lab — 100 Belgian household/business stubs via JSON config
+# beam01.lab — European stubs via JSON config
 
 services:
   hecate-stubs:
@@ -14,7 +14,7 @@ services:
       HEALTH_PORT: "9010"
       STUB_ADMIN_PORT: "9011"
       MACULA_ADMIN_TOKEN: ${MACULA_ADMIN_TOKEN:-}
-      MACULA_RELAYS: https://relay-be-brussels.macula.io:4433
+      MACULA_RELAYS: https://box-hetzner-nuremberg.macula.io:4433,https://box-hetzner-helsinki.macula.io:4433
     volumes:
       - ./stubs-beam01.json:/config/stubs.json:ro
     labels:

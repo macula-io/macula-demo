@@ -1,4502 +1,4002 @@
 [
   {
-    "name": "the-smith-0",
-    "city": "London",
-    "country": "GB",
-    "lat": 51.4124,
-    "lng": -0.1798,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "edinburg-cyber-pro-1",
-    "city": "Edinburgh",
-    "country": "GB",
-    "lat": 55.9433,
-    "lng": -3.1483,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-williams-2",
-    "city": "Manchester",
-    "country": "GB",
-    "lat": 53.5558,
-    "lng": -2.1106,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-brown-3",
-    "city": "Birmingham",
-    "country": "GB",
-    "lat": 52.6462,
-    "lng": -2.0664,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "glasgow-solar-hub-4",
-    "city": "Glasgow",
-    "country": "GB",
-    "lat": 56.1092,
-    "lng": -4.3358,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-wilson-5",
-    "city": "Leeds",
-    "country": "GB",
-    "lat": 53.6308,
-    "lng": -1.5411,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "bristol-bio-hub-6",
-    "city": "Bristol",
-    "country": "GB",
-    "lat": 51.3695,
-    "lng": -2.4879,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-evans-7",
-    "city": "Cardiff",
-    "country": "GB",
-    "lat": 51.4816,
-    "lng": -2.9871,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-thomas-8",
-    "city": "Belfast",
-    "country": "GB",
-    "lat": 54.6823,
-    "lng": -6.0461,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "dublin-smart-pro-9",
-    "city": "Dublin",
-    "country": "IE",
-    "lat": 53.5198,
-    "lng": -6.2843,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-murphy-10",
-    "city": "Cork",
-    "country": "IE",
-    "lat": 51.6535,
-    "lng": -8.4076,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "paris-transport-pro-11",
-    "city": "Paris",
-    "country": "FR",
-    "lat": 48.6966,
-    "lng": 2.5122,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "famille-fontaine-12",
-    "city": "Lyon",
-    "country": "FR",
-    "lat": 45.689,
-    "lng": 4.6877,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "famille-martin-13",
-    "city": "Marseille",
-    "country": "FR",
-    "lat": 43.3065,
-    "lng": 5.3138,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "toulouse-media-hub-14",
-    "city": "Toulouse",
-    "country": "FR",
-    "lat": 43.6997,
-    "lng": 1.4802,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "famille-dubois-15",
-    "city": "Nice",
-    "country": "FR",
-    "lat": 43.8902,
-    "lng": 7.39,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "nantes-radio-hub-16",
-    "city": "Nantes",
-    "country": "FR",
-    "lat": 46.9834,
-    "lng": -1.7336,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "famille-moreau-17",
-    "city": "Strasbourg",
-    "country": "FR",
-    "lat": 48.4234,
-    "lng": 7.6641,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "famille-laurent-18",
-    "city": "Bordeaux",
-    "country": "FR",
-    "lat": 44.7728,
-    "lng": -0.5752,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "lille-consult-pro-19",
-    "city": "Lille",
-    "country": "FR",
-    "lat": 50.6492,
-    "lng": 3.1533,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "de-wouters-20",
-    "city": "Brussels",
-    "country": "BE",
-    "lat": 50.9553,
-    "lng": 4.5397,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "antwerp-tax-pro-21",
-    "city": "Antwerp",
-    "country": "BE",
-    "lat": 51.4094,
-    "lng": 4.2825,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "de-peeters-22",
-    "city": "Ghent",
-    "country": "BE",
-    "lat": 50.8293,
-    "lng": 3.6894,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "de-janssen-23",
-    "city": "Liege",
-    "country": "BE",
-    "lat": 50.4892,
-    "lng": 5.6437,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "charlero-build-hub-24",
-    "city": "Charleroi",
-    "country": "BE",
-    "lat": 50.3558,
-    "lng": 4.6006,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "van-van-dijk-25",
-    "city": "Amsterdam",
-    "country": "NL",
-    "lat": 52.3976,
-    "lng": 4.7521,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "rotterda-food-hub-26",
-    "city": "Rotterdam",
-    "country": "NL",
-    "lat": 52.0394,
-    "lng": 4.4177,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "van-visser-27",
-    "city": "Utrecht",
-    "country": "NL",
-    "lat": 52.2907,
-    "lng": 5.1534,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "van-smit-28",
-    "city": "Eindhoven",
-    "country": "NL",
-    "lat": 51.2266,
-    "lng": 5.5937,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "groninge-market-pro-29",
-    "city": "Groningen",
-    "country": "NL",
-    "lat": 53.0894,
-    "lng": 6.3825,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "van-mulder-30",
-    "city": "Den Haag",
-    "country": "NL",
-    "lat": 52.0255,
-    "lng": 4.2087,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "luxembou-cafe-pro-31",
-    "city": "Luxembourg",
-    "country": "LU",
-    "lat": 49.6517,
-    "lng": 6.13,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-schmidt-32",
-    "city": "Berlin",
-    "country": "DE",
-    "lat": 52.645,
-    "lng": 13.497,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "familie-schneider-33",
-    "city": "Munich",
-    "country": "DE",
-    "lat": 48.3451,
-    "lng": 11.766,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "hamburg-school-hub-34",
-    "city": "Hamburg",
-    "country": "DE",
-    "lat": 53.3461,
-    "lng": 9.8697,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-weber-35",
-    "city": "Frankfurt",
-    "country": "DE",
-    "lat": 49.9909,
-    "lng": 8.6501,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "cologne-hotel-hub-36",
-    "city": "Cologne",
-    "country": "DE",
-    "lat": 50.9025,
-    "lng": 7.0203,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-becker-37",
-    "city": "Stuttgart",
-    "country": "DE",
-    "lat": 48.8258,
-    "lng": 9.3349,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "familie-hoffmann-38",
-    "city": "Dusseldorf",
-    "country": "DE",
-    "lat": 51.3627,
-    "lng": 6.6175,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "leipzig-dentist-pro-39",
-    "city": "Leipzig",
-    "country": "DE",
-    "lat": 51.5597,
-    "lng": 12.3091,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-mueller-40",
-    "city": "Dresden",
-    "country": "DE",
-    "lat": 50.8554,
-    "lng": 13.7653,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "nurember-studio-pro-41",
-    "city": "Nuremberg",
-    "country": "DE",
-    "lat": 49.3421,
-    "lng": 11.1967,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-schmid-42",
-    "city": "Zurich",
-    "country": "CH",
-    "lat": 47.3519,
-    "lng": 8.3537,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-keller-43",
-    "city": "Geneva",
-    "country": "CH",
-    "lat": 46.2644,
-    "lng": 6.0472,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "bern-farm-hub-44",
-    "city": "Bern",
-    "country": "CH",
-    "lat": 47.093,
-    "lng": 7.4434,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-berger-45",
-    "city": "Vienna",
-    "country": "AT",
-    "lat": 48.4382,
-    "lng": 16.4618,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "graz-winery-hub-46",
-    "city": "Graz",
-    "country": "AT",
-    "lat": 46.8857,
-    "lng": 15.6195,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-moser-47",
-    "city": "Salzburg",
-    "country": "AT",
-    "lat": 47.7095,
-    "lng": 12.927,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "casa-gomez-48",
-    "city": "Madrid",
-    "country": "ES",
-    "lat": 40.4018,
-    "lng": -3.7398,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "barcelon-forge-pro-49",
-    "city": "Barcelona",
-    "country": "ES",
-    "lat": 41.4551,
-    "lng": 2.2294,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-martinez-50",
+    "name": "valencia-cafe-0",
     "city": "Valencia",
     "country": "ES",
-    "lat": 39.6249,
-    "lng": -0.2283,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 39.3499,
+    "lng": -0.5263,
+    "relay": "https://relay-es-valencia.macula.io:4433"
   },
   {
-    "name": "seville-digital-pro-51",
+    "name": "the-hansen-1",
     "city": "Seville",
     "country": "ES",
-    "lat": 37.6291,
-    "lng": -6.1445,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 37.3291,
+    "lng": -6.0845,
+    "relay": "https://relay-es-seville.macula.io:4433"
   },
   {
-    "name": "casa-gonzalez-52",
+    "name": "the-korhonen-2",
     "city": "Bilbao",
     "country": "ES",
-    "lat": 43.088,
-    "lng": -3.003,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 43.263,
+    "lng": -2.985,
+    "relay": "https://relay-es-bilbao.macula.io:4433"
   },
   {
-    "name": "casa-rodriguez-53",
+    "name": "malaga-tech-3",
     "city": "Malaga",
     "country": "ES",
-    "lat": 36.6313,
-    "lng": -4.3974,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 36.7813,
+    "lng": -4.4214,
+    "relay": "https://relay-es-malaga.macula.io:4433"
   },
   {
-    "name": "lisbon-cyber-hub-54",
+    "name": "the-ivanov-4",
     "city": "Lisbon",
     "country": "PT",
-    "lat": 38.7173,
-    "lng": -9.0233,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 38.8423,
+    "lng": -9.0893,
+    "relay": "https://relay-pt-lisbon.macula.io:4433"
   },
   {
-    "name": "casa-martins-55",
+    "name": "the-papadopoulos-5",
     "city": "Porto",
     "country": "PT",
-    "lat": 41.2379,
-    "lng": -8.8211,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 41.0379,
+    "lng": -8.5291,
+    "relay": "https://relay-pt-porto.macula.io:4433"
   },
   {
-    "name": "rome-app-hub-56",
+    "name": "rome-bakery-6",
     "city": "Rome",
     "country": "IT",
-    "lat": 42.0678,
-    "lng": 12.3964,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 41.8428,
+    "lng": 12.6464,
+    "relay": "https://relay-it-rome.macula.io:4433"
   },
   {
-    "name": "casa-ricci-57",
-    "city": "Milan",
-    "country": "IT",
-    "lat": 45.2142,
-    "lng": 9.182,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "casa-marino-58",
-    "city": "Naples",
-    "country": "IT",
-    "lat": 40.6868,
-    "lng": 14.3521,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "turin-bio-pro-59",
-    "city": "Turin",
-    "country": "IT",
-    "lat": 44.9903,
-    "lng": 7.8629,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-rossi-60",
-    "city": "Florence",
-    "country": "IT",
-    "lat": 43.7746,
-    "lng": 11.1238,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "venice-green-pro-61",
-    "city": "Venice",
-    "country": "IT",
-    "lat": 45.5308,
-    "lng": 12.2755,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-ferrari-62",
-    "city": "Palermo",
-    "country": "IT",
-    "lat": 38.2907,
-    "lng": 13.4135,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-novak-63",
-    "city": "Zagreb",
-    "country": "HR",
-    "lat": 45.575,
-    "lng": 16.1259,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "ljubljan-transport-hub-64",
-    "city": "Ljubljana",
-    "country": "SI",
-    "lat": 45.9019,
-    "lng": 14.3418,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-jovanovic-65",
-    "city": "Belgrade",
-    "country": "RS",
-    "lat": 44.7166,
-    "lng": 20.3769,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "sarajevo-freight-hub-66",
-    "city": "Sarajevo",
-    "country": "BA",
-    "lat": 43.8713,
-    "lng": 18.4331,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-popovic-67",
-    "city": "Podgorica",
-    "country": "ME",
-    "lat": 42.5304,
-    "lng": 19.3714,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-shehu-68",
-    "city": "Tirana",
-    "country": "AL",
-    "lat": 41.5125,
-    "lng": 19.6227,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "skopje-radio-pro-69",
-    "city": "Skopje",
-    "country": "MK",
-    "lat": 41.7673,
-    "lng": 21.324,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-borg-70",
-    "city": "Valletta",
-    "country": "MT",
-    "lat": 35.7539,
-    "lng": 14.5026,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "nicosia-legal-pro-71",
-    "city": "Nicosia",
-    "country": "CY",
-    "lat": 35.1256,
-    "lng": 33.4623,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-gudmundsson-72",
-    "city": "Reykjavik",
-    "country": "IS",
-    "lat": 64.1716,
-    "lng": -21.7706,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "casa-esposito-73",
-    "city": "Bari",
-    "country": "IT",
-    "lat": 41.2271,
-    "lng": 16.7359,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "athens-tax-hub-74",
-    "city": "Athens",
-    "country": "GR",
-    "lat": 38.1788,
-    "lng": 23.6835,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-heikkinen-75",
-    "city": "Helsinki",
-    "country": "FI",
-    "lat": 59.9499,
-    "lng": 24.9864,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "tampere-arch-hub-76",
-    "city": "Tampere",
-    "country": "FI",
-    "lat": 61.3628,
-    "lng": 23.901,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-virtanen-77",
-    "city": "Turku",
-    "country": "FI",
-    "lat": 60.4018,
-    "lng": 22.0986,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-makinen-78",
-    "city": "Oulu",
-    "country": "FI",
-    "lat": 65.0471,
-    "lng": 25.3891,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "stockhol-food-pro-79",
-    "city": "Stockholm",
-    "country": "SE",
-    "lat": 59.4493,
-    "lng": 18.0846,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-eriksson-80",
-    "city": "Gothenburg",
-    "country": "SE",
-    "lat": 57.9139,
-    "lng": 12.0826,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "malmo-organic-pro-81",
-    "city": "Malmo",
-    "country": "SE",
-    "lat": 55.395,
-    "lng": 12.8038,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-olsson-82",
-    "city": "Uppsala",
-    "country": "SE",
-    "lat": 59.7336,
-    "lng": 17.5309,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-kristiansen-83",
-    "city": "Oslo",
-    "country": "NO",
-    "lat": 59.8739,
-    "lng": 10.7362,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "bergen-cafe-hub-84",
-    "city": "Bergen",
-    "country": "NO",
-    "lat": 60.4363,
-    "lng": 5.3981,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-johansen-85",
-    "city": "Trondheim",
-    "country": "NO",
-    "lat": 63.5605,
-    "lng": 10.5631,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "copenhag-clinic-hub-86",
-    "city": "Copenhagen",
-    "country": "DK",
-    "lat": 55.8911,
-    "lng": 12.4283,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-pedersen-87",
-    "city": "Aarhus",
-    "country": "DK",
-    "lat": 55.9629,
-    "lng": 10.1559,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-koppel-88",
-    "city": "Tallinn",
-    "country": "EE",
-    "lat": 59.322,
-    "lng": 24.7976,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "tartu-hotel-pro-89",
-    "city": "Tartu",
-    "country": "EE",
-    "lat": 58.348,
-    "lng": 26.865,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-krumins-90",
-    "city": "Riga",
-    "country": "LV",
-    "lat": 57.0046,
-    "lng": 23.9332,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "daugavpi-florist-pro-91",
-    "city": "Daugavpils",
-    "country": "LV",
-    "lat": 56.0149,
-    "lng": 26.4556,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-butkus-92",
-    "city": "Vilnius",
-    "country": "LT",
-    "lat": 54.9122,
-    "lng": 25.2917,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-paulauskas-93",
-    "city": "Kaunas",
-    "country": "LT",
-    "lat": 54.7085,
-    "lng": 24.0076,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "klaipeda-studio-hub-94",
-    "city": "Klaipeda",
-    "country": "LT",
-    "lat": 55.5983,
-    "lng": 21.3403,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-wojcik-95",
-    "city": "Warsaw",
-    "country": "PL",
-    "lat": 52.2097,
-    "lng": 20.9002,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "krakow-lab-hub-96",
-    "city": "Krakow",
-    "country": "PL",
-    "lat": 50.1297,
-    "lng": 19.925,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-lewandowski-97",
-    "city": "Gdansk",
-    "country": "PL",
-    "lat": 54.502,
-    "lng": 18.7186,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-zielinski-98",
-    "city": "Wroclaw",
-    "country": "PL",
-    "lat": 51.3429,
-    "lng": 17.2025,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "poznan-winery-pro-99",
-    "city": "Poznan",
-    "country": "PL",
-    "lat": 52.2264,
-    "lng": 16.7812,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-nowak-100",
-    "city": "Lodz",
-    "country": "PL",
-    "lat": 51.6642,
-    "lng": 19.404,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "szczecin-workshop-pro-101",
-    "city": "Szczecin",
-    "country": "PL",
-    "lat": 53.4185,
-    "lng": 14.5928,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-wisniewski-102",
-    "city": "Lublin",
-    "country": "PL",
-    "lat": 51.3215,
-    "lng": 22.7004,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-wojcik-103",
-    "city": "Katowice",
-    "country": "PL",
-    "lat": 50.4249,
-    "lng": 18.8478,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "rzeszow-digital-hub-104",
-    "city": "Rzeszow",
-    "country": "PL",
-    "lat": 50.2862,
-    "lng": 21.9151,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-novotny-105",
-    "city": "Prague",
-    "country": "CZ",
-    "lat": 49.9055,
-    "lng": 14.4458,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "brno-data-hub-106",
-    "city": "Brno",
-    "country": "CZ",
-    "lat": 49.1101,
-    "lng": 16.7068,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-szabo-107",
-    "city": "Bratislava",
-    "country": "SK",
-    "lat": 48.1486,
-    "lng": 17.2997,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-horvath-108",
-    "city": "Kosice",
-    "country": "SK",
-    "lat": 48.8014,
-    "lng": 21.1451,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "budapest-app-pro-109",
-    "city": "Budapest",
-    "country": "HU",
-    "lat": 47.6679,
-    "lng": 19.0162,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-nagy-110",
-    "city": "Debrecen",
-    "country": "HU",
-    "lat": 47.2866,
-    "lng": 21.6953,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "buchares-wind-pro-111",
-    "city": "Bucharest",
-    "country": "RO",
-    "lat": 44.2668,
-    "lng": 26.2625,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-popescu-112",
-    "city": "Cluj-Napoca",
-    "country": "RO",
-    "lat": 46.6962,
-    "lng": 23.4756,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-ionescu-113",
-    "city": "Timisoara",
-    "country": "RO",
-    "lat": 45.7589,
-    "lng": 21.1527,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "iasi-green-hub-114",
-    "city": "Iasi",
-    "country": "RO",
-    "lat": 47.2535,
-    "lng": 27.6374,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-stan-115",
-    "city": "Constanta",
-    "country": "RO",
-    "lat": 44.3398,
-    "lng": 28.7628,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "brasov-logistics-hub-116",
-    "city": "Brasov",
-    "country": "RO",
-    "lat": 45.4077,
-    "lng": 25.4087,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-petrov-117",
-    "city": "Sofia",
-    "country": "BG",
-    "lat": 42.5477,
-    "lng": 23.2339,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-georgiev-118",
-    "city": "Plovdiv",
-    "country": "BG",
-    "lat": 42.0704,
-    "lng": 24.7493,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "thessalo-freight-pro-119",
-    "city": "Thessaloniki",
-    "country": "GR",
-    "lat": 40.6601,
-    "lng": 23.0404,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-rusu-120",
-    "city": "Chisinau",
-    "country": "MD",
-    "lat": 47.1155,
-    "lng": 29.0518,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "kyiv-press-pro-121",
-    "city": "Kyiv",
-    "country": "UA",
-    "lat": 50.6401,
-    "lng": 30.4034,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-moroz-122",
-    "city": "Lviv",
-    "country": "UA",
-    "lat": 49.6147,
-    "lng": 24.0017,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-lysenko-123",
-    "city": "Odessa",
-    "country": "UA",
-    "lat": 46.3425,
-    "lng": 30.7873,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "kharkiv-legal-hub-124",
-    "city": "Kharkiv",
-    "country": "UA",
-    "lat": 49.9385,
-    "lng": 36.3864,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-marchenko-125",
-    "city": "Dnipro",
-    "country": "UA",
-    "lat": 48.4947,
-    "lng": 34.8942,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "zaporizh-audit-hub-126",
-    "city": "Zaporizhzhia",
-    "country": "UA",
-    "lat": 47.9538,
-    "lng": 35.0796,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-petrenko-127",
-    "city": "Vinnytsia",
-    "country": "UA",
-    "lat": 49.4331,
-    "lng": 28.5002,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-kravchenko-128",
-    "city": "Poltava",
-    "country": "UA",
-    "lat": 49.3733,
-    "lng": 34.6754,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "chernihi-arch-pro-129",
-    "city": "Chernihiv",
-    "country": "UA",
-    "lat": 51.3682,
-    "lng": 31.1053,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-polishchuk-130",
-    "city": "Sumy",
-    "country": "UA",
-    "lat": 50.8627,
-    "lng": 34.7061,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "zhytomyr-construct-pro-131",
-    "city": "Zhytomyr",
-    "country": "UA",
-    "lat": 50.2947,
-    "lng": 28.6587,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-yarosh-132",
-    "city": "Rivne",
-    "country": "UA",
-    "lat": 50.7449,
-    "lng": 26.3436,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-gavrylyuk-133",
-    "city": "Ternopil",
-    "country": "UA",
-    "lat": 49.7635,
-    "lng": 25.7788,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "cherkasy-organic-hub-134",
-    "city": "Cherkasy",
-    "country": "UA",
-    "lat": 49.2394,
-    "lng": 31.9358,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-ponomarenko-135",
-    "city": "Mykolaiv",
-    "country": "UA",
-    "lat": 46.855,
-    "lng": 31.9626,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "kherson-bakery-hub-136",
-    "city": "Kherson",
-    "country": "UA",
-    "lat": 46.6004,
-    "lng": 32.6769,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-mazur-137",
-    "city": "Donetsk",
-    "country": "UA",
-    "lat": 48.0659,
-    "lng": 37.9549,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-shevchenko-138",
-    "city": "Luhansk",
-    "country": "UA",
-    "lat": 48.709,
-    "lng": 39.1518,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "mariupol-clinic-pro-139",
-    "city": "Mariupol",
-    "country": "UA",
-    "lat": 47.3158,
-    "lng": 37.4854,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-kovalenko-140",
-    "city": "Kramatorsk",
-    "country": "UA",
-    "lat": 48.5414,
-    "lng": 37.5838,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "ivano-fr-gym-pro-141",
-    "city": "Ivano-Frankivsk",
-    "country": "UA",
-    "lat": 48.8126,
-    "lng": 24.8311,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-melnyk-142",
-    "city": "Uzhhorod",
-    "country": "UA",
-    "lat": 48.5958,
-    "lng": 22.0999,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-boyko-143",
-    "city": "Lutsk",
-    "country": "UA",
-    "lat": 50.8072,
-    "lng": 25.2294,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "khmelnyt-florist-hub-144",
-    "city": "Khmelnytskyi",
-    "country": "UA",
-    "lat": 49.568,
-    "lng": 26.9831,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-lysenko-145",
-    "city": "Chernivtsi",
-    "country": "UA",
-    "lat": 48.5221,
-    "lng": 26.0238,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "kropyvny-vet-hub-146",
-    "city": "Kropyvnytskyi",
-    "country": "UA",
-    "lat": 48.3229,
-    "lng": 32.4423,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-marchenko-147",
-    "city": "Nikopol",
-    "country": "UA",
-    "lat": 47.4715,
-    "lng": 34.2655,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-rudenko-148",
-    "city": "Melitopol",
-    "country": "UA",
-    "lat": 46.8339,
-    "lng": 35.3315,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "severodo-lab-pro-149",
-    "city": "Severodonetsk",
-    "country": "UA",
-    "lat": 49.0184,
-    "lng": 38.5497,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-walker-150",
-    "city": "London",
-    "country": "GB",
-    "lat": 51.6624,
-    "lng": 0.0202,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "edinburg-brewery-pro-151",
-    "city": "Edinburgh",
-    "country": "GB",
-    "lat": 56.1933,
-    "lng": -3.3483,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-robinson-152",
-    "city": "Manchester",
-    "country": "GB",
-    "lat": 53.3058,
-    "lng": -2.3106,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-thompson-153",
-    "city": "Birmingham",
-    "country": "GB",
-    "lat": 52.3962,
-    "lng": -1.8664,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "glasgow-workshop-hub-154",
-    "city": "Glasgow",
-    "country": "GB",
-    "lat": 55.8592,
-    "lng": -4.1358,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-hall-155",
-    "city": "Leeds",
-    "country": "GB",
-    "lat": 53.8808,
-    "lng": -1.7411,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "bristol-tech-hub-156",
-    "city": "Bristol",
-    "country": "GB",
-    "lat": 51.6195,
-    "lng": -2.6879,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-harris-157",
-    "city": "Cardiff",
-    "country": "GB",
-    "lat": 51.2316,
-    "lng": -3.1871,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-clark-158",
-    "city": "Belfast",
-    "country": "GB",
-    "lat": 54.4323,
-    "lng": -5.8461,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "dublin-data-pro-159",
-    "city": "Dublin",
-    "country": "IE",
-    "lat": 53.2698,
-    "lng": -6.0843,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-murphy-160",
-    "city": "Cork",
-    "country": "IE",
-    "lat": 51.9035,
-    "lng": -8.6076,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "paris-web-pro-161",
-    "city": "Paris",
-    "country": "FR",
-    "lat": 48.9466,
-    "lng": 2.3122,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "famille-dupont-162",
-    "city": "Lyon",
-    "country": "FR",
-    "lat": 45.939,
-    "lng": 4.8877,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "famille-lambert-163",
-    "city": "Marseille",
-    "country": "FR",
-    "lat": 43.0565,
-    "lng": 5.5138,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "toulouse-wind-hub-164",
-    "city": "Toulouse",
-    "country": "FR",
-    "lat": 43.4497,
-    "lng": 1.2802,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "famille-martin-165",
-    "city": "Nice",
-    "country": "FR",
-    "lat": 43.6402,
-    "lng": 7.19,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "nantes-eco-hub-166",
-    "city": "Nantes",
-    "country": "FR",
-    "lat": 47.2334,
-    "lng": -1.5336,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "famille-dubois-167",
-    "city": "Strasbourg",
-    "country": "FR",
-    "lat": 48.6734,
-    "lng": 7.8641,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "famille-petit-168",
-    "city": "Bordeaux",
-    "country": "FR",
-    "lat": 45.0228,
-    "lng": -0.7752,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "lille-logistics-pro-169",
-    "city": "Lille",
-    "country": "FR",
-    "lat": 50.3992,
-    "lng": 2.9533,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "de-willems-170",
-    "city": "Brussels",
-    "country": "BE",
-    "lat": 50.7053,
-    "lng": 4.3397,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "antwerp-express-pro-171",
-    "city": "Antwerp",
-    "country": "BE",
-    "lat": 51.1594,
-    "lng": 4.4825,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "de-goossens-172",
-    "city": "Ghent",
-    "country": "BE",
-    "lat": 51.0793,
-    "lng": 3.8894,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "de-wouters-173",
-    "city": "Liege",
-    "country": "BE",
-    "lat": 50.7392,
-    "lng": 5.4437,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "charlero-press-hub-174",
-    "city": "Charleroi",
-    "country": "BE",
-    "lat": 50.6058,
-    "lng": 4.4006,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "van-de-jong-175",
-    "city": "Amsterdam",
-    "country": "NL",
-    "lat": 52.1476,
-    "lng": 4.9521,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "rotterda-print-hub-176",
-    "city": "Rotterdam",
-    "country": "NL",
-    "lat": 51.7894,
-    "lng": 4.6177,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "van-de-vries-177",
-    "city": "Utrecht",
-    "country": "NL",
-    "lat": 52.0407,
-    "lng": 4.9534,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "van-van-dijk-178",
-    "city": "Eindhoven",
-    "country": "NL",
-    "lat": 51.4766,
-    "lng": 5.3937,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "groninge-audit-pro-179",
-    "city": "Groningen",
-    "country": "NL",
-    "lat": 53.3394,
-    "lng": 6.5825,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "van-visser-180",
-    "city": "Den Haag",
-    "country": "NL",
-    "lat": 52.2755,
-    "lng": 4.4087,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "luxembou-design-pro-181",
-    "city": "Luxembourg",
-    "country": "LU",
-    "lat": 49.4017,
-    "lng": 5.93,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-hoffmann-182",
-    "city": "Berlin",
-    "country": "DE",
-    "lat": 52.395,
-    "lng": 13.297,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "familie-koch-183",
-    "city": "Munich",
-    "country": "DE",
-    "lat": 48.0951,
-    "lng": 11.566,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "hamburg-construct-hub-184",
-    "city": "Hamburg",
-    "country": "DE",
-    "lat": 53.5961,
-    "lng": 10.0697,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-schmidt-185",
-    "city": "Frankfurt",
-    "country": "DE",
-    "lat": 50.2409,
-    "lng": 8.8501,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "cologne-fresh-hub-186",
-    "city": "Cologne",
-    "country": "DE",
-    "lat": 51.1525,
-    "lng": 6.8203,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-fischer-187",
-    "city": "Stuttgart",
-    "country": "DE",
-    "lat": 48.5758,
-    "lng": 9.1349,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "familie-weber-188",
-    "city": "Dusseldorf",
-    "country": "DE",
-    "lat": 51.1127,
-    "lng": 6.8175,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "leipzig-bakery-pro-189",
-    "city": "Leipzig",
-    "country": "DE",
-    "lat": 51.3097,
-    "lng": 12.5091,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-becker-190",
-    "city": "Dresden",
-    "country": "DE",
-    "lat": 51.1054,
-    "lng": 13.5653,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "nurember-pharmacy-pro-191",
-    "city": "Nuremberg",
-    "country": "DE",
-    "lat": 49.5921,
-    "lng": 10.9967,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-steiner-192",
-    "city": "Zurich",
-    "country": "CH",
-    "lat": 47.6019,
-    "lng": 8.5537,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-mueller-193",
-    "city": "Geneva",
-    "country": "CH",
-    "lat": 46.0144,
-    "lng": 6.2472,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "bern-gym-hub-194",
-    "city": "Bern",
-    "country": "CH",
-    "lat": 46.843,
-    "lng": 7.6434,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-berger-195",
-    "city": "Vienna",
-    "country": "AT",
-    "lat": 48.1882,
-    "lng": 16.2618,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "graz-garage-hub-196",
-    "city": "Graz",
-    "country": "AT",
-    "lat": 47.1357,
-    "lng": 15.4195,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-moser-197",
-    "city": "Salzburg",
-    "country": "AT",
-    "lat": 47.9595,
-    "lng": 13.127,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "casa-fernandez-198",
-    "city": "Madrid",
-    "country": "ES",
-    "lat": 40.6518,
-    "lng": -3.5398,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "barcelon-vet-pro-199",
-    "city": "Barcelona",
-    "country": "ES",
-    "lat": 41.2051,
-    "lng": 2.0294,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-perez-200",
-    "city": "Valencia",
-    "country": "ES",
-    "lat": 39.3749,
-    "lng": -0.4283,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "seville-salon-pro-201",
-    "city": "Seville",
-    "country": "ES",
-    "lat": 37.3791,
-    "lng": -5.9445,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-garcia-202",
-    "city": "Bilbao",
-    "country": "ES",
-    "lat": 43.338,
-    "lng": -2.803,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "casa-martinez-203",
-    "city": "Malaga",
-    "country": "ES",
-    "lat": 36.8813,
-    "lng": -4.5974,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "lisbon-brewery-hub-204",
-    "city": "Lisbon",
-    "country": "PT",
-    "lat": 38.9673,
-    "lng": -9.2233,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-costa-205",
-    "city": "Porto",
-    "country": "PT",
-    "lat": 40.9879,
-    "lng": -8.6211,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "rome-creamery-hub-206",
-    "city": "Rome",
-    "country": "IT",
-    "lat": 41.8178,
-    "lng": 12.5964,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-ricci-207",
+    "name": "the-berzins-7",
     "city": "Milan",
     "country": "IT",
     "lat": 45.4642,
-    "lng": 9.382,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lng": 9.04,
+    "relay": "https://relay-it-milan.macula.io:4433"
   },
   {
-    "name": "casa-marino-208",
+    "name": "the-kazlauskas-8",
     "city": "Naples",
     "country": "IT",
-    "lat": 40.9368,
-    "lng": 14.1521,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 40.9118,
+    "lng": 14.1681,
+    "relay": "https://relay-it-naples.macula.io:4433"
   },
   {
-    "name": "turin-tech-pro-209",
+    "name": "turin-gym-9",
     "city": "Turin",
     "country": "IT",
-    "lat": 45.2403,
-    "lng": 7.6629,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 45.1903,
+    "lng": 7.6369,
+    "relay": "https://relay-it-turin.macula.io:4433"
   },
   {
-    "name": "casa-rossi-210",
+    "name": "the-nagy-10",
     "city": "Florence",
     "country": "IT",
-    "lat": 43.5246,
-    "lng": 11.3238,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 43.6496,
+    "lng": 11.2558,
+    "relay": "https://relay-it-florence.macula.io:4433"
   },
   {
-    "name": "venice-cloud-pro-211",
+    "name": "the-novak-11",
     "city": "Venice",
     "country": "IT",
-    "lat": 45.2808,
-    "lng": 12.4755,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 45.3808,
+    "lng": 12.3655,
+    "relay": "https://relay-it-venice.macula.io:4433"
   },
   {
-    "name": "casa-ferrari-212",
+    "name": "palermo-school-12",
     "city": "Palermo",
     "country": "IT",
-    "lat": 38.0407,
-    "lng": 13.2135,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 38.1157,
+    "lng": 13.4615,
+    "relay": "https://relay-it-palermo.macula.io:4433"
   },
   {
-    "name": "the-novak-213",
+    "name": "the-smith-13",
     "city": "Zagreb",
     "country": "HR",
-    "lat": 45.825,
-    "lng": 15.9259,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 45.875,
+    "lng": 16.1319,
+    "relay": "https://relay-hr-zagreb.macula.io:4433"
   },
   {
-    "name": "ljubljan-web-hub-214",
+    "name": "the-mueller-14",
     "city": "Ljubljana",
     "country": "SI",
-    "lat": 46.1519,
-    "lng": 14.5418,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 46.1769,
+    "lng": 14.3558,
+    "relay": "https://relay-si-ljubljana.macula.io:4433"
   },
   {
-    "name": "the-jovanovic-215",
+    "name": "belgrade-farm-15",
     "city": "Belgrade",
     "country": "RS",
-    "lat": 44.9666,
-    "lng": 20.5769,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 44.6666,
+    "lng": 20.3489,
+    "relay": "https://relay-rs-belgrade.macula.io:4433"
   },
   {
-    "name": "sarajevo-solar-hub-216",
+    "name": "the-garcia-16",
     "city": "Sarajevo",
     "country": "BA",
-    "lat": 43.6213,
-    "lng": 18.2331,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 43.7963,
+    "lng": 18.3631,
+    "relay": "https://relay-ba-sarajevo.macula.io:4433"
   },
   {
-    "name": "the-popovic-217",
+    "name": "the-rossi-17",
     "city": "Podgorica",
     "country": "ME",
-    "lat": 42.2804,
-    "lng": 19.1714,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 42.4304,
+    "lng": 19.2594,
+    "relay": "https://relay-me-podgorica.macula.io:4433"
   },
   {
-    "name": "the-shehu-218",
+    "name": "tirana-hotel-18",
     "city": "Tirana",
     "country": "AL",
-    "lat": 41.2625,
-    "lng": 19.8227,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 41.3875,
+    "lng": 19.8687,
+    "relay": "https://relay-al-tirana.macula.io:4433"
   },
   {
-    "name": "skopje-eco-pro-219",
+    "name": "the-shevchenko-19",
     "city": "Skopje",
     "country": "MK",
-    "lat": 42.0173,
-    "lng": 21.524,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 42.1173,
+    "lng": 21.528,
+    "relay": "https://relay-mk-skopje.macula.io:4433"
   },
   {
-    "name": "the-borg-220",
+    "name": "the-johansson-20",
     "city": "Valletta",
     "country": "MT",
-    "lat": 36.0039,
-    "lng": 14.7026,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 35.7789,
+    "lng": 14.6646,
+    "relay": "https://relay-mt-valletta.macula.io:4433"
   },
   {
-    "name": "nicosia-smart-pro-221",
-    "city": "Nicosia",
-    "country": "CY",
-    "lat": 35.3756,
-    "lng": 33.2623,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-gudmundsson-222",
-    "city": "Reykjavik",
-    "country": "IS",
-    "lat": 63.9216,
-    "lng": -21.9706,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "casa-esposito-223",
-    "city": "Bari",
-    "country": "IT",
-    "lat": 40.9771,
-    "lng": 16.9359,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "athens-express-hub-224",
-    "city": "Athens",
-    "country": "GR",
-    "lat": 37.9288,
-    "lng": 23.8835,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-hamalainen-225",
-    "city": "Helsinki",
-    "country": "FI",
-    "lat": 60.1999,
-    "lng": 24.7864,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "tampere-media-hub-226",
-    "city": "Tampere",
-    "country": "FI",
-    "lat": 61.6128,
-    "lng": 23.701,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-heikkinen-227",
-    "city": "Turku",
-    "country": "FI",
-    "lat": 60.6518,
-    "lng": 22.2986,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-korhonen-228",
-    "city": "Oulu",
-    "country": "FI",
-    "lat": 64.7971,
-    "lng": 25.5891,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "stockhol-print-pro-229",
-    "city": "Stockholm",
-    "country": "SE",
-    "lat": 59.1993,
-    "lng": 17.8846,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-karlsson-230",
-    "city": "Gothenburg",
-    "country": "SE",
-    "lat": 57.6639,
-    "lng": 11.8826,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "malmo-consult-pro-231",
-    "city": "Malmo",
-    "country": "SE",
-    "lat": 55.645,
-    "lng": 13.0038,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-eriksson-232",
-    "city": "Uppsala",
-    "country": "SE",
-    "lat": 59.9836,
-    "lng": 17.7309,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-pedersen-233",
-    "city": "Oslo",
-    "country": "NO",
-    "lat": 60.1239,
-    "lng": 10.9362,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "bergen-design-hub-234",
-    "city": "Bergen",
-    "country": "NO",
-    "lat": 60.1863,
-    "lng": 5.1981,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-kristiansen-235",
-    "city": "Trondheim",
-    "country": "NO",
-    "lat": 63.3105,
-    "lng": 10.3631,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "copenhag-build-hub-236",
-    "city": "Copenhagen",
-    "country": "DK",
-    "lat": 55.6411,
-    "lng": 12.6283,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-nielsen-237",
-    "city": "Aarhus",
-    "country": "DK",
-    "lat": 56.2129,
-    "lng": 10.3559,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-koppel-238",
-    "city": "Tallinn",
-    "country": "EE",
-    "lat": 59.572,
-    "lng": 24.5976,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "tartu-fresh-pro-239",
-    "city": "Tartu",
-    "country": "EE",
-    "lat": 58.598,
-    "lng": 26.665,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-liepa-240",
-    "city": "Riga",
-    "country": "LV",
-    "lat": 56.7546,
-    "lng": 24.1332,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "daugavpi-market-pro-241",
-    "city": "Daugavpils",
-    "country": "LV",
-    "lat": 55.7649,
-    "lng": 26.6556,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-butkus-242",
-    "city": "Vilnius",
-    "country": "LT",
-    "lat": 54.6622,
-    "lng": 25.0917,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-paulauskas-243",
-    "city": "Kaunas",
-    "country": "LT",
-    "lat": 54.9585,
-    "lng": 23.8076,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "klaipeda-pharmacy-hub-244",
-    "city": "Klaipeda",
-    "country": "LT",
-    "lat": 55.8483,
-    "lng": 21.1403,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-kowalski-245",
-    "city": "Warsaw",
-    "country": "PL",
-    "lat": 52.4597,
-    "lng": 21.1002,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "krakow-school-hub-246",
-    "city": "Krakow",
-    "country": "PL",
-    "lat": 49.8797,
-    "lng": 20.125,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-wojcik-247",
-    "city": "Gdansk",
-    "country": "PL",
-    "lat": 54.252,
-    "lng": 18.5186,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-kaminski-248",
-    "city": "Wroclaw",
-    "country": "PL",
-    "lat": 51.0929,
-    "lng": 17.0025,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "poznan-garage-pro-249",
-    "city": "Poznan",
-    "country": "PL",
-    "lat": 52.4764,
-    "lng": 16.9812,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-zielinski-250",
-    "city": "Lodz",
-    "country": "PL",
-    "lat": 51.9142,
-    "lng": 19.604,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "szczecin-dentist-pro-251",
-    "city": "Szczecin",
-    "country": "PL",
-    "lat": 53.6685,
-    "lng": 14.3928,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-nowak-252",
-    "city": "Lublin",
-    "country": "PL",
-    "lat": 51.0715,
-    "lng": 22.5004,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-kowalski-253",
-    "city": "Katowice",
-    "country": "PL",
-    "lat": 50.1749,
-    "lng": 19.0478,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "rzeszow-salon-hub-254",
-    "city": "Rzeszow",
-    "country": "PL",
-    "lat": 50.0362,
-    "lng": 22.1151,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-horak-255",
-    "city": "Prague",
-    "country": "CZ",
-    "lat": 50.1555,
-    "lng": 14.2458,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "brno-farm-hub-256",
-    "city": "Brno",
-    "country": "CZ",
-    "lat": 49.3601,
-    "lng": 16.5068,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-balan-257",
-    "city": "Bratislava",
-    "country": "SK",
-    "lat": 47.8986,
-    "lng": 17.0997,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-molnar-258",
-    "city": "Kosice",
-    "country": "SK",
-    "lat": 48.5514,
-    "lng": 21.3451,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "budapest-creamery-pro-259",
-    "city": "Budapest",
-    "country": "HU",
-    "lat": 47.4179,
-    "lng": 19.2162,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-nagy-260",
-    "city": "Debrecen",
-    "country": "HU",
-    "lat": 47.5366,
-    "lng": 21.4953,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "buchares-forge-pro-261",
-    "city": "Bucharest",
-    "country": "RO",
-    "lat": 44.5168,
-    "lng": 26.0625,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-stoica-262",
-    "city": "Cluj-Napoca",
-    "country": "RO",
-    "lat": 46.9462,
-    "lng": 23.6756,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-ciobanu-263",
-    "city": "Timisoara",
-    "country": "RO",
-    "lat": 45.5089,
-    "lng": 21.3527,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "iasi-cloud-hub-264",
-    "city": "Iasi",
-    "country": "RO",
-    "lat": 47.0035,
-    "lng": 27.4374,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-popescu-265",
-    "city": "Constanta",
-    "country": "RO",
-    "lat": 44.0898,
-    "lng": 28.5628,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "brasov-cyber-hub-266",
-    "city": "Brasov",
-    "country": "RO",
-    "lat": 45.6577,
-    "lng": 25.6087,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-angelov-267",
-    "city": "Sofia",
-    "country": "BG",
-    "lat": 42.7977,
-    "lng": 23.4339,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-ivanov-268",
-    "city": "Plovdiv",
-    "country": "BG",
-    "lat": 42.3204,
-    "lng": 24.5493,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "thessalo-solar-pro-269",
-    "city": "Thessaloniki",
-    "country": "GR",
-    "lat": 40.4101,
-    "lng": 22.8404,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-rusu-270",
-    "city": "Chisinau",
-    "country": "MD",
-    "lat": 46.8655,
-    "lng": 28.8518,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "kyiv-bio-pro-271",
-    "city": "Kyiv",
-    "country": "UA",
-    "lat": 50.3901,
-    "lng": 30.6034,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-kovalenko-272",
-    "city": "Lviv",
-    "country": "UA",
-    "lat": 49.8647,
-    "lng": 24.2017,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-tkachenko-273",
-    "city": "Odessa",
-    "country": "UA",
-    "lat": 46.5925,
-    "lng": 30.5873,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "kharkiv-smart-hub-274",
-    "city": "Kharkiv",
-    "country": "UA",
-    "lat": 50.1885,
-    "lng": 36.1864,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-boyko-275",
-    "city": "Dnipro",
-    "country": "UA",
-    "lat": 48.2447,
-    "lng": 35.0942,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "zaporizh-transport-hub-276",
-    "city": "Zaporizhzhia",
-    "country": "UA",
-    "lat": 47.7038,
-    "lng": 35.2796,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-lysenko-277",
-    "city": "Vinnytsia",
-    "country": "UA",
-    "lat": 49.1831,
-    "lng": 28.3002,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-savchenko-278",
-    "city": "Poltava",
-    "country": "UA",
-    "lat": 49.6233,
-    "lng": 34.4754,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "chernihi-media-pro-279",
-    "city": "Chernihiv",
-    "country": "UA",
-    "lat": 51.6182,
-    "lng": 31.3053,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-rudenko-280",
-    "city": "Sumy",
-    "country": "UA",
-    "lat": 51.1127,
-    "lng": 34.9061,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "zhytomyr-radio-pro-281",
-    "city": "Zhytomyr",
-    "country": "UA",
-    "lat": 50.0447,
-    "lng": 28.4587,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-kravchenko-282",
-    "city": "Rivne",
-    "country": "UA",
-    "lat": 50.4949,
-    "lng": 26.1436,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-oliynyk-283",
-    "city": "Ternopil",
-    "country": "UA",
-    "lat": 49.5135,
-    "lng": 25.5788,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "cherkasy-consult-hub-284",
-    "city": "Cherkasy",
-    "country": "UA",
-    "lat": 49.4894,
-    "lng": 32.1358,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-shevchuk-285",
-    "city": "Mykolaiv",
-    "country": "UA",
-    "lat": 47.105,
-    "lng": 32.1626,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "kherson-tax-hub-286",
-    "city": "Kherson",
-    "country": "UA",
-    "lat": 46.8504,
-    "lng": 32.4769,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-gavrylyuk-287",
-    "city": "Donetsk",
-    "country": "UA",
-    "lat": 47.8159,
-    "lng": 37.7549,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-tymoshenko-288",
-    "city": "Luhansk",
-    "country": "UA",
-    "lat": 48.459,
-    "lng": 39.3518,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "mariupol-build-pro-289",
-    "city": "Mariupol",
-    "country": "UA",
-    "lat": 47.0658,
-    "lng": 37.6854,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-zinchenko-290",
-    "city": "Kramatorsk",
-    "country": "UA",
-    "lat": 48.7914,
-    "lng": 37.3838,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "ivano-fr-food-pro-291",
-    "city": "Ivano-Frankivsk",
-    "country": "UA",
-    "lat": 49.0626,
-    "lng": 24.6311,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-shevchenko-292",
-    "city": "Uzhhorod",
-    "country": "UA",
-    "lat": 48.8458,
-    "lng": 22.2999,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-bondarenko-293",
-    "city": "Lutsk",
-    "country": "UA",
-    "lat": 50.5572,
-    "lng": 25.4294,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "khmelnyt-market-hub-294",
-    "city": "Khmelnytskyi",
-    "country": "UA",
-    "lat": 49.318,
-    "lng": 27.1831,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-tkachenko-295",
-    "city": "Chernivtsi",
-    "country": "UA",
-    "lat": 48.2721,
-    "lng": 25.8238,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "kropyvny-cafe-hub-296",
-    "city": "Kropyvnytskyi",
-    "country": "UA",
-    "lat": 48.5729,
-    "lng": 32.2423,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-boyko-297",
-    "city": "Nikopol",
-    "country": "UA",
-    "lat": 47.7215,
-    "lng": 34.4655,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-moroz-298",
-    "city": "Melitopol",
-    "country": "UA",
-    "lat": 47.0839,
-    "lng": 35.5315,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "severodo-school-pro-299",
-    "city": "Severodonetsk",
-    "country": "UA",
-    "lat": 48.7684,
-    "lng": 38.3497,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-smith-300",
-    "city": "London",
-    "country": "GB",
-    "lat": 51.4124,
-    "lng": -0.1798,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "edinburg-hotel-pro-301",
-    "city": "Edinburgh",
-    "country": "GB",
-    "lat": 55.9433,
-    "lng": -3.1483,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-williams-302",
-    "city": "Manchester",
-    "country": "GB",
-    "lat": 53.5558,
-    "lng": -2.1106,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-brown-303",
-    "city": "Birmingham",
-    "country": "GB",
-    "lat": 52.6462,
-    "lng": -2.0664,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "glasgow-dentist-hub-304",
-    "city": "Glasgow",
-    "country": "GB",
-    "lat": 56.1092,
-    "lng": -4.3358,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-wilson-305",
-    "city": "Leeds",
-    "country": "GB",
-    "lat": 53.6308,
-    "lng": -1.5411,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "bristol-studio-hub-306",
-    "city": "Bristol",
-    "country": "GB",
-    "lat": 51.3695,
-    "lng": -2.4879,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-evans-307",
-    "city": "Cardiff",
-    "country": "GB",
-    "lat": 51.4816,
-    "lng": -2.9871,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-thomas-308",
-    "city": "Belfast",
-    "country": "GB",
-    "lat": 54.6823,
-    "lng": -6.0461,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "dublin-farm-pro-309",
-    "city": "Dublin",
-    "country": "IE",
-    "lat": 53.5198,
-    "lng": -6.2843,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-murphy-310",
-    "city": "Cork",
-    "country": "IE",
-    "lat": 51.6535,
-    "lng": -8.4076,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "paris-winery-pro-311",
-    "city": "Paris",
-    "country": "FR",
-    "lat": 48.6966,
-    "lng": 2.5122,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "famille-girard-312",
-    "city": "Lyon",
-    "country": "FR",
-    "lat": 45.689,
-    "lng": 4.6877,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "famille-bonnet-313",
-    "city": "Marseille",
-    "country": "FR",
-    "lat": 43.3065,
-    "lng": 5.3138,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "toulouse-forge-hub-314",
-    "city": "Toulouse",
-    "country": "FR",
-    "lat": 43.6997,
-    "lng": 1.4802,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "famille-lambert-315",
-    "city": "Nice",
-    "country": "FR",
-    "lat": 43.8902,
-    "lng": 7.39,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "nantes-digital-hub-316",
-    "city": "Nantes",
-    "country": "FR",
-    "lat": 46.9834,
-    "lng": -1.7336,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "famille-martin-317",
-    "city": "Strasbourg",
-    "country": "FR",
-    "lat": 48.4234,
-    "lng": 7.6641,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "famille-bernard-318",
-    "city": "Bordeaux",
-    "country": "FR",
-    "lat": 44.7728,
-    "lng": -0.5752,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "lille-cyber-pro-319",
-    "city": "Lille",
-    "country": "FR",
-    "lat": 50.6492,
-    "lng": 3.1533,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "de-janssen-320",
-    "city": "Brussels",
-    "country": "BE",
-    "lat": 50.9553,
-    "lng": 4.5397,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "antwerp-app-pro-321",
-    "city": "Antwerp",
-    "country": "BE",
-    "lat": 51.4094,
-    "lng": 4.2825,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "de-jacobs-322",
-    "city": "Ghent",
-    "country": "BE",
-    "lat": 50.8293,
-    "lng": 3.6894,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "de-willems-323",
-    "city": "Liege",
-    "country": "BE",
-    "lat": 50.4892,
-    "lng": 5.6437,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "charlero-bio-hub-324",
-    "city": "Charleroi",
-    "country": "BE",
-    "lat": 50.3558,
-    "lng": 4.6006,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "van-smit-325",
-    "city": "Amsterdam",
-    "country": "NL",
-    "lat": 52.3976,
-    "lng": 4.7521,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "rotterda-green-hub-326",
-    "city": "Rotterdam",
-    "country": "NL",
-    "lat": 52.0394,
-    "lng": 4.4177,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "van-mulder-327",
-    "city": "Utrecht",
-    "country": "NL",
-    "lat": 52.2907,
-    "lng": 5.1534,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "van-de-jong-328",
-    "city": "Eindhoven",
-    "country": "NL",
-    "lat": 51.2266,
-    "lng": 5.5937,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "groninge-transport-pro-329",
-    "city": "Groningen",
-    "country": "NL",
-    "lat": 53.0894,
-    "lng": 6.3825,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "van-de-vries-330",
-    "city": "Den Haag",
-    "country": "NL",
-    "lat": 52.0255,
-    "lng": 4.2087,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "luxembou-freight-pro-331",
-    "city": "Luxembourg",
-    "country": "LU",
-    "lat": 49.6517,
-    "lng": 6.13,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-weber-332",
-    "city": "Berlin",
-    "country": "DE",
-    "lat": 52.645,
-    "lng": 13.497,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "familie-wagner-333",
-    "city": "Munich",
-    "country": "DE",
-    "lat": 48.3451,
-    "lng": 11.766,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "hamburg-radio-hub-334",
-    "city": "Hamburg",
-    "country": "DE",
-    "lat": 53.3461,
-    "lng": 9.8697,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-hoffmann-335",
-    "city": "Frankfurt",
-    "country": "DE",
-    "lat": 49.9909,
-    "lng": 8.6501,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "cologne-legal-hub-336",
-    "city": "Cologne",
-    "country": "DE",
-    "lat": 50.9025,
-    "lng": 7.0203,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-mueller-337",
-    "city": "Stuttgart",
-    "country": "DE",
-    "lat": 48.8258,
-    "lng": 9.3349,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "familie-schmidt-338",
-    "city": "Dusseldorf",
-    "country": "DE",
-    "lat": 51.3627,
-    "lng": 6.6175,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "leipzig-tax-pro-339",
-    "city": "Leipzig",
-    "country": "DE",
-    "lat": 51.5597,
-    "lng": 12.3091,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "familie-fischer-340",
-    "city": "Dresden",
-    "country": "DE",
-    "lat": 50.8554,
-    "lng": 13.7653,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "nurember-arch-pro-341",
-    "city": "Nuremberg",
-    "country": "DE",
-    "lat": 49.3421,
-    "lng": 11.1967,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-huber-342",
-    "city": "Zurich",
-    "country": "CH",
-    "lat": 47.3519,
-    "lng": 8.3537,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-schneider-343",
-    "city": "Geneva",
-    "country": "CH",
-    "lat": 46.2644,
-    "lng": 6.0472,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "bern-food-hub-344",
-    "city": "Bern",
-    "country": "CH",
-    "lat": 47.093,
-    "lng": 7.4434,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-berger-345",
-    "city": "Vienna",
-    "country": "AT",
-    "lat": 48.4382,
-    "lng": 16.4618,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "graz-organic-hub-346",
-    "city": "Graz",
-    "country": "AT",
-    "lat": 46.8857,
-    "lng": 15.6195,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-moser-347",
-    "city": "Salzburg",
-    "country": "AT",
-    "lat": 47.7095,
-    "lng": 12.927,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "casa-lopez-348",
-    "city": "Madrid",
-    "country": "ES",
-    "lat": 40.4018,
-    "lng": -3.7398,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "barcelon-cafe-pro-349",
-    "city": "Barcelona",
-    "country": "ES",
-    "lat": 41.4551,
-    "lng": 2.2294,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-rodriguez-350",
-    "city": "Valencia",
-    "country": "ES",
-    "lat": 39.6249,
-    "lng": -0.2283,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "seville-clinic-pro-351",
-    "city": "Seville",
-    "country": "ES",
-    "lat": 37.6291,
-    "lng": -6.1445,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-sanchez-352",
-    "city": "Bilbao",
-    "country": "ES",
-    "lat": 43.088,
-    "lng": -3.003,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "casa-perez-353",
-    "city": "Malaga",
-    "country": "ES",
-    "lat": 36.6313,
-    "lng": -4.3974,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "lisbon-hotel-hub-354",
-    "city": "Lisbon",
-    "country": "PT",
-    "lat": 38.7173,
-    "lng": -9.0233,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-silva-355",
-    "city": "Porto",
-    "country": "PT",
-    "lat": 41.2379,
-    "lng": -8.8211,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "rome-florist-hub-356",
-    "city": "Rome",
-    "country": "IT",
-    "lat": 42.0678,
-    "lng": 12.3964,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-ricci-357",
-    "city": "Milan",
-    "country": "IT",
-    "lat": 45.2142,
-    "lng": 9.182,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "casa-marino-358",
-    "city": "Naples",
-    "country": "IT",
-    "lat": 40.6868,
-    "lng": 14.3521,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "turin-studio-pro-359",
-    "city": "Turin",
-    "country": "IT",
-    "lat": 44.9903,
-    "lng": 7.8629,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-rossi-360",
-    "city": "Florence",
-    "country": "IT",
-    "lat": 43.7746,
-    "lng": 11.1238,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "venice-lab-pro-361",
-    "city": "Venice",
-    "country": "IT",
-    "lat": 45.5308,
-    "lng": 12.2755,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "casa-ferrari-362",
-    "city": "Palermo",
-    "country": "IT",
-    "lat": 38.2907,
-    "lng": 13.4135,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-novak-363",
-    "city": "Zagreb",
-    "country": "HR",
-    "lat": 45.575,
-    "lng": 16.1259,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "ljubljan-winery-hub-364",
-    "city": "Ljubljana",
-    "country": "SI",
-    "lat": 45.9019,
-    "lng": 14.3418,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-jovanovic-365",
-    "city": "Belgrade",
-    "country": "RS",
-    "lat": 44.7166,
-    "lng": 20.3769,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "sarajevo-workshop-hub-366",
-    "city": "Sarajevo",
-    "country": "BA",
-    "lat": 43.8713,
-    "lng": 18.4331,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-popovic-367",
-    "city": "Podgorica",
-    "country": "ME",
-    "lat": 42.5304,
-    "lng": 19.3714,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "the-shehu-368",
-    "city": "Tirana",
-    "country": "AL",
-    "lat": 41.5125,
-    "lng": 19.6227,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "skopje-digital-pro-369",
-    "city": "Skopje",
-    "country": "MK",
-    "lat": 41.7673,
-    "lng": 21.324,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
-  },
-  {
-    "name": "the-borg-370",
-    "city": "Valletta",
-    "country": "MT",
-    "lat": 35.7539,
-    "lng": 14.5026,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
-  },
-  {
-    "name": "nicosia-data-pro-371",
+    "name": "nicosia-clinic-21",
     "city": "Nicosia",
     "country": "CY",
     "lat": 35.1256,
-    "lng": 33.4623,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lng": 33.2323,
+    "relay": "https://relay-cy-nicosia.macula.io:4433"
   },
   {
-    "name": "the-gudmundsson-372",
+    "name": "the-korhonen-22",
     "city": "Reykjavik",
     "country": "IS",
-    "lat": 64.1716,
-    "lng": -21.7706,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 64.1466,
+    "lng": -22.0426,
+    "relay": "https://relay-is-reykjavik.macula.io:4433"
   },
   {
-    "name": "casa-esposito-373",
+    "name": "the-popescu-23",
     "city": "Bari",
     "country": "IT",
-    "lat": 41.2271,
-    "lng": 16.7359,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 41.1771,
+    "lng": 16.8219,
+    "relay": "https://relay-it-bari.macula.io:4433"
   },
   {
-    "name": "athens-app-hub-374",
+    "name": "athens-solar-24",
     "city": "Athens",
     "country": "GR",
-    "lat": 38.1788,
-    "lng": 23.6835,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 38.1038,
+    "lng": 23.7275,
+    "relay": "https://relay-gr-athens.macula.io:4433"
   },
   {
-    "name": "the-nieminen-375",
+    "name": "the-papadopoulos-25",
     "city": "Helsinki",
     "country": "FI",
-    "lat": 59.9499,
-    "lng": 24.9864,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 60.0499,
+    "lng": 24.9884,
+    "relay": "https://relay-fi-helsinki.macula.io:4433"
   },
   {
-    "name": "tampere-wind-hub-376",
+    "name": "the-horvat-26",
     "city": "Tampere",
     "country": "FI",
-    "lat": 61.3628,
-    "lng": 23.901,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 61.4378,
+    "lng": 23.861,
+    "relay": "https://relay-fi-tampere.macula.io:4433"
   },
   {
-    "name": "the-hamalainen-377",
+    "name": "turku-lab-27",
     "city": "Turku",
     "country": "FI",
-    "lat": 60.4018,
-    "lng": 22.0986,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 60.4518,
+    "lng": 22.4166,
+    "relay": "https://relay-fi-turku.macula.io:4433"
   },
   {
-    "name": "the-laine-378",
+    "name": "the-kazlauskas-28",
     "city": "Oulu",
     "country": "FI",
-    "lat": 65.0471,
-    "lng": 25.3891,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 65.0721,
+    "lng": 25.3151,
+    "relay": "https://relay-fi-oulu.macula.io:4433"
   },
   {
-    "name": "stockhol-green-pro-379",
+    "name": "the-tamm-29",
     "city": "Stockholm",
     "country": "SE",
     "lat": 59.4493,
-    "lng": 18.0846,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lng": 17.9686,
+    "relay": "https://relay-se-stockholm.macula.io:4433"
   },
   {
-    "name": "the-johansson-380",
+    "name": "gothenbu-cafe-30",
     "city": "Gothenburg",
     "country": "SE",
-    "lat": 57.9139,
-    "lng": 12.0826,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 57.5889,
+    "lng": 11.9246,
+    "relay": "https://relay-se-gothenburg.macula.io:4433"
   },
   {
-    "name": "malmo-logistics-pro-381",
+    "name": "the-novak-31",
     "city": "Malmo",
     "country": "SE",
-    "lat": 55.395,
-    "lng": 12.8038,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 55.545,
+    "lng": 13.0038,
+    "relay": "https://relay-se-malmo.macula.io:4433"
   },
   {
-    "name": "the-karlsson-382",
+    "name": "the-silva-32",
     "city": "Uppsala",
     "country": "SE",
-    "lat": 59.7336,
-    "lng": 17.5309,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 59.8586,
+    "lng": 17.6889,
+    "relay": "https://relay-se-uppsala.macula.io:4433"
   },
   {
-    "name": "the-larsen-383",
+    "name": "oslo-tech-33",
     "city": "Oslo",
     "country": "NO",
-    "lat": 59.8739,
-    "lng": 10.7362,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 59.9739,
+    "lng": 10.8522,
+    "relay": "https://relay-no-oslo.macula.io:4433"
   },
   {
-    "name": "bergen-freight-hub-384",
+    "name": "the-mueller-34",
     "city": "Bergen",
     "country": "NO",
-    "lat": 60.4363,
-    "lng": 5.3981,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 60.5113,
+    "lng": 5.4721,
+    "relay": "https://relay-no-bergen.macula.io:4433"
   },
   {
-    "name": "the-pedersen-385",
+    "name": "the-martin-35",
     "city": "Trondheim",
     "country": "NO",
-    "lat": 63.5605,
-    "lng": 10.5631,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 63.3105,
+    "lng": 10.2451,
+    "relay": "https://relay-no-trondheim.macula.io:4433"
   },
   {
-    "name": "copenhag-press-hub-386",
+    "name": "copenhag-bakery-36",
     "city": "Copenhagen",
     "country": "DK",
-    "lat": 55.8911,
-    "lng": 12.4283,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 55.6161,
+    "lng": 12.4683,
+    "relay": "https://relay-dk-copenhagen.macula.io:4433"
   },
   {
-    "name": "the-sorensen-387",
+    "name": "the-rossi-37",
     "city": "Aarhus",
     "country": "DK",
-    "lat": 55.9629,
-    "lng": 10.1559,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 56.1629,
+    "lng": 10.1539,
+    "relay": "https://relay-dk-aarhus.macula.io:4433"
   },
   {
-    "name": "the-koppel-388",
+    "name": "the-nowak-38",
     "city": "Tallinn",
     "country": "EE",
-    "lat": 59.322,
-    "lng": 24.7976,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 59.497,
+    "lng": 24.7536,
+    "relay": "https://relay-ee-tallinn.macula.io:4433"
   },
   {
-    "name": "tartu-legal-pro-389",
+    "name": "tartu-gym-39",
     "city": "Tartu",
     "country": "EE",
-    "lat": 58.348,
-    "lng": 26.865,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 58.498,
+    "lng": 26.779,
+    "relay": "https://relay-ee-tartu.macula.io:4433"
   },
   {
-    "name": "the-kalns-390",
+    "name": "the-johansson-40",
     "city": "Riga",
     "country": "LV",
-    "lat": 57.0046,
-    "lng": 23.9332,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 56.8296,
+    "lng": 24.2052,
+    "relay": "https://relay-lv-riga.macula.io:4433"
   },
   {
-    "name": "daugavpi-audit-pro-391",
+    "name": "the-hansen-41",
     "city": "Daugavpils",
     "country": "LV",
-    "lat": 56.0149,
-    "lng": 26.4556,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 55.8149,
+    "lng": 26.6856,
+    "relay": "https://relay-lv-daugavpils.macula.io:4433"
   },
   {
-    "name": "the-butkus-392",
+    "name": "vilnius-school-42",
     "city": "Vilnius",
     "country": "LT",
-    "lat": 54.9122,
-    "lng": 25.2917,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 54.6872,
+    "lng": 25.1297,
+    "relay": "https://relay-lt-vilnius.macula.io:4433"
   },
   {
-    "name": "the-paulauskas-393",
+    "name": "the-popescu-43",
     "city": "Kaunas",
     "country": "LT",
-    "lat": 54.7085,
-    "lng": 24.0076,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 54.9585,
+    "lng": 23.8036,
+    "relay": "https://relay-lt-kaunas.macula.io:4433"
   },
   {
-    "name": "klaipeda-arch-hub-394",
+    "name": "the-ivanov-44",
     "city": "Klaipeda",
     "country": "LT",
-    "lat": 55.5983,
-    "lng": 21.3403,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 55.8233,
+    "lng": 21.0943,
+    "relay": "https://relay-lt-klaipeda.macula.io:4433"
   },
   {
-    "name": "the-wozniak-395",
+    "name": "warsaw-farm-45",
     "city": "Warsaw",
     "country": "PL",
-    "lat": 52.2097,
-    "lng": 20.9002,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 52.1097,
+    "lng": 21.0122,
+    "relay": "https://relay-pl-warsaw.macula.io:4433"
   },
   {
-    "name": "krakow-construct-hub-396",
+    "name": "the-horvat-46",
     "city": "Krakow",
     "country": "PL",
-    "lat": 50.1297,
-    "lng": 19.925,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 50.0047,
+    "lng": 19.995,
+    "relay": "https://relay-pl-krakow.macula.io:4433"
   },
   {
-    "name": "the-kowalski-397",
+    "name": "the-berzins-47",
     "city": "Gdansk",
     "country": "PL",
-    "lat": 54.502,
-    "lng": 18.7186,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 54.352,
+    "lng": 18.7466,
+    "relay": "https://relay-pl-gdansk.macula.io:4433"
   },
   {
-    "name": "the-wisniewski-398",
+    "name": "wroclaw-hotel-48",
     "city": "Wroclaw",
     "country": "PL",
-    "lat": 51.3429,
-    "lng": 17.2025,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.1679,
+    "lng": 17.1885,
+    "relay": "https://relay-pl-wroclaw.macula.io:4433"
   },
   {
-    "name": "poznan-organic-pro-399",
+    "name": "the-tamm-49",
     "city": "Poznan",
     "country": "PL",
-    "lat": 52.2264,
-    "lng": 16.7812,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 52.5264,
+    "lng": 16.7752,
+    "relay": "https://relay-pl-poznan.macula.io:4433"
   },
   {
-    "name": "the-kaminski-400",
+    "name": "the-nagy-50",
     "city": "Lodz",
     "country": "PL",
-    "lat": 51.6642,
-    "lng": 19.404,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.6392,
+    "lng": 19.356,
+    "relay": "https://relay-pl-lodz.macula.io:4433"
   },
   {
-    "name": "szczecin-bakery-pro-401",
+    "name": "szczecin-clinic-51",
     "city": "Szczecin",
     "country": "PL",
-    "lat": 53.4185,
-    "lng": 14.5928,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 53.3685,
+    "lng": 14.5028,
+    "relay": "https://relay-pl-szczecin.macula.io:4433"
   },
   {
-    "name": "the-zielinski-402",
+    "name": "the-silva-52",
     "city": "Lublin",
     "country": "PL",
-    "lat": 51.3215,
-    "lng": 22.7004,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.2465,
+    "lng": 22.5684,
+    "relay": "https://relay-pl-lublin.macula.io:4433"
   },
   {
-    "name": "the-wozniak-403",
+    "name": "the-smith-53",
     "city": "Katowice",
     "country": "PL",
-    "lat": 50.4249,
-    "lng": 18.8478,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 50.3249,
+    "lng": 19.0738,
+    "relay": "https://relay-pl-katowice.macula.io:4433"
   },
   {
-    "name": "rzeszow-clinic-hub-404",
+    "name": "rzeszow-solar-54",
     "city": "Rzeszow",
     "country": "PL",
-    "lat": 50.2862,
-    "lng": 21.9151,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 50.1612,
+    "lng": 22.0991,
+    "relay": "https://relay-pl-rzeszow.macula.io:4433"
   },
   {
-    "name": "the-prochazka-405",
+    "name": "the-martin-55",
     "city": "Prague",
     "country": "CZ",
-    "lat": 49.9055,
-    "lng": 14.4458,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 49.9555,
+    "lng": 14.5878,
+    "relay": "https://relay-cz-prague.macula.io:4433"
   },
   {
-    "name": "brno-gym-hub-406",
+    "name": "the-garcia-56",
     "city": "Brno",
     "country": "CZ",
-    "lat": 49.1101,
-    "lng": 16.7068,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 49.1351,
+    "lng": 16.4568,
+    "relay": "https://relay-cz-brno.macula.io:4433"
   },
   {
-    "name": "the-toth-407",
+    "name": "bratisla-lab-57",
     "city": "Bratislava",
     "country": "SK",
     "lat": 48.1486,
-    "lng": 17.2997,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lng": 17.0077,
+    "relay": "https://relay-sk-bratislava.macula.io:4433"
   },
   {
-    "name": "the-nagy-408",
+    "name": "the-nowak-58",
     "city": "Kosice",
     "country": "SK",
-    "lat": 48.8014,
-    "lng": 21.1451,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.7764,
+    "lng": 21.2111,
+    "relay": "https://relay-sk-kosice.macula.io:4433"
   },
   {
-    "name": "budapest-florist-pro-409",
+    "name": "the-shevchenko-59",
     "city": "Budapest",
     "country": "HU",
-    "lat": 47.6679,
-    "lng": 19.0162,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 47.6179,
+    "lng": 19.0402,
+    "relay": "https://relay-hu-budapest.macula.io:4433"
   },
   {
-    "name": "the-nagy-410",
+    "name": "debrecen-cafe-60",
     "city": "Debrecen",
     "country": "HU",
-    "lat": 47.2866,
-    "lng": 21.6953,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 47.4116,
+    "lng": 21.6773,
+    "relay": "https://relay-hu-debrecen.macula.io:4433"
   },
   {
-    "name": "buchares-vet-pro-411",
+    "name": "the-hansen-61",
     "city": "Bucharest",
     "country": "RO",
-    "lat": 44.2668,
-    "lng": 26.2625,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 44.3668,
+    "lng": 26.2025,
+    "relay": "https://relay-ro-bucharest.macula.io:4433"
   },
   {
-    "name": "the-stan-412",
+    "name": "the-korhonen-62",
     "city": "Cluj-Napoca",
     "country": "RO",
-    "lat": 46.6962,
-    "lng": 23.4756,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 46.7712,
+    "lng": 23.7736,
+    "relay": "https://relay-ro-cluj.macula.io:4433"
   },
   {
-    "name": "the-dumitru-413",
+    "name": "timisoar-tech-63",
     "city": "Timisoara",
     "country": "RO",
-    "lat": 45.7589,
-    "lng": 21.1527,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 45.8089,
+    "lng": 21.0587,
+    "relay": "https://relay-ro-timisoara.macula.io:4433"
   },
   {
-    "name": "iasi-lab-hub-414",
+    "name": "the-ivanov-64",
     "city": "Iasi",
     "country": "RO",
-    "lat": 47.2535,
-    "lng": 27.6374,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 47.2785,
+    "lng": 27.5014,
+    "relay": "https://relay-ro-iasi.macula.io:4433"
   },
   {
-    "name": "the-stoica-415",
+    "name": "the-papadopoulos-65",
     "city": "Constanta",
     "country": "RO",
-    "lat": 44.3398,
-    "lng": 28.7628,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 44.0398,
+    "lng": 28.5848,
+    "relay": "https://relay-ro-constanta.macula.io:4433"
   },
   {
-    "name": "brasov-brewery-hub-416",
+    "name": "brasov-bakery-66",
     "city": "Brasov",
     "country": "RO",
-    "lat": 45.4077,
-    "lng": 25.4087,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 45.5827,
+    "lng": 25.5887,
+    "relay": "https://relay-ro-brasov.macula.io:4433"
   },
   {
-    "name": "the-todorov-417",
+    "name": "the-berzins-67",
     "city": "Sofia",
     "country": "BG",
-    "lat": 42.5477,
-    "lng": 23.2339,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 42.6977,
+    "lng": 23.3719,
+    "relay": "https://relay-bg-sofia.macula.io:4433"
   },
   {
-    "name": "the-stoyanov-418",
+    "name": "the-kazlauskas-68",
     "city": "Plovdiv",
     "country": "BG",
-    "lat": 42.0704,
-    "lng": 24.7493,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 42.1954,
+    "lng": 24.8453,
+    "relay": "https://relay-bg-plovdiv.macula.io:4433"
   },
   {
-    "name": "thessalo-workshop-pro-419",
+    "name": "thessalo-gym-69",
     "city": "Thessaloniki",
     "country": "GR",
-    "lat": 40.6601,
-    "lng": 23.0404,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 40.7601,
+    "lng": 23.0944,
+    "relay": "https://relay-gr-thessaloniki.macula.io:4433"
   },
   {
-    "name": "the-rusu-420",
+    "name": "the-nagy-70",
     "city": "Chisinau",
     "country": "MD",
-    "lat": 47.1155,
-    "lng": 29.0518,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 46.8905,
+    "lng": 28.7138,
+    "relay": "https://relay-md-chisinau.macula.io:4433"
   },
   {
-    "name": "kyiv-tech-pro-421",
+    "name": "the-novak-71",
     "city": "Kyiv",
     "country": "UA",
-    "lat": 50.6401,
-    "lng": 30.4034,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 50.3901,
+    "lng": 30.4234,
+    "relay": "https://relay-ua-kyiv.macula.io:4433"
   },
   {
-    "name": "the-zinchenko-422",
+    "name": "lviv-school-72",
     "city": "Lviv",
     "country": "UA",
-    "lat": 49.6147,
-    "lng": 24.0017,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 49.8397,
+    "lng": 23.9797,
+    "relay": "https://relay-ua-lviv.macula.io:4433"
   },
   {
-    "name": "the-mazur-423",
+    "name": "the-smith-73",
     "city": "Odessa",
     "country": "UA",
-    "lat": 46.3425,
-    "lng": 30.7873,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 46.5425,
+    "lng": 30.7233,
+    "relay": "https://relay-ua-odessa.macula.io:4433"
   },
   {
-    "name": "kharkiv-data-hub-424",
+    "name": "the-mueller-74",
     "city": "Kharkiv",
     "country": "UA",
-    "lat": 49.9385,
-    "lng": 36.3864,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 50.1135,
+    "lng": 36.2804,
+    "relay": "https://relay-ua-kharkiv.macula.io:4433"
   },
   {
-    "name": "the-bondarenko-425",
+    "name": "dnipro-farm-75",
     "city": "Dnipro",
     "country": "UA",
-    "lat": 48.4947,
-    "lng": 34.8942,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.3447,
+    "lng": 35.1462,
+    "relay": "https://relay-ua-dnipro.macula.io:4433"
   },
   {
-    "name": "zaporizh-web-hub-426",
+    "name": "the-garcia-76",
     "city": "Zaporizhzhia",
     "country": "UA",
-    "lat": 47.9538,
-    "lng": 35.0796,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 47.7788,
+    "lng": 35.2896,
+    "relay": "https://relay-ua-zaporizhzhia.macula.io:4433"
   },
   {
-    "name": "the-tkachenko-427",
+    "name": "the-rossi-77",
     "city": "Vinnytsia",
     "country": "UA",
-    "lat": 49.4331,
-    "lng": 28.5002,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 49.2331,
+    "lng": 28.3182,
+    "relay": "https://relay-ua-vinnytsia.macula.io:4433"
   },
   {
-    "name": "the-melnyk-428",
+    "name": "poltava-hotel-78",
     "city": "Poltava",
     "country": "UA",
-    "lat": 49.3733,
-    "lng": 34.6754,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 49.6483,
+    "lng": 34.4514,
+    "relay": "https://relay-ua-poltava.macula.io:4433"
   },
   {
-    "name": "chernihi-wind-pro-429",
+    "name": "the-shevchenko-79",
     "city": "Chernihiv",
     "country": "UA",
-    "lat": 51.3682,
-    "lng": 31.1053,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 51.6182,
+    "lng": 31.2393,
+    "relay": "https://relay-ua-chernihiv.macula.io:4433"
   },
   {
-    "name": "the-moroz-430",
+    "name": "the-johansson-80",
     "city": "Sumy",
     "country": "UA",
-    "lat": 50.8627,
-    "lng": 34.7061,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 50.7877,
+    "lng": 34.7981,
+    "relay": "https://relay-ua-sumy.macula.io:4433"
   },
   {
-    "name": "zhytomyr-eco-pro-431",
+    "name": "zhytomyr-clinic-81",
     "city": "Zhytomyr",
     "country": "UA",
-    "lat": 50.2947,
-    "lng": 28.6587,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 50.1947,
+    "lng": 28.7087,
+    "relay": "https://relay-ua-zhytomyr.macula.io:4433"
   },
   {
-    "name": "the-savchenko-432",
+    "name": "the-korhonen-82",
     "city": "Rivne",
     "country": "UA",
-    "lat": 50.7449,
-    "lng": 26.3436,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 50.6199,
+    "lng": 26.3516,
+    "relay": "https://relay-ua-rivne.macula.io:4433"
   },
   {
-    "name": "the-marchenko-433",
+    "name": "the-popescu-83",
     "city": "Ternopil",
     "country": "UA",
-    "lat": 49.7635,
-    "lng": 25.7788,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 49.6135,
+    "lng": 25.7448,
+    "relay": "https://relay-ua-ternopil.macula.io:4433"
   },
   {
-    "name": "cherkasy-logistics-hub-434",
+    "name": "cherkasy-solar-84",
     "city": "Cherkasy",
     "country": "UA",
-    "lat": 49.2394,
-    "lng": 31.9358,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 49.5644,
+    "lng": 31.9098,
+    "relay": "https://relay-ua-cherkasy.macula.io:4433"
   },
   {
-    "name": "the-petrenko-435",
+    "name": "the-papadopoulos-85",
     "city": "Mykolaiv",
     "country": "UA",
     "lat": 46.855,
-    "lng": 31.9626,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lng": 31.8946,
+    "relay": "https://relay-ua-mykolaiv.macula.io:4433"
   },
   {
-    "name": "kherson-express-hub-436",
+    "name": "the-horvat-86",
     "city": "Kherson",
     "country": "UA",
-    "lat": 46.6004,
-    "lng": 32.6769,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 46.5754,
+    "lng": 32.5669,
+    "relay": "https://relay-ua-kherson.macula.io:4433"
   },
   {
-    "name": "the-oliynyk-437",
+    "name": "donetsk-lab-87",
     "city": "Donetsk",
     "country": "UA",
-    "lat": 48.0659,
-    "lng": 37.9549,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.0159,
+    "lng": 37.8029,
+    "relay": "https://relay-ua-donetsk.macula.io:4433"
   },
   {
-    "name": "the-polishchuk-438",
+    "name": "the-kazlauskas-88",
     "city": "Luhansk",
     "country": "UA",
-    "lat": 48.709,
-    "lng": 39.1518,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.634,
+    "lng": 39.3578,
+    "relay": "https://relay-ua-luhansk.macula.io:4433"
   },
   {
-    "name": "mariupol-press-pro-439",
+    "name": "the-tamm-89",
     "city": "Mariupol",
     "country": "UA",
-    "lat": 47.3158,
-    "lng": 37.4854,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 47.2158,
+    "lng": 37.6494,
+    "relay": "https://relay-ua-mariupol.macula.io:4433"
   },
   {
-    "name": "the-yarosh-440",
+    "name": "kramator-cafe-90",
     "city": "Kramatorsk",
     "country": "UA",
-    "lat": 48.5414,
-    "lng": 37.5838,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.6164,
+    "lng": 37.7058,
+    "relay": "https://relay-ua-kramatorsk.macula.io:4433"
   },
   {
-    "name": "ivano-fr-print-pro-441",
+    "name": "the-novak-91",
     "city": "Ivano-Frankivsk",
     "country": "UA",
-    "lat": 48.8126,
-    "lng": 24.8311,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 48.8626,
+    "lng": 24.5611,
+    "relay": "https://relay-ua-ivano-frankivsk.macula.io:4433"
   },
   {
-    "name": "the-tymoshenko-442",
+    "name": "the-silva-92",
     "city": "Uzhhorod",
     "country": "UA",
-    "lat": 48.5958,
-    "lng": 22.0999,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.6208,
+    "lng": 22.1879,
+    "relay": "https://relay-ua-uzhhorod.macula.io:4433"
   },
   {
-    "name": "the-ponomarenko-443",
+    "name": "lutsk-tech-93",
     "city": "Lutsk",
     "country": "UA",
     "lat": 50.8072,
-    "lng": 25.2294,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lng": 25.2754,
+    "relay": "https://relay-ua-lutsk.macula.io:4433"
   },
   {
-    "name": "khmelnyt-audit-hub-444",
+    "name": "the-mueller-94",
     "city": "Khmelnytskyi",
     "country": "UA",
-    "lat": 49.568,
-    "lng": 26.9831,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 49.543,
+    "lng": 26.9871,
+    "relay": "https://relay-ua-khmelnytskyi.macula.io:4433"
   },
   {
-    "name": "the-mazur-445",
+    "name": "the-martin-95",
     "city": "Chernivtsi",
     "country": "UA",
-    "lat": 48.5221,
-    "lng": 26.0238,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.1721,
+    "lng": 25.9858,
+    "relay": "https://relay-ua-chernivtsi.macula.io:4433"
   },
   {
-    "name": "kropyvny-design-hub-446",
+    "name": "kropyvny-bakery-96",
     "city": "Kropyvnytskyi",
     "country": "UA",
-    "lat": 48.3229,
-    "lng": 32.4423,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 48.4479,
+    "lng": 32.3623,
+    "relay": "https://relay-ua-kropyvnytskyi.macula.io:4433"
   },
   {
-    "name": "the-bondarenko-447",
+    "name": "the-rossi-97",
     "city": "Nikopol",
     "country": "UA",
-    "lat": 47.4715,
-    "lng": 34.2655,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 47.5715,
+    "lng": 34.5435,
+    "relay": "https://relay-ua-nikopol.macula.io:4433"
   },
   {
-    "name": "the-kovalenko-448",
+    "name": "the-nowak-98",
     "city": "Melitopol",
     "country": "UA",
-    "lat": 46.8339,
-    "lng": 35.3315,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "family"
+    "lat": 46.9089,
+    "lng": 35.2175,
+    "relay": "https://relay-ua-melitopol.macula.io:4433"
   },
   {
-    "name": "severodo-construct-pro-449",
+    "name": "severodo-gym-99",
     "city": "Severodonetsk",
     "country": "UA",
-    "lat": 49.0184,
-    "lng": 38.5497,
-    "relay": "https://box-hetzner-helsinki.macula.io:4433",
-    "site_type": "business"
+    "lat": 49.0684,
+    "lng": 38.3937,
+    "relay": "https://relay-ua-severodonetsk.macula.io:4433"
   },
   {
-    "name": "the-walker-450",
+    "name": "the-johansson-100",
     "city": "London",
     "country": "GB",
-    "lat": 51.6624,
-    "lng": 0.0202,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.3874,
+    "lng": -0.1778,
+    "relay": "https://relay-gb-london.macula.io:4433"
   },
   {
-    "name": "edinburg-fresh-pro-451",
+    "name": "the-hansen-101",
     "city": "Edinburgh",
     "country": "GB",
-    "lat": 56.1933,
-    "lng": -3.3483,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 55.8933,
+    "lng": -3.1883,
+    "relay": "https://relay-gb-edinburgh.macula.io:4433"
   },
   {
-    "name": "the-robinson-452",
+    "name": "manchest-school-102",
     "city": "Manchester",
     "country": "GB",
-    "lat": 53.3058,
-    "lng": -2.3106,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 53.4808,
+    "lng": -2.1926,
+    "relay": "https://relay-gb-manchester.macula.io:4433"
   },
   {
-    "name": "the-thompson-453",
+    "name": "the-popescu-103",
     "city": "Birmingham",
     "country": "GB",
-    "lat": 52.3962,
-    "lng": -1.8664,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 52.5462,
+    "lng": -1.7904,
+    "relay": "https://relay-gb-birmingham.macula.io:4433"
   },
   {
-    "name": "glasgow-bakery-hub-454",
+    "name": "the-ivanov-104",
     "city": "Glasgow",
     "country": "GB",
-    "lat": 55.8592,
-    "lng": -4.1358,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 55.9842,
+    "lng": -4.1018,
+    "relay": "https://relay-gb-glasgow.macula.io:4433"
   },
   {
-    "name": "the-hall-455",
+    "name": "leeds-farm-105",
     "city": "Leeds",
     "country": "GB",
-    "lat": 53.8808,
-    "lng": -1.7411,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 53.6808,
+    "lng": -1.6991,
+    "relay": "https://relay-gb-leeds.macula.io:4433"
   },
   {
-    "name": "bristol-pharmacy-hub-456",
+    "name": "the-horvat-106",
     "city": "Bristol",
     "country": "GB",
-    "lat": 51.6195,
+    "lat": 51.3945,
     "lng": -2.6879,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "relay": "https://relay-gb-bristol.macula.io:4433"
   },
   {
-    "name": "the-harris-457",
+    "name": "the-berzins-107",
     "city": "Cardiff",
     "country": "GB",
-    "lat": 51.2316,
-    "lng": -3.1871,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.4816,
+    "lng": -3.2291,
+    "relay": "https://relay-gb-cardiff.macula.io:4433"
   },
   {
-    "name": "the-clark-458",
+    "name": "belfast-hotel-108",
     "city": "Belfast",
     "country": "GB",
-    "lat": 54.4323,
-    "lng": -5.8461,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 54.6573,
+    "lng": -5.9301,
+    "relay": "https://relay-gb-belfast.macula.io:4433"
   },
   {
-    "name": "dublin-gym-pro-459",
+    "name": "the-tamm-109",
     "city": "Dublin",
     "country": "IE",
-    "lat": 53.2698,
-    "lng": -6.0843,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 53.4698,
+    "lng": -6.2103,
+    "relay": "https://relay-ie-dublin.macula.io:4433"
   },
   {
-    "name": "the-murphy-460",
+    "name": "the-nagy-110",
     "city": "Cork",
     "country": "IE",
-    "lat": 51.9035,
-    "lng": -8.6076,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.7785,
+    "lng": -8.3756,
+    "relay": "https://relay-ie-cork.macula.io:4433"
   },
   {
-    "name": "paris-garage-pro-461",
+    "name": "paris-clinic-111",
     "city": "Paris",
     "country": "FR",
-    "lat": 48.9466,
-    "lng": 2.3122,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 48.7966,
+    "lng": 2.5022,
+    "relay": "https://relay-fr-paris.macula.io:4433"
   },
   {
-    "name": "famille-morel-462",
+    "name": "the-silva-112",
     "city": "Lyon",
     "country": "FR",
-    "lat": 45.939,
-    "lng": 4.8877,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 45.764,
+    "lng": 4.6857,
+    "relay": "https://relay-fr-lyon.macula.io:4433"
   },
   {
-    "name": "famille-fournier-463",
+    "name": "the-smith-113",
     "city": "Marseille",
     "country": "FR",
-    "lat": 43.0565,
-    "lng": 5.5138,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 43.3565,
+    "lng": 5.2698,
+    "relay": "https://relay-fr-marseille.macula.io:4433"
   },
   {
-    "name": "toulouse-vet-hub-464",
+    "name": "toulouse-solar-114",
     "city": "Toulouse",
     "country": "FR",
-    "lat": 43.4497,
-    "lng": 1.2802,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 43.7247,
+    "lng": 1.3942,
+    "relay": "https://relay-fr-toulouse.macula.io:4433"
   },
   {
-    "name": "famille-bonnet-465",
+    "name": "the-martin-115",
     "city": "Nice",
     "country": "FR",
-    "lat": 43.6402,
-    "lng": 7.19,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 43.5902,
+    "lng": 7.262,
+    "relay": "https://relay-fr-nice.macula.io:4433"
   },
   {
-    "name": "nantes-salon-hub-466",
+    "name": "the-garcia-116",
     "city": "Nantes",
     "country": "FR",
-    "lat": 47.2334,
-    "lng": -1.5336,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 47.1584,
+    "lng": -1.5036,
+    "relay": "https://relay-fr-nantes.macula.io:4433"
   },
   {
-    "name": "famille-lambert-467",
+    "name": "strasbou-lab-117",
     "city": "Strasbourg",
     "country": "FR",
-    "lat": 48.6734,
-    "lng": 7.8641,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.5734,
+    "lng": 7.8521,
+    "relay": "https://relay-fr-strasbourg.macula.io:4433"
   },
   {
-    "name": "famille-fontaine-468",
+    "name": "the-nowak-118",
     "city": "Bordeaux",
     "country": "FR",
-    "lat": 45.0228,
-    "lng": -0.7752,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 44.8978,
+    "lng": -0.4292,
+    "relay": "https://relay-fr-bordeaux.macula.io:4433"
   },
   {
-    "name": "lille-brewery-pro-469",
+    "name": "the-shevchenko-119",
     "city": "Lille",
     "country": "FR",
-    "lat": 50.3992,
-    "lng": 2.9533,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 50.7492,
+    "lng": 2.9073,
+    "relay": "https://relay-fr-lille.macula.io:4433"
   },
   {
-    "name": "de-wouters-470",
+    "name": "brussels-cafe-120",
     "city": "Brussels",
     "country": "BE",
-    "lat": 50.7053,
-    "lng": 4.3397,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 50.7303,
+    "lng": 4.2517,
+    "relay": "https://relay-be-brussels.macula.io:4433"
   },
   {
-    "name": "antwerp-creamery-pro-471",
+    "name": "the-hansen-121",
     "city": "Antwerp",
     "country": "BE",
     "lat": 51.1594,
-    "lng": 4.4825,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lng": 4.3525,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
   },
   {
-    "name": "de-peeters-472",
+    "name": "the-korhonen-122",
     "city": "Ghent",
     "country": "BE",
-    "lat": 51.0793,
-    "lng": 3.8894,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.0543,
+    "lng": 3.7174,
+    "relay": "https://relay-be-ghent.macula.io:4433"
   },
   {
-    "name": "de-janssen-473",
+    "name": "liege-tech-123",
     "city": "Liege",
     "country": "BE",
-    "lat": 50.7392,
-    "lng": 5.4437,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 50.6892,
+    "lng": 5.6297,
+    "relay": "https://relay-be-liege.macula.io:4433"
   },
   {
-    "name": "charlero-tech-hub-474",
+    "name": "the-ivanov-124",
     "city": "Charleroi",
     "country": "BE",
-    "lat": 50.6058,
-    "lng": 4.4006,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 50.5308,
+    "lng": 4.5446,
+    "relay": "https://relay-be-charleroi.macula.io:4433"
   },
   {
-    "name": "van-van-dijk-475",
+    "name": "the-papadopoulos-125",
     "city": "Amsterdam",
     "country": "NL",
-    "lat": 52.1476,
-    "lng": 4.9521,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 52.2476,
+    "lng": 5.0541,
+    "relay": "https://relay-nl-amsterdam.macula.io:4433"
   },
   {
-    "name": "rotterda-cloud-hub-476",
+    "name": "rotterda-bakery-126",
     "city": "Rotterdam",
     "country": "NL",
-    "lat": 51.7894,
-    "lng": 4.6177,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 51.8644,
+    "lng": 4.3277,
+    "relay": "https://relay-nl-rotterdam.macula.io:4433"
   },
   {
-    "name": "van-visser-477",
+    "name": "the-berzins-127",
     "city": "Utrecht",
     "country": "NL",
-    "lat": 52.0407,
-    "lng": 4.9534,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 52.0907,
+    "lng": 5.0214,
+    "relay": "https://relay-nl-utrecht.macula.io:4433"
   },
   {
-    "name": "van-smit-478",
+    "name": "the-kazlauskas-128",
     "city": "Eindhoven",
     "country": "NL",
-    "lat": 51.4766,
-    "lng": 5.3937,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.5016,
+    "lng": 5.4197,
+    "relay": "https://relay-nl-eindhoven.macula.io:4433"
   },
   {
-    "name": "groninge-web-pro-479",
+    "name": "groninge-gym-129",
     "city": "Groningen",
     "country": "NL",
     "lat": 53.3394,
-    "lng": 6.5825,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lng": 6.5665,
+    "relay": "https://relay-nl-groningen.macula.io:4433"
   },
   {
-    "name": "van-mulder-480",
+    "name": "the-nagy-130",
     "city": "Den Haag",
     "country": "NL",
-    "lat": 52.2755,
-    "lng": 4.4087,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.9505,
+    "lng": 4.3507,
+    "relay": "https://relay-nl-den-haag.macula.io:4433"
   },
   {
-    "name": "luxembou-solar-pro-481",
+    "name": "the-novak-131",
     "city": "Luxembourg",
     "country": "LU",
-    "lat": 49.4017,
-    "lng": 5.93,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 49.5517,
+    "lng": 6.23,
+    "relay": "https://relay-lu-luxembourg.macula.io:4433"
   },
   {
-    "name": "familie-schmidt-482",
+    "name": "berlin-school-132",
     "city": "Berlin",
     "country": "DE",
-    "lat": 52.395,
-    "lng": 13.297,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 52.52,
+    "lng": 13.555,
+    "relay": "https://relay-de-berlin.macula.io:4433"
   },
   {
-    "name": "familie-schneider-483",
+    "name": "the-smith-133",
     "city": "Munich",
     "country": "DE",
-    "lat": 48.0951,
-    "lng": 11.566,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.1951,
+    "lng": 11.432,
+    "relay": "https://relay-de-munich.macula.io:4433"
   },
   {
-    "name": "hamburg-eco-hub-484",
+    "name": "the-mueller-134",
     "city": "Hamburg",
     "country": "DE",
-    "lat": 53.5961,
-    "lng": 10.0697,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 53.6711,
+    "lng": 9.8937,
+    "relay": "https://relay-de-hamburg.macula.io:4433"
   },
   {
-    "name": "familie-weber-485",
+    "name": "frankfur-farm-135",
     "city": "Frankfurt",
     "country": "DE",
-    "lat": 50.2409,
-    "lng": 8.8501,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 49.9909,
+    "lng": 8.6321,
+    "relay": "https://relay-de-frankfurt.macula.io:4433"
   },
   {
-    "name": "cologne-smart-hub-486",
+    "name": "the-garcia-136",
     "city": "Cologne",
     "country": "DE",
-    "lat": 51.1525,
-    "lng": 6.8203,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 50.8775,
+    "lng": 6.9603,
+    "relay": "https://relay-de-cologne.macula.io:4433"
   },
   {
-    "name": "familie-becker-487",
+    "name": "the-rossi-137",
     "city": "Stuttgart",
     "country": "DE",
-    "lat": 48.5758,
-    "lng": 9.1349,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.7758,
+    "lng": 9.2329,
+    "relay": "https://relay-de-stuttgart.macula.io:4433"
   },
   {
-    "name": "familie-hoffmann-488",
+    "name": "dusseldo-hotel-138",
     "city": "Dusseldorf",
     "country": "DE",
-    "lat": 51.1127,
-    "lng": 6.8175,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 51.2877,
+    "lng": 6.8735,
+    "relay": "https://relay-de-dusseldorf.macula.io:4433"
   },
   {
-    "name": "leipzig-express-pro-489",
+    "name": "the-shevchenko-139",
     "city": "Leipzig",
     "country": "DE",
-    "lat": 51.3097,
-    "lng": 12.5091,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 51.4597,
+    "lng": 12.5231,
+    "relay": "https://relay-de-leipzig.macula.io:4433"
   },
   {
-    "name": "familie-mueller-490",
+    "name": "the-johansson-140",
     "city": "Dresden",
     "country": "DE",
-    "lat": 51.1054,
-    "lng": 13.5653,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 50.9304,
+    "lng": 13.5873,
+    "relay": "https://relay-de-dresden.macula.io:4433"
   },
   {
-    "name": "nurember-media-pro-491",
+    "name": "nurember-clinic-141",
     "city": "Nuremberg",
     "country": "DE",
-    "lat": 49.5921,
-    "lng": 10.9967,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 49.3921,
+    "lng": 10.9767,
+    "relay": "https://relay-de-nuremberg.macula.io:4433"
   },
   {
-    "name": "the-schmid-492",
+    "name": "the-korhonen-142",
     "city": "Zurich",
     "country": "CH",
-    "lat": 47.6019,
-    "lng": 8.5537,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 47.3769,
+    "lng": 8.4917,
+    "relay": "https://relay-ch-zurich.macula.io:4433"
   },
   {
-    "name": "the-keller-493",
+    "name": "the-popescu-143",
     "city": "Geneva",
     "country": "CH",
-    "lat": 46.0144,
-    "lng": 6.2472,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 46.2644,
+    "lng": 6.1432,
+    "relay": "https://relay-ch-geneva.macula.io:4433"
   },
   {
-    "name": "bern-print-hub-494",
+    "name": "bern-solar-144",
     "city": "Bern",
     "country": "CH",
-    "lat": 46.843,
-    "lng": 7.6434,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 47.068,
+    "lng": 7.4974,
+    "relay": "https://relay-ch-bern.macula.io:4433"
   },
   {
-    "name": "the-berger-495",
+    "name": "the-papadopoulos-145",
     "city": "Vienna",
     "country": "AT",
-    "lat": 48.1882,
-    "lng": 16.2618,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 48.0882,
+    "lng": 16.4738,
+    "relay": "https://relay-at-vienna.macula.io:4433"
   },
   {
-    "name": "graz-consult-hub-496",
+    "name": "the-horvat-146",
     "city": "Graz",
     "country": "AT",
-    "lat": 47.1357,
-    "lng": 15.4195,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 47.0107,
+    "lng": 15.5895,
+    "relay": "https://relay-at-graz.macula.io:4433"
   },
   {
-    "name": "the-moser-497",
+    "name": "salzburg-lab-147",
     "city": "Salzburg",
     "country": "AT",
-    "lat": 47.9595,
-    "lng": 13.127,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 47.8095,
+    "lng": 12.905,
+    "relay": "https://relay-at-salzburg.macula.io:4433"
   },
   {
-    "name": "casa-gomez-498",
+    "name": "the-kazlauskas-148",
     "city": "Madrid",
     "country": "ES",
-    "lat": 40.6518,
-    "lng": -3.5398,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "family"
+    "lat": 40.4768,
+    "lng": -3.8038,
+    "relay": "https://relay-es-madrid.macula.io:4433"
   },
   {
-    "name": "barcelon-design-pro-499",
+    "name": "the-tamm-149",
     "city": "Barcelona",
     "country": "ES",
-    "lat": 41.2051,
-    "lng": 2.0294,
-    "relay": "https://box-hetzner-nuremberg.macula.io:4433",
-    "site_type": "business"
+    "lat": 41.5051,
+    "lng": 2.1234,
+    "relay": "https://relay-es-barcelona.macula.io:4433"
+  },
+  {
+    "name": "valencia-cafe-150",
+    "city": "Valencia",
+    "country": "ES",
+    "lat": 39.3499,
+    "lng": -0.3763,
+    "relay": "https://relay-es-valencia.macula.io:4433"
+  },
+  {
+    "name": "the-novak-151",
+    "city": "Seville",
+    "country": "ES",
+    "lat": 37.3291,
+    "lng": -5.9345,
+    "relay": "https://relay-es-seville.macula.io:4433"
+  },
+  {
+    "name": "the-silva-152",
+    "city": "Bilbao",
+    "country": "ES",
+    "lat": 43.263,
+    "lng": -2.835,
+    "relay": "https://relay-es-bilbao.macula.io:4433"
+  },
+  {
+    "name": "malaga-tech-153",
+    "city": "Malaga",
+    "country": "ES",
+    "lat": 36.7813,
+    "lng": -4.2714,
+    "relay": "https://relay-es-malaga.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-154",
+    "city": "Lisbon",
+    "country": "PT",
+    "lat": 38.8423,
+    "lng": -9.2893,
+    "relay": "https://relay-pt-lisbon.macula.io:4433"
+  },
+  {
+    "name": "the-martin-155",
+    "city": "Porto",
+    "country": "PT",
+    "lat": 41.0379,
+    "lng": -8.7291,
+    "relay": "https://relay-pt-porto.macula.io:4433"
+  },
+  {
+    "name": "rome-bakery-156",
+    "city": "Rome",
+    "country": "IT",
+    "lat": 41.8428,
+    "lng": 12.4464,
+    "relay": "https://relay-it-rome.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-157",
+    "city": "Milan",
+    "country": "IT",
+    "lat": 45.4642,
+    "lng": 9.19,
+    "relay": "https://relay-it-milan.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-158",
+    "city": "Naples",
+    "country": "IT",
+    "lat": 40.9118,
+    "lng": 14.3181,
+    "relay": "https://relay-it-naples.macula.io:4433"
+  },
+  {
+    "name": "turin-gym-159",
+    "city": "Turin",
+    "country": "IT",
+    "lat": 45.1903,
+    "lng": 7.7869,
+    "relay": "https://relay-it-turin.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-160",
+    "city": "Florence",
+    "country": "IT",
+    "lat": 43.6496,
+    "lng": 11.4058,
+    "relay": "https://relay-it-florence.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-161",
+    "city": "Venice",
+    "country": "IT",
+    "lat": 45.3808,
+    "lng": 12.1655,
+    "relay": "https://relay-it-venice.macula.io:4433"
+  },
+  {
+    "name": "palermo-school-162",
+    "city": "Palermo",
+    "country": "IT",
+    "lat": 38.1157,
+    "lng": 13.2615,
+    "relay": "https://relay-it-palermo.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-163",
+    "city": "Zagreb",
+    "country": "HR",
+    "lat": 45.875,
+    "lng": 15.9319,
+    "relay": "https://relay-hr-zagreb.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-164",
+    "city": "Ljubljana",
+    "country": "SI",
+    "lat": 46.1769,
+    "lng": 14.5058,
+    "relay": "https://relay-si-ljubljana.macula.io:4433"
+  },
+  {
+    "name": "belgrade-farm-165",
+    "city": "Belgrade",
+    "country": "RS",
+    "lat": 44.6666,
+    "lng": 20.4989,
+    "relay": "https://relay-rs-belgrade.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-166",
+    "city": "Sarajevo",
+    "country": "BA",
+    "lat": 43.7963,
+    "lng": 18.5131,
+    "relay": "https://relay-ba-sarajevo.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-167",
+    "city": "Podgorica",
+    "country": "ME",
+    "lat": 42.4304,
+    "lng": 19.4094,
+    "relay": "https://relay-me-podgorica.macula.io:4433"
+  },
+  {
+    "name": "tirana-hotel-168",
+    "city": "Tirana",
+    "country": "AL",
+    "lat": 41.3875,
+    "lng": 19.6687,
+    "relay": "https://relay-al-tirana.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-169",
+    "city": "Skopje",
+    "country": "MK",
+    "lat": 42.1173,
+    "lng": 21.328,
+    "relay": "https://relay-mk-skopje.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-170",
+    "city": "Valletta",
+    "country": "MT",
+    "lat": 35.7789,
+    "lng": 14.4646,
+    "relay": "https://relay-mt-valletta.macula.io:4433"
+  },
+  {
+    "name": "nicosia-clinic-171",
+    "city": "Nicosia",
+    "country": "CY",
+    "lat": 35.1256,
+    "lng": 33.3823,
+    "relay": "https://relay-cy-nicosia.macula.io:4433"
+  },
+  {
+    "name": "the-silva-172",
+    "city": "Reykjavik",
+    "country": "IS",
+    "lat": 64.1466,
+    "lng": -21.8926,
+    "relay": "https://relay-is-reykjavik.macula.io:4433"
+  },
+  {
+    "name": "the-smith-173",
+    "city": "Bari",
+    "country": "IT",
+    "lat": 41.1771,
+    "lng": 16.9719,
+    "relay": "https://relay-it-bari.macula.io:4433"
+  },
+  {
+    "name": "athens-solar-174",
+    "city": "Athens",
+    "country": "GR",
+    "lat": 38.1038,
+    "lng": 23.8775,
+    "relay": "https://relay-gr-athens.macula.io:4433"
+  },
+  {
+    "name": "the-martin-175",
+    "city": "Helsinki",
+    "country": "FI",
+    "lat": 60.0499,
+    "lng": 24.7884,
+    "relay": "https://relay-fi-helsinki.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-176",
+    "city": "Tampere",
+    "country": "FI",
+    "lat": 61.4378,
+    "lng": 23.661,
+    "relay": "https://relay-fi-tampere.macula.io:4433"
+  },
+  {
+    "name": "turku-lab-177",
+    "city": "Turku",
+    "country": "FI",
+    "lat": 60.4518,
+    "lng": 22.2166,
+    "relay": "https://relay-fi-turku.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-178",
+    "city": "Oulu",
+    "country": "FI",
+    "lat": 65.0721,
+    "lng": 25.4651,
+    "relay": "https://relay-fi-oulu.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-179",
+    "city": "Stockholm",
+    "country": "SE",
+    "lat": 59.4493,
+    "lng": 18.1186,
+    "relay": "https://relay-se-stockholm.macula.io:4433"
+  },
+  {
+    "name": "gothenbu-cafe-180",
+    "city": "Gothenburg",
+    "country": "SE",
+    "lat": 57.5889,
+    "lng": 12.0746,
+    "relay": "https://relay-se-gothenburg.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-181",
+    "city": "Malmo",
+    "country": "SE",
+    "lat": 55.545,
+    "lng": 13.1538,
+    "relay": "https://relay-se-malmo.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-182",
+    "city": "Uppsala",
+    "country": "SE",
+    "lat": 59.8586,
+    "lng": 17.4889,
+    "relay": "https://relay-se-uppsala.macula.io:4433"
+  },
+  {
+    "name": "oslo-tech-183",
+    "city": "Oslo",
+    "country": "NO",
+    "lat": 59.9739,
+    "lng": 10.6522,
+    "relay": "https://relay-no-oslo.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-184",
+    "city": "Bergen",
+    "country": "NO",
+    "lat": 60.5113,
+    "lng": 5.2721,
+    "relay": "https://relay-no-bergen.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-185",
+    "city": "Trondheim",
+    "country": "NO",
+    "lat": 63.3105,
+    "lng": 10.3951,
+    "relay": "https://relay-no-trondheim.macula.io:4433"
+  },
+  {
+    "name": "copenhag-bakery-186",
+    "city": "Copenhagen",
+    "country": "DK",
+    "lat": 55.6161,
+    "lng": 12.6183,
+    "relay": "https://relay-dk-copenhagen.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-187",
+    "city": "Aarhus",
+    "country": "DK",
+    "lat": 56.1629,
+    "lng": 10.3039,
+    "relay": "https://relay-dk-aarhus.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-188",
+    "city": "Tallinn",
+    "country": "EE",
+    "lat": 59.497,
+    "lng": 24.9036,
+    "relay": "https://relay-ee-tallinn.macula.io:4433"
+  },
+  {
+    "name": "tartu-gym-189",
+    "city": "Tartu",
+    "country": "EE",
+    "lat": 58.498,
+    "lng": 26.579,
+    "relay": "https://relay-ee-tartu.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-190",
+    "city": "Riga",
+    "country": "LV",
+    "lat": 56.8296,
+    "lng": 24.0052,
+    "relay": "https://relay-lv-riga.macula.io:4433"
+  },
+  {
+    "name": "the-novak-191",
+    "city": "Daugavpils",
+    "country": "LV",
+    "lat": 55.8149,
+    "lng": 26.4856,
+    "relay": "https://relay-lv-daugavpils.macula.io:4433"
+  },
+  {
+    "name": "vilnius-school-192",
+    "city": "Vilnius",
+    "country": "LT",
+    "lat": 54.6872,
+    "lng": 25.2797,
+    "relay": "https://relay-lt-vilnius.macula.io:4433"
+  },
+  {
+    "name": "the-smith-193",
+    "city": "Kaunas",
+    "country": "LT",
+    "lat": 54.9585,
+    "lng": 23.9536,
+    "relay": "https://relay-lt-kaunas.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-194",
+    "city": "Klaipeda",
+    "country": "LT",
+    "lat": 55.8233,
+    "lng": 21.2443,
+    "relay": "https://relay-lt-klaipeda.macula.io:4433"
+  },
+  {
+    "name": "warsaw-farm-195",
+    "city": "Warsaw",
+    "country": "PL",
+    "lat": 52.1097,
+    "lng": 21.1622,
+    "relay": "https://relay-pl-warsaw.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-196",
+    "city": "Krakow",
+    "country": "PL",
+    "lat": 50.0047,
+    "lng": 19.795,
+    "relay": "https://relay-pl-krakow.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-197",
+    "city": "Gdansk",
+    "country": "PL",
+    "lat": 54.352,
+    "lng": 18.5466,
+    "relay": "https://relay-pl-gdansk.macula.io:4433"
+  },
+  {
+    "name": "wroclaw-hotel-198",
+    "city": "Wroclaw",
+    "country": "PL",
+    "lat": 51.1679,
+    "lng": 16.9885,
+    "relay": "https://relay-pl-wroclaw.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-199",
+    "city": "Poznan",
+    "country": "PL",
+    "lat": 52.5264,
+    "lng": 16.9252,
+    "relay": "https://relay-pl-poznan.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-200",
+    "city": "Lodz",
+    "country": "PL",
+    "lat": 51.6392,
+    "lng": 19.506,
+    "relay": "https://relay-pl-lodz.macula.io:4433"
+  },
+  {
+    "name": "szczecin-clinic-201",
+    "city": "Szczecin",
+    "country": "PL",
+    "lat": 53.3685,
+    "lng": 14.6528,
+    "relay": "https://relay-pl-szczecin.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-202",
+    "city": "Lublin",
+    "country": "PL",
+    "lat": 51.2465,
+    "lng": 22.7184,
+    "relay": "https://relay-pl-lublin.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-203",
+    "city": "Katowice",
+    "country": "PL",
+    "lat": 50.3249,
+    "lng": 18.8738,
+    "relay": "https://relay-pl-katowice.macula.io:4433"
+  },
+  {
+    "name": "rzeszow-solar-204",
+    "city": "Rzeszow",
+    "country": "PL",
+    "lat": 50.1612,
+    "lng": 21.8991,
+    "relay": "https://relay-pl-rzeszow.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-205",
+    "city": "Prague",
+    "country": "CZ",
+    "lat": 49.9555,
+    "lng": 14.3878,
+    "relay": "https://relay-cz-prague.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-206",
+    "city": "Brno",
+    "country": "CZ",
+    "lat": 49.1351,
+    "lng": 16.6068,
+    "relay": "https://relay-cz-brno.macula.io:4433"
+  },
+  {
+    "name": "bratisla-lab-207",
+    "city": "Bratislava",
+    "country": "SK",
+    "lat": 48.1486,
+    "lng": 17.1577,
+    "relay": "https://relay-sk-bratislava.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-208",
+    "city": "Kosice",
+    "country": "SK",
+    "lat": 48.7764,
+    "lng": 21.3611,
+    "relay": "https://relay-sk-kosice.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-209",
+    "city": "Budapest",
+    "country": "HU",
+    "lat": 47.6179,
+    "lng": 19.1902,
+    "relay": "https://relay-hu-budapest.macula.io:4433"
+  },
+  {
+    "name": "debrecen-cafe-210",
+    "city": "Debrecen",
+    "country": "HU",
+    "lat": 47.4116,
+    "lng": 21.4773,
+    "relay": "https://relay-hu-debrecen.macula.io:4433"
+  },
+  {
+    "name": "the-novak-211",
+    "city": "Bucharest",
+    "country": "RO",
+    "lat": 44.3668,
+    "lng": 26.0025,
+    "relay": "https://relay-ro-bucharest.macula.io:4433"
+  },
+  {
+    "name": "the-silva-212",
+    "city": "Cluj-Napoca",
+    "country": "RO",
+    "lat": 46.7712,
+    "lng": 23.5736,
+    "relay": "https://relay-ro-cluj.macula.io:4433"
+  },
+  {
+    "name": "timisoar-tech-213",
+    "city": "Timisoara",
+    "country": "RO",
+    "lat": 45.8089,
+    "lng": 21.2087,
+    "relay": "https://relay-ro-timisoara.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-214",
+    "city": "Iasi",
+    "country": "RO",
+    "lat": 47.2785,
+    "lng": 27.6514,
+    "relay": "https://relay-ro-iasi.macula.io:4433"
+  },
+  {
+    "name": "the-martin-215",
+    "city": "Constanta",
+    "country": "RO",
+    "lat": 44.0398,
+    "lng": 28.7348,
+    "relay": "https://relay-ro-constanta.macula.io:4433"
+  },
+  {
+    "name": "brasov-bakery-216",
+    "city": "Brasov",
+    "country": "RO",
+    "lat": 45.5827,
+    "lng": 25.7387,
+    "relay": "https://relay-ro-brasov.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-217",
+    "city": "Sofia",
+    "country": "BG",
+    "lat": 42.6977,
+    "lng": 23.1719,
+    "relay": "https://relay-bg-sofia.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-218",
+    "city": "Plovdiv",
+    "country": "BG",
+    "lat": 42.1954,
+    "lng": 24.6453,
+    "relay": "https://relay-bg-plovdiv.macula.io:4433"
+  },
+  {
+    "name": "thessalo-gym-219",
+    "city": "Thessaloniki",
+    "country": "GR",
+    "lat": 40.7601,
+    "lng": 22.8944,
+    "relay": "https://relay-gr-thessaloniki.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-220",
+    "city": "Chisinau",
+    "country": "MD",
+    "lat": 46.8905,
+    "lng": 28.8638,
+    "relay": "https://relay-md-chisinau.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-221",
+    "city": "Kyiv",
+    "country": "UA",
+    "lat": 50.3901,
+    "lng": 30.5734,
+    "relay": "https://relay-ua-kyiv.macula.io:4433"
+  },
+  {
+    "name": "lviv-school-222",
+    "city": "Lviv",
+    "country": "UA",
+    "lat": 49.8397,
+    "lng": 24.1297,
+    "relay": "https://relay-ua-lviv.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-223",
+    "city": "Odessa",
+    "country": "UA",
+    "lat": 46.5425,
+    "lng": 30.8733,
+    "relay": "https://relay-ua-odessa.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-224",
+    "city": "Kharkiv",
+    "country": "UA",
+    "lat": 50.1135,
+    "lng": 36.0804,
+    "relay": "https://relay-ua-kharkiv.macula.io:4433"
+  },
+  {
+    "name": "dnipro-farm-225",
+    "city": "Dnipro",
+    "country": "UA",
+    "lat": 48.3447,
+    "lng": 34.9462,
+    "relay": "https://relay-ua-dnipro.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-226",
+    "city": "Zaporizhzhia",
+    "country": "UA",
+    "lat": 47.7788,
+    "lng": 35.0896,
+    "relay": "https://relay-ua-zaporizhzhia.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-227",
+    "city": "Vinnytsia",
+    "country": "UA",
+    "lat": 49.2331,
+    "lng": 28.4682,
+    "relay": "https://relay-ua-vinnytsia.macula.io:4433"
+  },
+  {
+    "name": "poltava-hotel-228",
+    "city": "Poltava",
+    "country": "UA",
+    "lat": 49.6483,
+    "lng": 34.6014,
+    "relay": "https://relay-ua-poltava.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-229",
+    "city": "Chernihiv",
+    "country": "UA",
+    "lat": 51.6182,
+    "lng": 31.3893,
+    "relay": "https://relay-ua-chernihiv.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-230",
+    "city": "Sumy",
+    "country": "UA",
+    "lat": 50.7877,
+    "lng": 34.9481,
+    "relay": "https://relay-ua-sumy.macula.io:4433"
+  },
+  {
+    "name": "zhytomyr-clinic-231",
+    "city": "Zhytomyr",
+    "country": "UA",
+    "lat": 50.1947,
+    "lng": 28.5087,
+    "relay": "https://relay-ua-zhytomyr.macula.io:4433"
+  },
+  {
+    "name": "the-silva-232",
+    "city": "Rivne",
+    "country": "UA",
+    "lat": 50.6199,
+    "lng": 26.1516,
+    "relay": "https://relay-ua-rivne.macula.io:4433"
+  },
+  {
+    "name": "the-smith-233",
+    "city": "Ternopil",
+    "country": "UA",
+    "lat": 49.6135,
+    "lng": 25.5448,
+    "relay": "https://relay-ua-ternopil.macula.io:4433"
+  },
+  {
+    "name": "cherkasy-solar-234",
+    "city": "Cherkasy",
+    "country": "UA",
+    "lat": 49.5644,
+    "lng": 32.0598,
+    "relay": "https://relay-ua-cherkasy.macula.io:4433"
+  },
+  {
+    "name": "the-martin-235",
+    "city": "Mykolaiv",
+    "country": "UA",
+    "lat": 46.855,
+    "lng": 32.0446,
+    "relay": "https://relay-ua-mykolaiv.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-236",
+    "city": "Kherson",
+    "country": "UA",
+    "lat": 46.5754,
+    "lng": 32.7169,
+    "relay": "https://relay-ua-kherson.macula.io:4433"
+  },
+  {
+    "name": "donetsk-lab-237",
+    "city": "Donetsk",
+    "country": "UA",
+    "lat": 48.0159,
+    "lng": 37.9529,
+    "relay": "https://relay-ua-donetsk.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-238",
+    "city": "Luhansk",
+    "country": "UA",
+    "lat": 48.634,
+    "lng": 39.1578,
+    "relay": "https://relay-ua-luhansk.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-239",
+    "city": "Mariupol",
+    "country": "UA",
+    "lat": 47.2158,
+    "lng": 37.4494,
+    "relay": "https://relay-ua-mariupol.macula.io:4433"
+  },
+  {
+    "name": "kramator-cafe-240",
+    "city": "Kramatorsk",
+    "country": "UA",
+    "lat": 48.6164,
+    "lng": 37.5058,
+    "relay": "https://relay-ua-kramatorsk.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-241",
+    "city": "Ivano-Frankivsk",
+    "country": "UA",
+    "lat": 48.8626,
+    "lng": 24.7111,
+    "relay": "https://relay-ua-ivano-frankivsk.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-242",
+    "city": "Uzhhorod",
+    "country": "UA",
+    "lat": 48.6208,
+    "lng": 22.3379,
+    "relay": "https://relay-ua-uzhhorod.macula.io:4433"
+  },
+  {
+    "name": "lutsk-tech-243",
+    "city": "Lutsk",
+    "country": "UA",
+    "lat": 50.8072,
+    "lng": 25.4254,
+    "relay": "https://relay-ua-lutsk.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-244",
+    "city": "Khmelnytskyi",
+    "country": "UA",
+    "lat": 49.543,
+    "lng": 27.1371,
+    "relay": "https://relay-ua-khmelnytskyi.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-245",
+    "city": "Chernivtsi",
+    "country": "UA",
+    "lat": 48.1721,
+    "lng": 25.7858,
+    "relay": "https://relay-ua-chernivtsi.macula.io:4433"
+  },
+  {
+    "name": "kropyvny-bakery-246",
+    "city": "Kropyvnytskyi",
+    "country": "UA",
+    "lat": 48.4479,
+    "lng": 32.1623,
+    "relay": "https://relay-ua-kropyvnytskyi.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-247",
+    "city": "Nikopol",
+    "country": "UA",
+    "lat": 47.5715,
+    "lng": 34.3435,
+    "relay": "https://relay-ua-nikopol.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-248",
+    "city": "Melitopol",
+    "country": "UA",
+    "lat": 46.9089,
+    "lng": 35.3675,
+    "relay": "https://relay-ua-melitopol.macula.io:4433"
+  },
+  {
+    "name": "severodo-gym-249",
+    "city": "Severodonetsk",
+    "country": "UA",
+    "lat": 49.0684,
+    "lng": 38.5437,
+    "relay": "https://relay-ua-severodonetsk.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-250",
+    "city": "London",
+    "country": "GB",
+    "lat": 51.3874,
+    "lng": -0.0278,
+    "relay": "https://relay-gb-london.macula.io:4433"
+  },
+  {
+    "name": "the-novak-251",
+    "city": "Edinburgh",
+    "country": "GB",
+    "lat": 55.8933,
+    "lng": -3.0383,
+    "relay": "https://relay-gb-edinburgh.macula.io:4433"
+  },
+  {
+    "name": "manchest-school-252",
+    "city": "Manchester",
+    "country": "GB",
+    "lat": 53.4808,
+    "lng": -2.3926,
+    "relay": "https://relay-gb-manchester.macula.io:4433"
+  },
+  {
+    "name": "the-smith-253",
+    "city": "Birmingham",
+    "country": "GB",
+    "lat": 52.5462,
+    "lng": -1.9904,
+    "relay": "https://relay-gb-birmingham.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-254",
+    "city": "Glasgow",
+    "country": "GB",
+    "lat": 55.9842,
+    "lng": -4.3018,
+    "relay": "https://relay-gb-glasgow.macula.io:4433"
+  },
+  {
+    "name": "leeds-farm-255",
+    "city": "Leeds",
+    "country": "GB",
+    "lat": 53.6808,
+    "lng": -1.5491,
+    "relay": "https://relay-gb-leeds.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-256",
+    "city": "Bristol",
+    "country": "GB",
+    "lat": 51.3945,
+    "lng": -2.5379,
+    "relay": "https://relay-gb-bristol.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-257",
+    "city": "Cardiff",
+    "country": "GB",
+    "lat": 51.4816,
+    "lng": -3.0791,
+    "relay": "https://relay-gb-cardiff.macula.io:4433"
+  },
+  {
+    "name": "belfast-hotel-258",
+    "city": "Belfast",
+    "country": "GB",
+    "lat": 54.6573,
+    "lng": -5.7801,
+    "relay": "https://relay-gb-belfast.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-259",
+    "city": "Dublin",
+    "country": "IE",
+    "lat": 53.4698,
+    "lng": -6.4103,
+    "relay": "https://relay-ie-dublin.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-260",
+    "city": "Cork",
+    "country": "IE",
+    "lat": 51.7785,
+    "lng": -8.5756,
+    "relay": "https://relay-ie-cork.macula.io:4433"
+  },
+  {
+    "name": "paris-clinic-261",
+    "city": "Paris",
+    "country": "FR",
+    "lat": 48.7966,
+    "lng": 2.3022,
+    "relay": "https://relay-fr-paris.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-262",
+    "city": "Lyon",
+    "country": "FR",
+    "lat": 45.764,
+    "lng": 4.8357,
+    "relay": "https://relay-fr-lyon.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-263",
+    "city": "Marseille",
+    "country": "FR",
+    "lat": 43.3565,
+    "lng": 5.4198,
+    "relay": "https://relay-fr-marseille.macula.io:4433"
+  },
+  {
+    "name": "toulouse-solar-264",
+    "city": "Toulouse",
+    "country": "FR",
+    "lat": 43.7247,
+    "lng": 1.5442,
+    "relay": "https://relay-fr-toulouse.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-265",
+    "city": "Nice",
+    "country": "FR",
+    "lat": 43.5902,
+    "lng": 7.412,
+    "relay": "https://relay-fr-nice.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-266",
+    "city": "Nantes",
+    "country": "FR",
+    "lat": 47.1584,
+    "lng": -1.7036,
+    "relay": "https://relay-fr-nantes.macula.io:4433"
+  },
+  {
+    "name": "strasbou-lab-267",
+    "city": "Strasbourg",
+    "country": "FR",
+    "lat": 48.5734,
+    "lng": 7.6521,
+    "relay": "https://relay-fr-strasbourg.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-268",
+    "city": "Bordeaux",
+    "country": "FR",
+    "lat": 44.8978,
+    "lng": -0.6292,
+    "relay": "https://relay-fr-bordeaux.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-269",
+    "city": "Lille",
+    "country": "FR",
+    "lat": 50.7492,
+    "lng": 3.0573,
+    "relay": "https://relay-fr-lille.macula.io:4433"
+  },
+  {
+    "name": "brussels-cafe-270",
+    "city": "Brussels",
+    "country": "BE",
+    "lat": 50.7303,
+    "lng": 4.4017,
+    "relay": "https://relay-be-brussels.macula.io:4433"
+  },
+  {
+    "name": "the-novak-271",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.1594,
+    "lng": 4.5025,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "the-silva-272",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.0543,
+    "lng": 3.8674,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "liege-tech-273",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.6892,
+    "lng": 5.4297,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-274",
+    "city": "Charleroi",
+    "country": "BE",
+    "lat": 50.5308,
+    "lng": 4.3446,
+    "relay": "https://relay-be-charleroi.macula.io:4433"
+  },
+  {
+    "name": "the-martin-275",
+    "city": "Amsterdam",
+    "country": "NL",
+    "lat": 52.2476,
+    "lng": 4.8541,
+    "relay": "https://relay-nl-amsterdam.macula.io:4433"
+  },
+  {
+    "name": "rotterda-bakery-276",
+    "city": "Rotterdam",
+    "country": "NL",
+    "lat": 51.8644,
+    "lng": 4.4777,
+    "relay": "https://relay-nl-rotterdam.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-277",
+    "city": "Utrecht",
+    "country": "NL",
+    "lat": 52.0907,
+    "lng": 5.1714,
+    "relay": "https://relay-nl-utrecht.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-278",
+    "city": "Eindhoven",
+    "country": "NL",
+    "lat": 51.5016,
+    "lng": 5.5697,
+    "relay": "https://relay-nl-eindhoven.macula.io:4433"
+  },
+  {
+    "name": "groninge-gym-279",
+    "city": "Groningen",
+    "country": "NL",
+    "lat": 53.3394,
+    "lng": 6.7165,
+    "relay": "https://relay-nl-groningen.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-280",
+    "city": "Den Haag",
+    "country": "NL",
+    "lat": 51.9505,
+    "lng": 4.1507,
+    "relay": "https://relay-nl-den-haag.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-281",
+    "city": "Luxembourg",
+    "country": "LU",
+    "lat": 49.5517,
+    "lng": 6.03,
+    "relay": "https://relay-lu-luxembourg.macula.io:4433"
+  },
+  {
+    "name": "berlin-school-282",
+    "city": "Berlin",
+    "country": "DE",
+    "lat": 52.52,
+    "lng": 13.355,
+    "relay": "https://relay-de-berlin.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-283",
+    "city": "Munich",
+    "country": "DE",
+    "lat": 48.1951,
+    "lng": 11.582,
+    "relay": "https://relay-de-munich.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-284",
+    "city": "Hamburg",
+    "country": "DE",
+    "lat": 53.6711,
+    "lng": 10.0437,
+    "relay": "https://relay-de-hamburg.macula.io:4433"
+  },
+  {
+    "name": "frankfur-farm-285",
+    "city": "Frankfurt",
+    "country": "DE",
+    "lat": 49.9909,
+    "lng": 8.7821,
+    "relay": "https://relay-de-frankfurt.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-286",
+    "city": "Cologne",
+    "country": "DE",
+    "lat": 50.8775,
+    "lng": 7.1103,
+    "relay": "https://relay-de-cologne.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-287",
+    "city": "Stuttgart",
+    "country": "DE",
+    "lat": 48.7758,
+    "lng": 9.0329,
+    "relay": "https://relay-de-stuttgart.macula.io:4433"
+  },
+  {
+    "name": "dusseldo-hotel-288",
+    "city": "Dusseldorf",
+    "country": "DE",
+    "lat": 51.2877,
+    "lng": 6.6735,
+    "relay": "https://relay-de-dusseldorf.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-289",
+    "city": "Leipzig",
+    "country": "DE",
+    "lat": 51.4597,
+    "lng": 12.3231,
+    "relay": "https://relay-de-leipzig.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-290",
+    "city": "Dresden",
+    "country": "DE",
+    "lat": 50.9304,
+    "lng": 13.7373,
+    "relay": "https://relay-de-dresden.macula.io:4433"
+  },
+  {
+    "name": "nurember-clinic-291",
+    "city": "Nuremberg",
+    "country": "DE",
+    "lat": 49.3921,
+    "lng": 11.1267,
+    "relay": "https://relay-de-nuremberg.macula.io:4433"
+  },
+  {
+    "name": "the-silva-292",
+    "city": "Zurich",
+    "country": "CH",
+    "lat": 47.3769,
+    "lng": 8.6417,
+    "relay": "https://relay-ch-zurich.macula.io:4433"
+  },
+  {
+    "name": "the-smith-293",
+    "city": "Geneva",
+    "country": "CH",
+    "lat": 46.2644,
+    "lng": 6.2932,
+    "relay": "https://relay-ch-geneva.macula.io:4433"
+  },
+  {
+    "name": "bern-solar-294",
+    "city": "Bern",
+    "country": "CH",
+    "lat": 47.068,
+    "lng": 7.2974,
+    "relay": "https://relay-ch-bern.macula.io:4433"
+  },
+  {
+    "name": "the-martin-295",
+    "city": "Vienna",
+    "country": "AT",
+    "lat": 48.0882,
+    "lng": 16.2738,
+    "relay": "https://relay-at-vienna.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-296",
+    "city": "Graz",
+    "country": "AT",
+    "lat": 47.0107,
+    "lng": 15.3895,
+    "relay": "https://relay-at-graz.macula.io:4433"
+  },
+  {
+    "name": "salzburg-lab-297",
+    "city": "Salzburg",
+    "country": "AT",
+    "lat": 47.8095,
+    "lng": 13.055,
+    "relay": "https://relay-at-salzburg.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-298",
+    "city": "Madrid",
+    "country": "ES",
+    "lat": 40.4768,
+    "lng": -3.6538,
+    "relay": "https://relay-es-madrid.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-299",
+    "city": "Barcelona",
+    "country": "ES",
+    "lat": 41.5051,
+    "lng": 2.2734,
+    "relay": "https://relay-es-barcelona.macula.io:4433"
+  },
+  {
+    "name": "valencia-cafe-300",
+    "city": "Valencia",
+    "country": "ES",
+    "lat": 39.3499,
+    "lng": -0.2263,
+    "relay": "https://relay-es-valencia.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-301",
+    "city": "Seville",
+    "country": "ES",
+    "lat": 37.3291,
+    "lng": -6.1345,
+    "relay": "https://relay-es-seville.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-302",
+    "city": "Bilbao",
+    "country": "ES",
+    "lat": 43.263,
+    "lng": -3.035,
+    "relay": "https://relay-es-bilbao.macula.io:4433"
+  },
+  {
+    "name": "malaga-tech-303",
+    "city": "Malaga",
+    "country": "ES",
+    "lat": 36.7813,
+    "lng": -4.4714,
+    "relay": "https://relay-es-malaga.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-304",
+    "city": "Lisbon",
+    "country": "PT",
+    "lat": 38.8423,
+    "lng": -9.1393,
+    "relay": "https://relay-pt-lisbon.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-305",
+    "city": "Porto",
+    "country": "PT",
+    "lat": 41.0379,
+    "lng": -8.5791,
+    "relay": "https://relay-pt-porto.macula.io:4433"
+  },
+  {
+    "name": "rome-bakery-306",
+    "city": "Rome",
+    "country": "IT",
+    "lat": 41.8428,
+    "lng": 12.5964,
+    "relay": "https://relay-it-rome.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-307",
+    "city": "Milan",
+    "country": "IT",
+    "lat": 45.4642,
+    "lng": 9.34,
+    "relay": "https://relay-it-milan.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-308",
+    "city": "Naples",
+    "country": "IT",
+    "lat": 40.9118,
+    "lng": 14.1181,
+    "relay": "https://relay-it-naples.macula.io:4433"
+  },
+  {
+    "name": "turin-gym-309",
+    "city": "Turin",
+    "country": "IT",
+    "lat": 45.1903,
+    "lng": 7.5869,
+    "relay": "https://relay-it-turin.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-310",
+    "city": "Florence",
+    "country": "IT",
+    "lat": 43.6496,
+    "lng": 11.2058,
+    "relay": "https://relay-it-florence.macula.io:4433"
+  },
+  {
+    "name": "the-novak-311",
+    "city": "Venice",
+    "country": "IT",
+    "lat": 45.3808,
+    "lng": 12.3155,
+    "relay": "https://relay-it-venice.macula.io:4433"
+  },
+  {
+    "name": "palermo-school-312",
+    "city": "Palermo",
+    "country": "IT",
+    "lat": 38.1157,
+    "lng": 13.4115,
+    "relay": "https://relay-it-palermo.macula.io:4433"
+  },
+  {
+    "name": "the-smith-313",
+    "city": "Zagreb",
+    "country": "HR",
+    "lat": 45.875,
+    "lng": 16.0819,
+    "relay": "https://relay-hr-zagreb.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-314",
+    "city": "Ljubljana",
+    "country": "SI",
+    "lat": 46.1769,
+    "lng": 14.6558,
+    "relay": "https://relay-si-ljubljana.macula.io:4433"
+  },
+  {
+    "name": "belgrade-farm-315",
+    "city": "Belgrade",
+    "country": "RS",
+    "lat": 44.6666,
+    "lng": 20.2989,
+    "relay": "https://relay-rs-belgrade.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-316",
+    "city": "Sarajevo",
+    "country": "BA",
+    "lat": 43.7963,
+    "lng": 18.3131,
+    "relay": "https://relay-ba-sarajevo.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-317",
+    "city": "Podgorica",
+    "country": "ME",
+    "lat": 42.4304,
+    "lng": 19.2094,
+    "relay": "https://relay-me-podgorica.macula.io:4433"
+  },
+  {
+    "name": "tirana-hotel-318",
+    "city": "Tirana",
+    "country": "AL",
+    "lat": 41.3875,
+    "lng": 19.8187,
+    "relay": "https://relay-al-tirana.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-319",
+    "city": "Skopje",
+    "country": "MK",
+    "lat": 42.1173,
+    "lng": 21.478,
+    "relay": "https://relay-mk-skopje.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-320",
+    "city": "Valletta",
+    "country": "MT",
+    "lat": 35.7789,
+    "lng": 14.6146,
+    "relay": "https://relay-mt-valletta.macula.io:4433"
+  },
+  {
+    "name": "nicosia-clinic-321",
+    "city": "Nicosia",
+    "country": "CY",
+    "lat": 35.1256,
+    "lng": 33.5323,
+    "relay": "https://relay-cy-nicosia.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-322",
+    "city": "Reykjavik",
+    "country": "IS",
+    "lat": 64.1466,
+    "lng": -22.0926,
+    "relay": "https://relay-is-reykjavik.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-323",
+    "city": "Bari",
+    "country": "IT",
+    "lat": 41.1771,
+    "lng": 16.7719,
+    "relay": "https://relay-it-bari.macula.io:4433"
+  },
+  {
+    "name": "athens-solar-324",
+    "city": "Athens",
+    "country": "GR",
+    "lat": 38.1038,
+    "lng": 23.6775,
+    "relay": "https://relay-gr-athens.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-325",
+    "city": "Helsinki",
+    "country": "FI",
+    "lat": 60.0499,
+    "lng": 24.9384,
+    "relay": "https://relay-fi-helsinki.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-326",
+    "city": "Tampere",
+    "country": "FI",
+    "lat": 61.4378,
+    "lng": 23.811,
+    "relay": "https://relay-fi-tampere.macula.io:4433"
+  },
+  {
+    "name": "turku-lab-327",
+    "city": "Turku",
+    "country": "FI",
+    "lat": 60.4518,
+    "lng": 22.3666,
+    "relay": "https://relay-fi-turku.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-328",
+    "city": "Oulu",
+    "country": "FI",
+    "lat": 65.0721,
+    "lng": 25.6151,
+    "relay": "https://relay-fi-oulu.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-329",
+    "city": "Stockholm",
+    "country": "SE",
+    "lat": 59.4493,
+    "lng": 17.9186,
+    "relay": "https://relay-se-stockholm.macula.io:4433"
+  },
+  {
+    "name": "gothenbu-cafe-330",
+    "city": "Gothenburg",
+    "country": "SE",
+    "lat": 57.5889,
+    "lng": 11.8746,
+    "relay": "https://relay-se-gothenburg.macula.io:4433"
+  },
+  {
+    "name": "the-novak-331",
+    "city": "Malmo",
+    "country": "SE",
+    "lat": 55.545,
+    "lng": 12.9538,
+    "relay": "https://relay-se-malmo.macula.io:4433"
+  },
+  {
+    "name": "the-silva-332",
+    "city": "Uppsala",
+    "country": "SE",
+    "lat": 59.8586,
+    "lng": 17.6389,
+    "relay": "https://relay-se-uppsala.macula.io:4433"
+  },
+  {
+    "name": "oslo-tech-333",
+    "city": "Oslo",
+    "country": "NO",
+    "lat": 59.9739,
+    "lng": 10.8022,
+    "relay": "https://relay-no-oslo.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-334",
+    "city": "Bergen",
+    "country": "NO",
+    "lat": 60.5113,
+    "lng": 5.4221,
+    "relay": "https://relay-no-bergen.macula.io:4433"
+  },
+  {
+    "name": "the-martin-335",
+    "city": "Trondheim",
+    "country": "NO",
+    "lat": 63.3105,
+    "lng": 10.5451,
+    "relay": "https://relay-no-trondheim.macula.io:4433"
+  },
+  {
+    "name": "copenhag-bakery-336",
+    "city": "Copenhagen",
+    "country": "DK",
+    "lat": 55.6161,
+    "lng": 12.4183,
+    "relay": "https://relay-dk-copenhagen.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-337",
+    "city": "Aarhus",
+    "country": "DK",
+    "lat": 56.1629,
+    "lng": 10.1039,
+    "relay": "https://relay-dk-aarhus.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-338",
+    "city": "Tallinn",
+    "country": "EE",
+    "lat": 59.497,
+    "lng": 24.7036,
+    "relay": "https://relay-ee-tallinn.macula.io:4433"
+  },
+  {
+    "name": "tartu-gym-339",
+    "city": "Tartu",
+    "country": "EE",
+    "lat": 58.498,
+    "lng": 26.729,
+    "relay": "https://relay-ee-tartu.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-340",
+    "city": "Riga",
+    "country": "LV",
+    "lat": 56.8296,
+    "lng": 24.1552,
+    "relay": "https://relay-lv-riga.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-341",
+    "city": "Daugavpils",
+    "country": "LV",
+    "lat": 55.8149,
+    "lng": 26.6356,
+    "relay": "https://relay-lv-daugavpils.macula.io:4433"
+  },
+  {
+    "name": "vilnius-school-342",
+    "city": "Vilnius",
+    "country": "LT",
+    "lat": 54.6872,
+    "lng": 25.4297,
+    "relay": "https://relay-lt-vilnius.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-343",
+    "city": "Kaunas",
+    "country": "LT",
+    "lat": 54.9585,
+    "lng": 23.7536,
+    "relay": "https://relay-lt-kaunas.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-344",
+    "city": "Klaipeda",
+    "country": "LT",
+    "lat": 55.8233,
+    "lng": 21.0443,
+    "relay": "https://relay-lt-klaipeda.macula.io:4433"
+  },
+  {
+    "name": "warsaw-farm-345",
+    "city": "Warsaw",
+    "country": "PL",
+    "lat": 52.1097,
+    "lng": 20.9622,
+    "relay": "https://relay-pl-warsaw.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-346",
+    "city": "Krakow",
+    "country": "PL",
+    "lat": 50.0047,
+    "lng": 19.945,
+    "relay": "https://relay-pl-krakow.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-347",
+    "city": "Gdansk",
+    "country": "PL",
+    "lat": 54.352,
+    "lng": 18.6966,
+    "relay": "https://relay-pl-gdansk.macula.io:4433"
+  },
+  {
+    "name": "wroclaw-hotel-348",
+    "city": "Wroclaw",
+    "country": "PL",
+    "lat": 51.1679,
+    "lng": 17.1385,
+    "relay": "https://relay-pl-wroclaw.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-349",
+    "city": "Poznan",
+    "country": "PL",
+    "lat": 52.5264,
+    "lng": 17.0752,
+    "relay": "https://relay-pl-poznan.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-350",
+    "city": "Lodz",
+    "country": "PL",
+    "lat": 51.6392,
+    "lng": 19.306,
+    "relay": "https://relay-pl-lodz.macula.io:4433"
+  },
+  {
+    "name": "szczecin-clinic-351",
+    "city": "Szczecin",
+    "country": "PL",
+    "lat": 53.3685,
+    "lng": 14.4528,
+    "relay": "https://relay-pl-szczecin.macula.io:4433"
+  },
+  {
+    "name": "the-silva-352",
+    "city": "Lublin",
+    "country": "PL",
+    "lat": 51.2465,
+    "lng": 22.5184,
+    "relay": "https://relay-pl-lublin.macula.io:4433"
+  },
+  {
+    "name": "the-smith-353",
+    "city": "Katowice",
+    "country": "PL",
+    "lat": 50.3249,
+    "lng": 19.0238,
+    "relay": "https://relay-pl-katowice.macula.io:4433"
+  },
+  {
+    "name": "rzeszow-solar-354",
+    "city": "Rzeszow",
+    "country": "PL",
+    "lat": 50.1612,
+    "lng": 22.0491,
+    "relay": "https://relay-pl-rzeszow.macula.io:4433"
+  },
+  {
+    "name": "the-martin-355",
+    "city": "Prague",
+    "country": "CZ",
+    "lat": 49.9555,
+    "lng": 14.5378,
+    "relay": "https://relay-cz-prague.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-356",
+    "city": "Brno",
+    "country": "CZ",
+    "lat": 49.1351,
+    "lng": 16.7568,
+    "relay": "https://relay-cz-brno.macula.io:4433"
+  },
+  {
+    "name": "bratisla-lab-357",
+    "city": "Bratislava",
+    "country": "SK",
+    "lat": 48.1486,
+    "lng": 16.9577,
+    "relay": "https://relay-sk-bratislava.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-358",
+    "city": "Kosice",
+    "country": "SK",
+    "lat": 48.7764,
+    "lng": 21.1611,
+    "relay": "https://relay-sk-kosice.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-359",
+    "city": "Budapest",
+    "country": "HU",
+    "lat": 47.6179,
+    "lng": 18.9902,
+    "relay": "https://relay-hu-budapest.macula.io:4433"
+  },
+  {
+    "name": "debrecen-cafe-360",
+    "city": "Debrecen",
+    "country": "HU",
+    "lat": 47.4116,
+    "lng": 21.6273,
+    "relay": "https://relay-hu-debrecen.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-361",
+    "city": "Bucharest",
+    "country": "RO",
+    "lat": 44.3668,
+    "lng": 26.1525,
+    "relay": "https://relay-ro-bucharest.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-362",
+    "city": "Cluj-Napoca",
+    "country": "RO",
+    "lat": 46.7712,
+    "lng": 23.7236,
+    "relay": "https://relay-ro-cluj.macula.io:4433"
+  },
+  {
+    "name": "timisoar-tech-363",
+    "city": "Timisoara",
+    "country": "RO",
+    "lat": 45.8089,
+    "lng": 21.3587,
+    "relay": "https://relay-ro-timisoara.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-364",
+    "city": "Iasi",
+    "country": "RO",
+    "lat": 47.2785,
+    "lng": 27.4514,
+    "relay": "https://relay-ro-iasi.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-365",
+    "city": "Constanta",
+    "country": "RO",
+    "lat": 44.0398,
+    "lng": 28.5348,
+    "relay": "https://relay-ro-constanta.macula.io:4433"
+  },
+  {
+    "name": "brasov-bakery-366",
+    "city": "Brasov",
+    "country": "RO",
+    "lat": 45.5827,
+    "lng": 25.5387,
+    "relay": "https://relay-ro-brasov.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-367",
+    "city": "Sofia",
+    "country": "BG",
+    "lat": 42.6977,
+    "lng": 23.3219,
+    "relay": "https://relay-bg-sofia.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-368",
+    "city": "Plovdiv",
+    "country": "BG",
+    "lat": 42.1954,
+    "lng": 24.7953,
+    "relay": "https://relay-bg-plovdiv.macula.io:4433"
+  },
+  {
+    "name": "thessalo-gym-369",
+    "city": "Thessaloniki",
+    "country": "GR",
+    "lat": 40.7601,
+    "lng": 23.0444,
+    "relay": "https://relay-gr-thessaloniki.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-370",
+    "city": "Chisinau",
+    "country": "MD",
+    "lat": 46.8905,
+    "lng": 29.0138,
+    "relay": "https://relay-md-chisinau.macula.io:4433"
+  },
+  {
+    "name": "the-novak-371",
+    "city": "Kyiv",
+    "country": "UA",
+    "lat": 50.3901,
+    "lng": 30.3734,
+    "relay": "https://relay-ua-kyiv.macula.io:4433"
+  },
+  {
+    "name": "lviv-school-372",
+    "city": "Lviv",
+    "country": "UA",
+    "lat": 49.8397,
+    "lng": 23.9297,
+    "relay": "https://relay-ua-lviv.macula.io:4433"
+  },
+  {
+    "name": "the-smith-373",
+    "city": "Odessa",
+    "country": "UA",
+    "lat": 46.5425,
+    "lng": 30.6733,
+    "relay": "https://relay-ua-odessa.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-374",
+    "city": "Kharkiv",
+    "country": "UA",
+    "lat": 50.1135,
+    "lng": 36.2304,
+    "relay": "https://relay-ua-kharkiv.macula.io:4433"
+  },
+  {
+    "name": "dnipro-farm-375",
+    "city": "Dnipro",
+    "country": "UA",
+    "lat": 48.3447,
+    "lng": 35.0962,
+    "relay": "https://relay-ua-dnipro.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-376",
+    "city": "Zaporizhzhia",
+    "country": "UA",
+    "lat": 47.7788,
+    "lng": 35.2396,
+    "relay": "https://relay-ua-zaporizhzhia.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-377",
+    "city": "Vinnytsia",
+    "country": "UA",
+    "lat": 49.2331,
+    "lng": 28.6182,
+    "relay": "https://relay-ua-vinnytsia.macula.io:4433"
+  },
+  {
+    "name": "poltava-hotel-378",
+    "city": "Poltava",
+    "country": "UA",
+    "lat": 49.6483,
+    "lng": 34.4014,
+    "relay": "https://relay-ua-poltava.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-379",
+    "city": "Chernihiv",
+    "country": "UA",
+    "lat": 51.6182,
+    "lng": 31.1893,
+    "relay": "https://relay-ua-chernihiv.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-380",
+    "city": "Sumy",
+    "country": "UA",
+    "lat": 50.7877,
+    "lng": 34.7481,
+    "relay": "https://relay-ua-sumy.macula.io:4433"
+  },
+  {
+    "name": "zhytomyr-clinic-381",
+    "city": "Zhytomyr",
+    "country": "UA",
+    "lat": 50.1947,
+    "lng": 28.6587,
+    "relay": "https://relay-ua-zhytomyr.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-382",
+    "city": "Rivne",
+    "country": "UA",
+    "lat": 50.6199,
+    "lng": 26.3016,
+    "relay": "https://relay-ua-rivne.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-383",
+    "city": "Ternopil",
+    "country": "UA",
+    "lat": 49.6135,
+    "lng": 25.6948,
+    "relay": "https://relay-ua-ternopil.macula.io:4433"
+  },
+  {
+    "name": "cherkasy-solar-384",
+    "city": "Cherkasy",
+    "country": "UA",
+    "lat": 49.5644,
+    "lng": 32.2098,
+    "relay": "https://relay-ua-cherkasy.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-385",
+    "city": "Mykolaiv",
+    "country": "UA",
+    "lat": 46.855,
+    "lng": 31.8446,
+    "relay": "https://relay-ua-mykolaiv.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-386",
+    "city": "Kherson",
+    "country": "UA",
+    "lat": 46.5754,
+    "lng": 32.5169,
+    "relay": "https://relay-ua-kherson.macula.io:4433"
+  },
+  {
+    "name": "donetsk-lab-387",
+    "city": "Donetsk",
+    "country": "UA",
+    "lat": 48.0159,
+    "lng": 37.7529,
+    "relay": "https://relay-ua-donetsk.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-388",
+    "city": "Luhansk",
+    "country": "UA",
+    "lat": 48.634,
+    "lng": 39.3078,
+    "relay": "https://relay-ua-luhansk.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-389",
+    "city": "Mariupol",
+    "country": "UA",
+    "lat": 47.2158,
+    "lng": 37.5994,
+    "relay": "https://relay-ua-mariupol.macula.io:4433"
+  },
+  {
+    "name": "kramator-cafe-390",
+    "city": "Kramatorsk",
+    "country": "UA",
+    "lat": 48.6164,
+    "lng": 37.6558,
+    "relay": "https://relay-ua-kramatorsk.macula.io:4433"
+  },
+  {
+    "name": "the-novak-391",
+    "city": "Ivano-Frankivsk",
+    "country": "UA",
+    "lat": 48.8626,
+    "lng": 24.8611,
+    "relay": "https://relay-ua-ivano-frankivsk.macula.io:4433"
+  },
+  {
+    "name": "the-silva-392",
+    "city": "Uzhhorod",
+    "country": "UA",
+    "lat": 48.6208,
+    "lng": 22.1379,
+    "relay": "https://relay-ua-uzhhorod.macula.io:4433"
+  },
+  {
+    "name": "lutsk-tech-393",
+    "city": "Lutsk",
+    "country": "UA",
+    "lat": 50.8072,
+    "lng": 25.2254,
+    "relay": "https://relay-ua-lutsk.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-394",
+    "city": "Khmelnytskyi",
+    "country": "UA",
+    "lat": 49.543,
+    "lng": 26.9371,
+    "relay": "https://relay-ua-khmelnytskyi.macula.io:4433"
+  },
+  {
+    "name": "the-martin-395",
+    "city": "Chernivtsi",
+    "country": "UA",
+    "lat": 48.1721,
+    "lng": 25.9358,
+    "relay": "https://relay-ua-chernivtsi.macula.io:4433"
+  },
+  {
+    "name": "kropyvny-bakery-396",
+    "city": "Kropyvnytskyi",
+    "country": "UA",
+    "lat": 48.4479,
+    "lng": 32.3123,
+    "relay": "https://relay-ua-kropyvnytskyi.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-397",
+    "city": "Nikopol",
+    "country": "UA",
+    "lat": 47.5715,
+    "lng": 34.4935,
+    "relay": "https://relay-ua-nikopol.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-398",
+    "city": "Melitopol",
+    "country": "UA",
+    "lat": 46.9089,
+    "lng": 35.5175,
+    "relay": "https://relay-ua-melitopol.macula.io:4433"
+  },
+  {
+    "name": "severodo-gym-399",
+    "city": "Severodonetsk",
+    "country": "UA",
+    "lat": 49.0684,
+    "lng": 38.3437,
+    "relay": "https://relay-ua-severodonetsk.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-400",
+    "city": "London",
+    "country": "GB",
+    "lat": 51.3874,
+    "lng": -0.2278,
+    "relay": "https://relay-gb-london.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-401",
+    "city": "Edinburgh",
+    "country": "GB",
+    "lat": 55.8933,
+    "lng": -3.2383,
+    "relay": "https://relay-gb-edinburgh.macula.io:4433"
+  },
+  {
+    "name": "manchest-school-402",
+    "city": "Manchester",
+    "country": "GB",
+    "lat": 53.4808,
+    "lng": -2.2426,
+    "relay": "https://relay-gb-manchester.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-403",
+    "city": "Birmingham",
+    "country": "GB",
+    "lat": 52.5462,
+    "lng": -1.8404,
+    "relay": "https://relay-gb-birmingham.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-404",
+    "city": "Glasgow",
+    "country": "GB",
+    "lat": 55.9842,
+    "lng": -4.1518,
+    "relay": "https://relay-gb-glasgow.macula.io:4433"
+  },
+  {
+    "name": "leeds-farm-405",
+    "city": "Leeds",
+    "country": "GB",
+    "lat": 53.6808,
+    "lng": -1.3991,
+    "relay": "https://relay-gb-leeds.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-406",
+    "city": "Bristol",
+    "country": "GB",
+    "lat": 51.3945,
+    "lng": -2.7379,
+    "relay": "https://relay-gb-bristol.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-407",
+    "city": "Cardiff",
+    "country": "GB",
+    "lat": 51.4816,
+    "lng": -3.2791,
+    "relay": "https://relay-gb-cardiff.macula.io:4433"
+  },
+  {
+    "name": "belfast-hotel-408",
+    "city": "Belfast",
+    "country": "GB",
+    "lat": 54.6573,
+    "lng": -5.9801,
+    "relay": "https://relay-gb-belfast.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-409",
+    "city": "Dublin",
+    "country": "IE",
+    "lat": 53.4698,
+    "lng": -6.2603,
+    "relay": "https://relay-ie-dublin.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-410",
+    "city": "Cork",
+    "country": "IE",
+    "lat": 51.7785,
+    "lng": -8.4256,
+    "relay": "https://relay-ie-cork.macula.io:4433"
+  },
+  {
+    "name": "paris-clinic-411",
+    "city": "Paris",
+    "country": "FR",
+    "lat": 48.7966,
+    "lng": 2.4522,
+    "relay": "https://relay-fr-paris.macula.io:4433"
+  },
+  {
+    "name": "the-silva-412",
+    "city": "Lyon",
+    "country": "FR",
+    "lat": 45.764,
+    "lng": 4.9857,
+    "relay": "https://relay-fr-lyon.macula.io:4433"
+  },
+  {
+    "name": "the-smith-413",
+    "city": "Marseille",
+    "country": "FR",
+    "lat": 43.3565,
+    "lng": 5.2198,
+    "relay": "https://relay-fr-marseille.macula.io:4433"
+  },
+  {
+    "name": "toulouse-solar-414",
+    "city": "Toulouse",
+    "country": "FR",
+    "lat": 43.7247,
+    "lng": 1.3442,
+    "relay": "https://relay-fr-toulouse.macula.io:4433"
+  },
+  {
+    "name": "the-martin-415",
+    "city": "Nice",
+    "country": "FR",
+    "lat": 43.5902,
+    "lng": 7.212,
+    "relay": "https://relay-fr-nice.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-416",
+    "city": "Nantes",
+    "country": "FR",
+    "lat": 47.1584,
+    "lng": -1.5536,
+    "relay": "https://relay-fr-nantes.macula.io:4433"
+  },
+  {
+    "name": "strasbou-lab-417",
+    "city": "Strasbourg",
+    "country": "FR",
+    "lat": 48.5734,
+    "lng": 7.8021,
+    "relay": "https://relay-fr-strasbourg.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-418",
+    "city": "Bordeaux",
+    "country": "FR",
+    "lat": 44.8978,
+    "lng": -0.4792,
+    "relay": "https://relay-fr-bordeaux.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-419",
+    "city": "Lille",
+    "country": "FR",
+    "lat": 50.7492,
+    "lng": 3.2073,
+    "relay": "https://relay-fr-lille.macula.io:4433"
+  },
+  {
+    "name": "brussels-cafe-420",
+    "city": "Brussels",
+    "country": "BE",
+    "lat": 50.7303,
+    "lng": 4.2017,
+    "relay": "https://relay-be-brussels.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-421",
+    "city": "Antwerp",
+    "country": "BE",
+    "lat": 51.1594,
+    "lng": 4.3025,
+    "relay": "https://relay-be-antwerp.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-422",
+    "city": "Ghent",
+    "country": "BE",
+    "lat": 51.0543,
+    "lng": 3.6674,
+    "relay": "https://relay-be-ghent.macula.io:4433"
+  },
+  {
+    "name": "liege-tech-423",
+    "city": "Liege",
+    "country": "BE",
+    "lat": 50.6892,
+    "lng": 5.5797,
+    "relay": "https://relay-be-liege.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-424",
+    "city": "Charleroi",
+    "country": "BE",
+    "lat": 50.5308,
+    "lng": 4.4946,
+    "relay": "https://relay-be-charleroi.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-425",
+    "city": "Amsterdam",
+    "country": "NL",
+    "lat": 52.2476,
+    "lng": 5.0041,
+    "relay": "https://relay-nl-amsterdam.macula.io:4433"
+  },
+  {
+    "name": "rotterda-bakery-426",
+    "city": "Rotterdam",
+    "country": "NL",
+    "lat": 51.8644,
+    "lng": 4.6277,
+    "relay": "https://relay-nl-rotterdam.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-427",
+    "city": "Utrecht",
+    "country": "NL",
+    "lat": 52.0907,
+    "lng": 4.9714,
+    "relay": "https://relay-nl-utrecht.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-428",
+    "city": "Eindhoven",
+    "country": "NL",
+    "lat": 51.5016,
+    "lng": 5.3697,
+    "relay": "https://relay-nl-eindhoven.macula.io:4433"
+  },
+  {
+    "name": "groninge-gym-429",
+    "city": "Groningen",
+    "country": "NL",
+    "lat": 53.3394,
+    "lng": 6.5165,
+    "relay": "https://relay-nl-groningen.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-430",
+    "city": "Den Haag",
+    "country": "NL",
+    "lat": 51.9505,
+    "lng": 4.3007,
+    "relay": "https://relay-nl-den-haag.macula.io:4433"
+  },
+  {
+    "name": "the-novak-431",
+    "city": "Luxembourg",
+    "country": "LU",
+    "lat": 49.5517,
+    "lng": 6.18,
+    "relay": "https://relay-lu-luxembourg.macula.io:4433"
+  },
+  {
+    "name": "berlin-school-432",
+    "city": "Berlin",
+    "country": "DE",
+    "lat": 52.52,
+    "lng": 13.505,
+    "relay": "https://relay-de-berlin.macula.io:4433"
+  },
+  {
+    "name": "the-smith-433",
+    "city": "Munich",
+    "country": "DE",
+    "lat": 48.1951,
+    "lng": 11.732,
+    "relay": "https://relay-de-munich.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-434",
+    "city": "Hamburg",
+    "country": "DE",
+    "lat": 53.6711,
+    "lng": 9.8437,
+    "relay": "https://relay-de-hamburg.macula.io:4433"
+  },
+  {
+    "name": "frankfur-farm-435",
+    "city": "Frankfurt",
+    "country": "DE",
+    "lat": 49.9909,
+    "lng": 8.5821,
+    "relay": "https://relay-de-frankfurt.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-436",
+    "city": "Cologne",
+    "country": "DE",
+    "lat": 50.8775,
+    "lng": 6.9103,
+    "relay": "https://relay-de-cologne.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-437",
+    "city": "Stuttgart",
+    "country": "DE",
+    "lat": 48.7758,
+    "lng": 9.1829,
+    "relay": "https://relay-de-stuttgart.macula.io:4433"
+  },
+  {
+    "name": "dusseldo-hotel-438",
+    "city": "Dusseldorf",
+    "country": "DE",
+    "lat": 51.2877,
+    "lng": 6.8235,
+    "relay": "https://relay-de-dusseldorf.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-439",
+    "city": "Leipzig",
+    "country": "DE",
+    "lat": 51.4597,
+    "lng": 12.4731,
+    "relay": "https://relay-de-leipzig.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-440",
+    "city": "Dresden",
+    "country": "DE",
+    "lat": 50.9304,
+    "lng": 13.8873,
+    "relay": "https://relay-de-dresden.macula.io:4433"
+  },
+  {
+    "name": "nurember-clinic-441",
+    "city": "Nuremberg",
+    "country": "DE",
+    "lat": 49.3921,
+    "lng": 10.9267,
+    "relay": "https://relay-de-nuremberg.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-442",
+    "city": "Zurich",
+    "country": "CH",
+    "lat": 47.3769,
+    "lng": 8.4417,
+    "relay": "https://relay-ch-zurich.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-443",
+    "city": "Geneva",
+    "country": "CH",
+    "lat": 46.2644,
+    "lng": 6.0932,
+    "relay": "https://relay-ch-geneva.macula.io:4433"
+  },
+  {
+    "name": "bern-solar-444",
+    "city": "Bern",
+    "country": "CH",
+    "lat": 47.068,
+    "lng": 7.4474,
+    "relay": "https://relay-ch-bern.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-445",
+    "city": "Vienna",
+    "country": "AT",
+    "lat": 48.0882,
+    "lng": 16.4238,
+    "relay": "https://relay-at-vienna.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-446",
+    "city": "Graz",
+    "country": "AT",
+    "lat": 47.0107,
+    "lng": 15.5395,
+    "relay": "https://relay-at-graz.macula.io:4433"
+  },
+  {
+    "name": "salzburg-lab-447",
+    "city": "Salzburg",
+    "country": "AT",
+    "lat": 47.8095,
+    "lng": 13.205,
+    "relay": "https://relay-at-salzburg.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-448",
+    "city": "Madrid",
+    "country": "ES",
+    "lat": 40.4768,
+    "lng": -3.8538,
+    "relay": "https://relay-es-madrid.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-449",
+    "city": "Barcelona",
+    "country": "ES",
+    "lat": 41.5051,
+    "lng": 2.0734,
+    "relay": "https://relay-es-barcelona.macula.io:4433"
+  },
+  {
+    "name": "valencia-cafe-450",
+    "city": "Valencia",
+    "country": "ES",
+    "lat": 39.3499,
+    "lng": -0.4263,
+    "relay": "https://relay-es-valencia.macula.io:4433"
+  },
+  {
+    "name": "the-novak-451",
+    "city": "Seville",
+    "country": "ES",
+    "lat": 37.3291,
+    "lng": -5.9845,
+    "relay": "https://relay-es-seville.macula.io:4433"
+  },
+  {
+    "name": "the-silva-452",
+    "city": "Bilbao",
+    "country": "ES",
+    "lat": 43.263,
+    "lng": -2.885,
+    "relay": "https://relay-es-bilbao.macula.io:4433"
+  },
+  {
+    "name": "malaga-tech-453",
+    "city": "Malaga",
+    "country": "ES",
+    "lat": 36.7813,
+    "lng": -4.3214,
+    "relay": "https://relay-es-malaga.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-454",
+    "city": "Lisbon",
+    "country": "PT",
+    "lat": 38.8423,
+    "lng": -8.9893,
+    "relay": "https://relay-pt-lisbon.macula.io:4433"
+  },
+  {
+    "name": "the-martin-455",
+    "city": "Porto",
+    "country": "PT",
+    "lat": 41.0379,
+    "lng": -8.7791,
+    "relay": "https://relay-pt-porto.macula.io:4433"
+  },
+  {
+    "name": "rome-bakery-456",
+    "city": "Rome",
+    "country": "IT",
+    "lat": 41.8428,
+    "lng": 12.3964,
+    "relay": "https://relay-it-rome.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-457",
+    "city": "Milan",
+    "country": "IT",
+    "lat": 45.4642,
+    "lng": 9.14,
+    "relay": "https://relay-it-milan.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-458",
+    "city": "Naples",
+    "country": "IT",
+    "lat": 40.9118,
+    "lng": 14.2681,
+    "relay": "https://relay-it-naples.macula.io:4433"
+  },
+  {
+    "name": "turin-gym-459",
+    "city": "Turin",
+    "country": "IT",
+    "lat": 45.1903,
+    "lng": 7.7369,
+    "relay": "https://relay-it-turin.macula.io:4433"
+  },
+  {
+    "name": "the-johansson-460",
+    "city": "Florence",
+    "country": "IT",
+    "lat": 43.6496,
+    "lng": 11.3558,
+    "relay": "https://relay-it-florence.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-461",
+    "city": "Venice",
+    "country": "IT",
+    "lat": 45.3808,
+    "lng": 12.4655,
+    "relay": "https://relay-it-venice.macula.io:4433"
+  },
+  {
+    "name": "palermo-school-462",
+    "city": "Palermo",
+    "country": "IT",
+    "lat": 38.1157,
+    "lng": 13.2115,
+    "relay": "https://relay-it-palermo.macula.io:4433"
+  },
+  {
+    "name": "the-popescu-463",
+    "city": "Zagreb",
+    "country": "HR",
+    "lat": 45.875,
+    "lng": 15.8819,
+    "relay": "https://relay-hr-zagreb.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-464",
+    "city": "Ljubljana",
+    "country": "SI",
+    "lat": 46.1769,
+    "lng": 14.4558,
+    "relay": "https://relay-si-ljubljana.macula.io:4433"
+  },
+  {
+    "name": "belgrade-farm-465",
+    "city": "Belgrade",
+    "country": "RS",
+    "lat": 44.6666,
+    "lng": 20.4489,
+    "relay": "https://relay-rs-belgrade.macula.io:4433"
+  },
+  {
+    "name": "the-horvat-466",
+    "city": "Sarajevo",
+    "country": "BA",
+    "lat": 43.7963,
+    "lng": 18.4631,
+    "relay": "https://relay-ba-sarajevo.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-467",
+    "city": "Podgorica",
+    "country": "ME",
+    "lat": 42.4304,
+    "lng": 19.3594,
+    "relay": "https://relay-me-podgorica.macula.io:4433"
+  },
+  {
+    "name": "tirana-hotel-468",
+    "city": "Tirana",
+    "country": "AL",
+    "lat": 41.3875,
+    "lng": 19.9687,
+    "relay": "https://relay-al-tirana.macula.io:4433"
+  },
+  {
+    "name": "the-tamm-469",
+    "city": "Skopje",
+    "country": "MK",
+    "lat": 42.1173,
+    "lng": 21.278,
+    "relay": "https://relay-mk-skopje.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-470",
+    "city": "Valletta",
+    "country": "MT",
+    "lat": 35.7789,
+    "lng": 14.4146,
+    "relay": "https://relay-mt-valletta.macula.io:4433"
+  },
+  {
+    "name": "nicosia-clinic-471",
+    "city": "Nicosia",
+    "country": "CY",
+    "lat": 35.1256,
+    "lng": 33.3323,
+    "relay": "https://relay-cy-nicosia.macula.io:4433"
+  },
+  {
+    "name": "the-silva-472",
+    "city": "Reykjavik",
+    "country": "IS",
+    "lat": 64.1466,
+    "lng": -21.9426,
+    "relay": "https://relay-is-reykjavik.macula.io:4433"
+  },
+  {
+    "name": "the-smith-473",
+    "city": "Bari",
+    "country": "IT",
+    "lat": 41.1771,
+    "lng": 16.9219,
+    "relay": "https://relay-it-bari.macula.io:4433"
+  },
+  {
+    "name": "athens-solar-474",
+    "city": "Athens",
+    "country": "GR",
+    "lat": 38.1038,
+    "lng": 23.8275,
+    "relay": "https://relay-gr-athens.macula.io:4433"
+  },
+  {
+    "name": "the-martin-475",
+    "city": "Helsinki",
+    "country": "FI",
+    "lat": 60.0499,
+    "lng": 25.0884,
+    "relay": "https://relay-fi-helsinki.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-476",
+    "city": "Tampere",
+    "country": "FI",
+    "lat": 61.4378,
+    "lng": 23.611,
+    "relay": "https://relay-fi-tampere.macula.io:4433"
+  },
+  {
+    "name": "turku-lab-477",
+    "city": "Turku",
+    "country": "FI",
+    "lat": 60.4518,
+    "lng": 22.1666,
+    "relay": "https://relay-fi-turku.macula.io:4433"
+  },
+  {
+    "name": "the-nowak-478",
+    "city": "Oulu",
+    "country": "FI",
+    "lat": 65.0721,
+    "lng": 25.4151,
+    "relay": "https://relay-fi-oulu.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-479",
+    "city": "Stockholm",
+    "country": "SE",
+    "lat": 59.4493,
+    "lng": 18.0686,
+    "relay": "https://relay-se-stockholm.macula.io:4433"
+  },
+  {
+    "name": "gothenbu-cafe-480",
+    "city": "Gothenburg",
+    "country": "SE",
+    "lat": 57.5889,
+    "lng": 12.0246,
+    "relay": "https://relay-se-gothenburg.macula.io:4433"
+  },
+  {
+    "name": "the-hansen-481",
+    "city": "Malmo",
+    "country": "SE",
+    "lat": 55.545,
+    "lng": 13.1038,
+    "relay": "https://relay-se-malmo.macula.io:4433"
+  },
+  {
+    "name": "the-korhonen-482",
+    "city": "Uppsala",
+    "country": "SE",
+    "lat": 59.8586,
+    "lng": 17.7889,
+    "relay": "https://relay-se-uppsala.macula.io:4433"
+  },
+  {
+    "name": "oslo-tech-483",
+    "city": "Oslo",
+    "country": "NO",
+    "lat": 59.9739,
+    "lng": 10.6022,
+    "relay": "https://relay-no-oslo.macula.io:4433"
+  },
+  {
+    "name": "the-ivanov-484",
+    "city": "Bergen",
+    "country": "NO",
+    "lat": 60.5113,
+    "lng": 5.2221,
+    "relay": "https://relay-no-bergen.macula.io:4433"
+  },
+  {
+    "name": "the-papadopoulos-485",
+    "city": "Trondheim",
+    "country": "NO",
+    "lat": 63.3105,
+    "lng": 10.3451,
+    "relay": "https://relay-no-trondheim.macula.io:4433"
+  },
+  {
+    "name": "copenhag-bakery-486",
+    "city": "Copenhagen",
+    "country": "DK",
+    "lat": 55.6161,
+    "lng": 12.5683,
+    "relay": "https://relay-dk-copenhagen.macula.io:4433"
+  },
+  {
+    "name": "the-berzins-487",
+    "city": "Aarhus",
+    "country": "DK",
+    "lat": 56.1629,
+    "lng": 10.2539,
+    "relay": "https://relay-dk-aarhus.macula.io:4433"
+  },
+  {
+    "name": "the-kazlauskas-488",
+    "city": "Tallinn",
+    "country": "EE",
+    "lat": 59.497,
+    "lng": 24.8536,
+    "relay": "https://relay-ee-tallinn.macula.io:4433"
+  },
+  {
+    "name": "tartu-gym-489",
+    "city": "Tartu",
+    "country": "EE",
+    "lat": 58.498,
+    "lng": 26.879,
+    "relay": "https://relay-ee-tartu.macula.io:4433"
+  },
+  {
+    "name": "the-nagy-490",
+    "city": "Riga",
+    "country": "LV",
+    "lat": 56.8296,
+    "lng": 23.9552,
+    "relay": "https://relay-lv-riga.macula.io:4433"
+  },
+  {
+    "name": "the-novak-491",
+    "city": "Daugavpils",
+    "country": "LV",
+    "lat": 55.8149,
+    "lng": 26.4356,
+    "relay": "https://relay-lv-daugavpils.macula.io:4433"
+  },
+  {
+    "name": "vilnius-school-492",
+    "city": "Vilnius",
+    "country": "LT",
+    "lat": 54.6872,
+    "lng": 25.2297,
+    "relay": "https://relay-lt-vilnius.macula.io:4433"
+  },
+  {
+    "name": "the-smith-493",
+    "city": "Kaunas",
+    "country": "LT",
+    "lat": 54.9585,
+    "lng": 23.9036,
+    "relay": "https://relay-lt-kaunas.macula.io:4433"
+  },
+  {
+    "name": "the-mueller-494",
+    "city": "Klaipeda",
+    "country": "LT",
+    "lat": 55.8233,
+    "lng": 21.1943,
+    "relay": "https://relay-lt-klaipeda.macula.io:4433"
+  },
+  {
+    "name": "warsaw-farm-495",
+    "city": "Warsaw",
+    "country": "PL",
+    "lat": 52.1097,
+    "lng": 21.1122,
+    "relay": "https://relay-pl-warsaw.macula.io:4433"
+  },
+  {
+    "name": "the-garcia-496",
+    "city": "Krakow",
+    "country": "PL",
+    "lat": 50.0047,
+    "lng": 20.095,
+    "relay": "https://relay-pl-krakow.macula.io:4433"
+  },
+  {
+    "name": "the-rossi-497",
+    "city": "Gdansk",
+    "country": "PL",
+    "lat": 54.352,
+    "lng": 18.4966,
+    "relay": "https://relay-pl-gdansk.macula.io:4433"
+  },
+  {
+    "name": "wroclaw-hotel-498",
+    "city": "Wroclaw",
+    "country": "PL",
+    "lat": 51.1679,
+    "lng": 16.9385,
+    "relay": "https://relay-pl-wroclaw.macula.io:4433"
+  },
+  {
+    "name": "the-shevchenko-499",
+    "city": "Poznan",
+    "country": "PL",
+    "lat": 52.5264,
+    "lng": 16.8752,
+    "relay": "https://relay-pl-poznan.macula.io:4433"
   }
 ]

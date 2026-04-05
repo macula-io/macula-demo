@@ -12,6 +12,21 @@ set -euo pipefail
 
 BOX="${1:?Usage: $0 nuremberg|helsinki|all|count}"
 
+NUR_PREFIX="2a01:4f8:1c1f:8ab8"
+HEL_PREFIX="2a01:4f9:c014:4259"
+
+# Append IPv6 address to each identity line (6th field)
+add_ipv6() {
+  local prefix="$1"
+  local idx=256  # start at ::100
+  while IFS= read -r line; do
+    local hex
+    hex=$(printf '%x' $idx)
+    echo "${line}/${prefix}::${hex}"
+    idx=$((idx + 1))
+  done
+}
+
 # ── Nuremberg: Western + Southern Europe (75) ────────────────────
 nuremberg() {
 cat <<'RELAYS'
@@ -176,19 +191,19 @@ RELAYS
 
 case "${BOX}" in
   nuremberg)
-    nuremberg | tr '\n' ',' | sed 's/,$/\n/'
+    nuremberg | add_ipv6 "$NUR_PREFIX" | tr '\n' ',' | sed 's/,$/\n/'
     ;;
   helsinki)
-    helsinki | tr '\n' ',' | sed 's/,$/\n/'
+    helsinki | add_ipv6 "$HEL_PREFIX" | tr '\n' ',' | sed 's/,$/\n/'
     ;;
   all)
-    { nuremberg; helsinki; } | tr '\n' ',' | sed 's/,$/\n/'
+    { nuremberg | add_ipv6 "$NUR_PREFIX"; helsinki | add_ipv6 "$HEL_PREFIX"; } | tr '\n' ',' | sed 's/,$/\n/'
     ;;
   count)
-    echo "Nuremberg: $(nuremberg | wc -l) relays"
+    echo "Nuremberg: $(nuremberg | wc -l) relays (prefix: ${NUR_PREFIX})"
     nuremberg | awk -F'/' '{print $3}' | sort | uniq -c | sort -rn | sed 's/^/  /'
     echo ""
-    echo "Helsinki:  $(helsinki | wc -l) relays"
+    echo "Helsinki:  $(helsinki | wc -l) relays (prefix: ${HEL_PREFIX})"
     helsinki | awk -F'/' '{print $3}' | sort | uniq -c | sort -rn | sed 's/^/  /'
     echo ""
     echo "Total: $(( $(nuremberg | wc -l) + $(helsinki | wc -l) ))"

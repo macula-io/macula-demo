@@ -136,34 +136,86 @@ def make_business_name(country, city, idx):
     city_short = city.lower().replace(" ", "-")[:8]
     return f"{city_short}-{btype}-{suffix}"
 
+# Country bounding boxes (approximate) for random node placement
+COUNTRY_BOUNDS = {
+    "GB": (49.9, -8.2, 58.7, 1.8), "IE": (51.4, -10.5, 55.4, -6.0),
+    "FR": (42.3, -5.1, 51.1, 8.2), "BE": (49.5, 2.5, 51.5, 6.4),
+    "NL": (50.7, 3.4, 53.6, 7.2), "LU": (49.4, 5.7, 50.2, 6.5),
+    "DE": (47.3, 5.9, 55.1, 15.0), "AT": (46.4, 9.5, 49.0, 17.2),
+    "CH": (45.8, 5.9, 47.8, 10.5), "ES": (36.0, -9.3, 43.8, 3.3),
+    "PT": (36.9, -9.5, 42.2, -6.2), "IT": (36.6, 6.6, 47.1, 18.5),
+    "SE": (55.3, 11.1, 69.1, 24.2), "NO": (58.0, 4.5, 71.2, 31.1),
+    "DK": (54.6, 8.1, 57.8, 15.2), "FI": (59.8, 20.6, 70.1, 31.6),
+    "PL": (49.0, 14.1, 54.8, 24.2), "CZ": (48.5, 12.1, 51.1, 18.9),
+    "SK": (47.7, 16.8, 49.6, 22.6), "HU": (45.7, 16.1, 48.6, 22.9),
+    "RO": (43.6, 20.3, 48.3, 29.7), "BG": (41.2, 22.4, 44.2, 28.6),
+    "GR": (34.8, 19.4, 41.7, 29.6), "HR": (42.4, 13.5, 46.6, 19.4),
+    "RS": (42.2, 18.8, 46.2, 23.0), "BA": (42.6, 15.7, 45.3, 19.6),
+    "SI": (45.4, 13.4, 46.9, 16.6), "MK": (40.9, 20.5, 42.4, 23.0),
+    "AL": (39.6, 19.3, 42.7, 21.1), "ME": (41.9, 18.4, 43.6, 20.4),
+    "EE": (57.5, 21.8, 59.7, 28.2), "LV": (55.7, 20.9, 58.1, 28.2),
+    "LT": (53.9, 20.9, 56.5, 26.8), "MD": (46.0, 26.6, 48.5, 30.2),
+    "UA": (44.4, 22.1, 52.4, 40.2),
+}
+
+def find_nearest_relay(lat, lng, relay_list):
+    """Find relay with minimum Euclidean distance to (lat, lng)."""
+    best = relay_list[0]
+    best_dist = float("inf")
+    for r in relay_list:
+        d = (r["lat"] - lat) ** 2 + (r["lng"] - lng) ** 2
+        if d < best_dist:
+            best_dist = d
+            best = r
+    return best
+
+def random_point_in_country(country, rng):
+    """Random lat/lng within a country's bounding box."""
+    bounds = COUNTRY_BOUNDS.get(country, (47.0, 5.0, 55.0, 15.0))
+    lat = rng.uniform(bounds[0], bounds[2])
+    lng = rng.uniform(bounds[1], bounds[3])
+    return round(lat, 4), round(lng, 4)
+
 def generate_stubs(node_idx, count, relay_list, all_relays_list):
+    rng = random.Random(42 + node_idx)  # reproducible per node
     stubs = []
+
+    # Collect all countries that have relays
+    countries = list(set(r["country"] for r in all_relays_list))
+    countries.sort()
+
     for i in range(count):
-        relay = relay_list[i % len(relay_list)]
+        # Pick a random country (weighted by relay count for natural distribution)
+        country = countries[rng.randint(0, len(countries) - 1)]
+
+        # Random position within the country
+        lat, lng = random_point_in_country(country, rng)
+
+        # Find nearest relay to this position
+        relay = find_nearest_relay(lat, lng, all_relays_list)
+
+        # Name based on nearest relay's country (not the random country —
+        # border nodes might be closer to a relay in a neighboring country)
+        actual_country = relay["country"]
 
         # 60% family, 40% business
         is_family = (i * 3 + node_idx) % 5 < 3
 
         if is_family:
-            name = make_family_name(relay["country"], i + node_idx * 500)
+            name = make_family_name(actual_country, i + node_idx * 500)
             site_type = "family"
         else:
-            name = make_business_name(relay["country"], relay["city"], i + node_idx * 500)
+            name = make_business_name(actual_country, relay["city"], i + node_idx * 500)
             site_type = "business"
 
-        # Ensure unique name
         name = f"{name}-{i}"
-
-        # Offset from relay (stubs are nearby users)
-        lat_offset = ((i * 17 + node_idx * 31) % 100 - 50) * 0.005
-        lng_offset = ((i * 23 + node_idx * 37) % 100 - 50) * 0.004
 
         stubs.append({
             "name": name,
             "city": relay["city"],
-            "country": relay["country"],
-            "lat": round(relay["lat"] + lat_offset, 4),
-            "lng": round(relay["lng"] + lng_offset, 4),
+            "country": actual_country,
+            "lat": lat,
+            "lng": lng,
             "relay": f"https://{relay['box']}:4433",
             "site_type": site_type,
         })
